@@ -28,7 +28,7 @@ export default function Navbar({ basePath = "" }) {
 
   return (
     <nav style={{
-      position: "fixed", top: 0, right: 0, left: 0, zIndex: 100, overflowX: "hidden",
+      position: "fixed", top: 0, right: 0, left: 0, zIndex: 100,
       background: filled ? "rgba(250,248,243,0.95)" : "transparent",
       backdropFilter: filled ? "blur(12px)" : "none",
       boxShadow: filled ? "0 1px 24px rgba(44,42,38,0.06)" : "none",
@@ -40,16 +40,15 @@ export default function Navbar({ basePath = "" }) {
         height: "64px",
       }}>
         {/* לוגו */}
-        <a href={basePath || "#"} style={{ textDecoration: "none", marginRight: filled ? "-10px" : "-10px", marginTop: filled ? "0" : "18px", transition: "margin 0.3s" }}>
+        <a href={basePath || "#"} style={{ textDecoration: "none", marginRight: filled ? "-38px" : "-54px", marginTop: filled ? "0" : "22px", transition: "margin 0.3s" }}>
           <Image
             src="/LOGO1.png"
             alt="לוגו עדי שלו - רפואה סינית בראשון לציון"
-            width={filled ? 68 : 110}
-            height={filled ? 68 : 110}
+            width={120}
+            height={120}
             style={{
-              width: filled ? "68px" : "110px",
-              maxWidth: filled ? "68px" : "110px",
-              height: "auto",
+              height: filled ? "52px" : "78px",
+              width: "auto",
               filter: filled ? "none" : "brightness(0) invert(1)",
               transition: "all 0.3s",
             }}

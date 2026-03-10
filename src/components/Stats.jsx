@@ -1,11 +1,8 @@
-"use client";
-import useFadeIn from "@/hooks/useFadeIn";
 import { C } from "@/lib/constants";
 
 export default function Stats() {
-  const ref = useFadeIn();
   return (
-    <div ref={ref} className="fade-section" style={{
+    <div style={{
       background: C.bark, padding: "20px 24px",
     }}>
       <div className="stats-grid" style={{
