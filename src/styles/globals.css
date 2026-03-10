@@ -6,11 +6,13 @@
   html {
     scroll-behavior: smooth;
     direction: rtl;
+    overflow-x: hidden;
   }
   body {
     font-family: "Heebo", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
   ::selection { background: rgba(122,139,106,0.3); }
 }
@@ -64,8 +66,8 @@
   .about-photo {
     aspect-ratio: 16/9 !important;
     border-radius: 0 !important;
-    margin: 0 -24px !important;
-    width: calc(100% + 48px) !important;
+    margin: 0 -16px !important;
+    width: calc(100% + 32px) !important;
     box-shadow: none !important;
   }
   .about-grid .about-text-tags { justify-content: center !important; }
