@@ -44,10 +44,10 @@ export default function Navbar({ basePath = "" }) {
           <Image
             src="/LOGO1.png"
             alt="לוגו עדי שלו - רפואה סינית בראשון לציון"
-            width={filled ? 52 : 78}
-            height={filled ? 52 : 78}
+            width={filled ? 56 : 100}
+            height={filled ? 56 : 100}
             style={{
-              width: filled ? "52px" : "78px",
+              width: filled ? "56px" : "100px",
               height: "auto",
               filter: filled ? "none" : "brightness(0) invert(1)",
               transition: "all 0.3s",

@@ -52,7 +52,7 @@ export default function Hero() {
       {/* Content */}
       <div className="hero-content" style={{
         position: "relative", maxWidth: "680px", textAlign: "center",
-        padding: isMobile ? "210px 24px 40px" : "220px 24px 80px",
+        padding: isMobile ? "210px 24px 40px" : "180px 24px 60px",
         opacity: loaded ? 1 : 0, transform: loaded ? "translateY(0)" : "translateY(20px)",
         transition: "opacity 0.8s ease 0.3s, transform 0.8s ease 0.3s",
       }}>
@@ -98,7 +98,6 @@ export default function Hero() {
             }}>{t.label}</a>
           ))}
         </div>
-        <br />
 
         <a id="hero-cta" href={WA_URL} target="_blank" rel="noreferrer" className="hero-cta-btn" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
@@ -113,17 +112,6 @@ export default function Hero() {
           ליצירת קשר
         </a>
 
-        {/* Scroll indicator */}
-        <div className="scroll-hint" style={{
-          marginTop: "60px", display: "flex", flexDirection: "column",
-          alignItems: "center", gap: "8px",
-        }}>
-          <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.5)", letterSpacing: "2px" }}>גללו למטה</span>
-          <div style={{
-            width: "1px", height: "32px",
-            background: "linear-gradient(to bottom, rgba(255,255,255,0.4), transparent)",
-          }} />
-        </div>
       </div>
     </section>
   );
