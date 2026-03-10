@@ -388,3 +388,108 @@ body.a11y-large-cursor * {
   .scroll-hint { display: none !important; }
   .stats-grid { gap: 32px !important; }
 }
+
+/* ─── Service pages ─── */
+.other-service-link:hover {
+  background: #7A8B6A !important;
+  color: white !important;
+  border-color: #7A8B6A !important;
+}
+@media (max-width: 767px) {
+  .acu-about,
+  .shiatsu-about,
+  .cupping-about,
+  .herbs-about { grid-template-columns: 1fr !important; }
+  .shiatsu-experience,
+  .cupping-types { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 600px) {
+  .shiatsu-compare-header, .shiatsu-compare-row,
+  .herbs-compare-header, .herbs-compare-row {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .shiatsu-compare-header > div:first-child,
+  .shiatsu-compare-row > div:first-child,
+  .herbs-compare-header > div:first-child,
+  .herbs-compare-row > div:first-child {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 1px solid #EDE8DF;
+    padding: 12px 16px !important;
+  }
+  .shiatsu-feelings,
+  .cupping-benefits,
+  .cupping-marks { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 480px) {
+  .herbs-showcase { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 767px) {
+  .herbs-showcase { grid-template-columns: 1fr 1fr !important; }
+}
+
+/* ─── Blog & Article pages ─── */
+.blog-article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(44,42,38,0.1) !important;
+  border-color: #7A8B6A !important;
+}
+.related-article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(44,42,38,0.1) !important;
+}
+
+.blog-article h2,
+.legal-article h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #2C2A26;
+  margin: 40px 0 16px;
+  padding-top: 20px;
+  border-top: 2px solid rgba(122, 139, 106, 0.13);
+}
+.blog-article h2:first-child,
+.legal-article h2:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+.blog-article h3,
+.legal-article h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #5B6B4A;
+  margin: 28px 0 12px;
+}
+.blog-article p,
+.legal-article p {
+  margin: 0 0 16px;
+}
+.blog-article ul, .blog-article ol,
+.legal-article ul, .legal-article ol {
+  margin: 0 0 16px;
+  padding-right: 24px;
+}
+.blog-article li,
+.legal-article li {
+  margin-bottom: 8px;
+}
+.blog-article strong,
+.legal-article strong {
+  color: #5B6B4A;
+  font-weight: 700;
+}
+.blog-article blockquote {
+  background: #EDE8DF;
+  border-right: 4px solid #7A8B6A;
+  padding: 16px 20px;
+  margin: 24px 0;
+  border-radius: 0 12px 12px 0;
+  font-style: italic;
+  color: #7B7570;
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
