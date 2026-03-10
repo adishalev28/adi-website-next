@@ -12,4 +12,379 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+  ::selection { background: rgba(122,139,106,0.3); }
+}
+
+/* ─── Fade-in animation ─── */
+.fade-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.fade-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* ─── Responsive: desktop / mobile visibility ─── */
+@media (min-width: 768px) { .mobile-nav { display: none !important; } }
+@media (max-width: 767px) { .desktop-nav { display: none !important; } }
+
+/* ─── Navbar ─── */
+.nav-link:hover { opacity: 0.7; }
+
+/* ─── About grid ─── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 64px;
+  align-items: center;
+  max-width: 920px;
+  margin: 0 auto;
+}
+.about-photo {
+  aspect-ratio: 4/5;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 48px rgba(44,42,38,0.12);
+}
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 767px) {
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  .about-photo {
+    aspect-ratio: 16/9 !important;
+    border-radius: 0 !important;
+    margin: 0 -24px !important;
+    width: calc(100% + 48px) !important;
+    box-shadow: none !important;
+  }
+  .about-grid .about-text-tags { justify-content: center !important; }
+  .about-grid .about-divider { margin-inline: auto !important; }
+}
+
+/* ─── Services grid ─── */
+@media (max-width: 767px) {
+  .services-grid { grid-template-columns: 1fr !important; }
+}
+
+/* ─── Service card hover ─── */
+.service-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(44,42,38,0.12) !important;
+}
+
+/* ─── Service "read more" link hover ─── */
+.service-read-more {
+  transition: gap 0.2s;
+}
+.service-read-more:hover {
+  gap: 10px;
+}
+
+/* ─── Condition pill hover (ForWhom) ─── */
+.condition-pill {
+  transition: all 0.2s;
+}
+.condition-pill:hover {
+  background: #7A8B6A !important;
+  color: white !important;
+  border-color: #7A8B6A !important;
+}
+
+/* ─── FAQ button hover ─── */
+.faq-wa-btn {
+  transition: background 0.2s;
+}
+.faq-wa-btn:hover {
+  background: #5B6B4A !important;
+}
+
+/* ─── Reviews carousel ─── */
+.reviews-carousel::-webkit-scrollbar { display: none; }
+.reviews-carousel { scrollbar-width: none; }
+@media (max-width: 767px) {
+  .review-card { width: 78vw !important; }
+}
+
+/* Review read-more button hover */
+.review-read-more:hover {
+  color: #5B6B4A;
+}
+
+/* Scroll hint pulse */
+@keyframes hintPulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+.scroll-hint-row {
+  color: #7A8B6A;
+  animation: hintPulse 2s ease-in-out infinite;
+  display: flex;
+}
+
+/* Google badge hover */
+.google-badge:hover {
+  box-shadow: 0 4px 18px rgba(44,42,38,0.15) !important;
+}
+/* Google link hover */
+.google-all-reviews:hover {
+  border-color: #7A8B6A !important;
+  color: #2C2A26 !important;
+}
+
+/* ─── Clinic photos carousel ─── */
+.clinic-carousel::-webkit-scrollbar { display: none; }
+.clinic-carousel { scrollbar-width: none; }
+@media (max-width: 767px) {
+  .clinic-photo-l { width: 320px !important; height: 210px !important; }
+  .clinic-photo-p { width: 200px !important; height: 280px !important; }
+}
+.clinic-photo-l img:hover,
+.clinic-photo-p img:hover {
+  transform: scale(1.05);
+}
+.clinic-photo-l img,
+.clinic-photo-p img {
+  transition: transform 0.3s;
+}
+
+/* Lightbox */
+@keyframes lbFadeIn { from { opacity: 0 } to { opacity: 1 } }
+.lb-scroll::-webkit-scrollbar { display: none; }
+.lb-scroll { scrollbar-width: none; }
+
+/* ─── Contact ─── */
+.contact-btn { width: auto; }
+@media (max-width: 767px) {
+  .contact-btn { width: 100%; justify-content: center; }
+}
+.contact-wa-btn {
+  transition: transform 0.2s;
+}
+.contact-wa-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ─── Footer ─── */
+.footer-service-link {
+  transition: color 0.2s;
+}
+.footer-service-link:hover {
+  color: rgba(255,255,255,0.8) !important;
+}
+.footer-legal-link {
+  transition: color 0.2s;
+}
+.footer-legal-link:hover {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+/* ─── Floating WA + Phone buttons ─── */
+.float-buttons {
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.float-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  padding: 18px 32px;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.3s;
+}
+.float-btn-phone {
+  background: #2563EB;
+  box-shadow: 0 6px 32px rgba(37,99,235,0.45);
+}
+.float-btn-phone:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 36px rgba(37,99,235,0.6);
+}
+.float-btn-wa {
+  background: #25D366;
+  box-shadow: 0 6px 32px rgba(37,211,102,0.5);
+}
+.float-btn-wa:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 36px rgba(37,211,102,0.6);
+}
+@media (max-width: 767px) {
+  .float-btn { padding: 16px 22px; }
+  .float-btn span.float-label { display: none; }
+}
+
+/* ─── Cookie consent ─── */
+.cookie-accept-btn {
+  transition: background 0.2s;
+}
+.cookie-accept-btn:hover {
+  background: #5B6B4A !important;
+}
+
+/* ─── Accessibility Widget ─── */
+html.a11y-text-lg { zoom: 1.15; }
+html.a11y-text-xl { zoom: 1.3; }
+
+body.a11y-high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+body.a11y-high-contrast * {
+  border-color: #fff !important;
+}
+body.a11y-high-contrast a { color: #ff0 !important; }
+body.a11y-high-contrast button { border: 2px solid #fff !important; }
+body.a11y-high-contrast img { filter: contrast(1.2) brightness(0.9); }
+body.a11y-high-contrast header,
+body.a11y-high-contrast section,
+body.a11y-high-contrast footer,
+body.a11y-high-contrast nav,
+body.a11y-high-contrast div {
+  background-color: inherit !important;
+}
+
+body.a11y-no-animations *,
+body.a11y-no-animations *::before,
+body.a11y-no-animations *::after {
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+}
+
+body.a11y-highlight-links a {
+  outline: 3px solid #ff0 !important;
+  outline-offset: 2px !important;
+  text-decoration: underline !important;
+}
+
+body.a11y-large-cursor,
+body.a11y-large-cursor * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M5 2l18 14-8 2 5 10-4 2-5-10-6 6z' fill='%23000' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E") 5 2, auto !important;
+}
+
+.a11y-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 90vw;
+  background: white;
+  z-index: 1001;
+  box-shadow: -4px 0 24px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+.a11y-panel.open { transform: translateX(0); }
+
+.a11y-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.a11y-overlay.open { opacity: 1; pointer-events: auto; }
+
+.a11y-btn-float {
+  position: fixed;
+  right: 28px;
+  z-index: 200;
+  width: 54px;
+  height: 54px;
+  background: #7A8B6A;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(122,139,106,0.5);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.a11y-btn-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(122,139,106,0.65);
+}
+.a11y-btn-float:focus-visible {
+  outline: 3px solid #C4A265;
+  outline-offset: 3px;
+}
+
+/* ─── Hero treatment pills hover ─── */
+.hero-pill {
+  transition: all 0.3s;
+}
+.hero-pill:hover {
+  background: rgba(255,255,255,0.22) !important;
+}
+
+/* Hero CTA hover */
+.hero-cta-btn {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.hero-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 44px rgba(52,168,83,0.55) !important;
+}
+
+/* ─── Navbar CTA hover ─── */
+.nav-cta-btn {
+  transition: all 0.3s;
+}
+
+/* ─── ContactCTA hover ─── */
+.cta-wa-btn {
+  transition: transform 0.2s;
+}
+.cta-wa-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ─── Global responsive ─── */
+@media (max-width: 767px) {
+  .section-padding {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  .section-title { font-size: 28px !important; }
+  .hero-section { min-height: auto !important; }
+  .condition-pill { padding: 8px 16px !important; font-size: 13px !important; }
+  .faq-btn { padding: 16px 18px !important; }
+  .review-card { padding: 24px 20px !important; }
+  .scroll-hint { display: none !important; }
+  .stats-grid { gap: 32px !important; }
 }

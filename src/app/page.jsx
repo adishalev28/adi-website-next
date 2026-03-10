@@ -1,19 +1,37 @@
-import { C } from "@/lib/constants";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import Reviews from "@/components/Reviews";
+import ClinicPhotos from "@/components/ClinicPhotos";
+import Services from "@/components/Services";
+import About from "@/components/About";
+import ForWhom from "@/components/ForWhom";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import FloatingWA from "@/components/FloatingWA";
+import CookieConsent from "@/components/CookieConsent";
+import AccessibilityWidget from "@/components/AccessibilityWidget";
+import ScrollToHash from "@/components/ScrollToHash";
 
 export default function Home() {
   return (
-    <main style={{ minHeight: "100vh", background: C.cream, display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ textAlign: "center" }}>
-        <h1 style={{ fontSize: "48px", fontWeight: 800, color: C.bark, marginBottom: "16px" }}>
-          עדי שלו
-        </h1>
-        <p style={{ fontSize: "20px", color: C.sage, fontWeight: 600 }}>
-          רפואה סינית בראשון לציון
-        </p>
-        <p style={{ fontSize: "14px", color: C.barkLight, marginTop: "32px" }}>
-          🚧 האתר החדש בבנייה — Next.js 🚧
-        </p>
-      </div>
-    </main>
+    <>
+      <ScrollToHash />
+      <Navbar />
+      <Hero />
+      <Stats />
+      <Reviews />
+      <ClinicPhotos />
+      <Services />
+      <About />
+      <ForWhom />
+      <FAQ />
+      <Contact />
+      <Footer />
+      <FloatingWA />
+      <CookieConsent />
+      <AccessibilityWidget />
+    </>
   );
 }
