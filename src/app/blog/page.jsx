@@ -29,8 +29,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "9",
-    image: "/adi-acupuncture.jpg",
-    imageAlt: "טיפול דיקור סיני למיגרנות בקליניקה בראשון לציון",
+    image: "/blog-migraines.jpg",
+    imageAlt: "דיקור סיני לכאבי ראש ומיגרנות - טיפול בקליניקה בראשון לציון",
   },
   {
     slug: "what-is-acupuncture",
