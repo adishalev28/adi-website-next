@@ -2,10 +2,10 @@ export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "MedicalBusiness"],
-    name: "עדי שלו — רפואה סינית",
+    name: "עדי שלו - רפואה סינית",
     alternateName: "Adi Shalev Chinese Medicine",
     description:
-      "קליניקה לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. עדי שלו — מטפל מוסמך עם 8+ שנות ניסיון.",
+      "קליניקה לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. עדי שלו - מטפל מוסמך עם 8+ שנות ניסיון.",
     url: "https://adishalev.co.il",
     telephone: "+972-52-802-9031",
     image: "https://adishalev.co.il/og-image.jpg",
@@ -170,12 +170,12 @@ export function WebSiteSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "עדי שלו — רפואה סינית",
+    name: "עדי שלו - רפואה סינית",
     url: "https://adishalev.co.il",
     inLanguage: "he",
     publisher: {
       "@type": "Organization",
-      name: "עדי שלו — רפואה סינית",
+      name: "עדי שלו - רפואה סינית",
       url: "https://adishalev.co.il",
     },
   };
@@ -225,7 +225,7 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
     },
     publisher: {
       "@type": "Organization",
-      name: "עדי שלו — רפואה סינית",
+      name: "עדי שלו - רפואה סינית",
       url: "https://adishalev.co.il",
     },
     inLanguage: "he",
@@ -253,7 +253,7 @@ export function MedicalServiceSchema({ name, alternateName, description, url }) 
     url: url,
     provider: {
       "@type": "LocalBusiness",
-      name: "עדי שלו — רפואה סינית",
+      name: "עדי שלו - רפואה סינית",
       url: "https://adishalev.co.il",
     },
   };

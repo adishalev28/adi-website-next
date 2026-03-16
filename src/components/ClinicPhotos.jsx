@@ -4,7 +4,7 @@ import { C } from "@/lib/constants";
 import PhotoLightbox from "./PhotoLightbox";
 
 const ALL_PHOTOS = [
-  { src: "/clinic-room.jpg", alt: "חדר טיפולים בקליניקה לרפואה סינית של עדי שלו בראשון לציון" },
+  { src: "/clinic-room.jpg", alt: "חדר טיפולים בקליניקה לרפואה סינית בראשון לציון" },
   { src: "/adi-acupuncture.jpg", alt: "עדי שלו מבצע טיפול דיקור סיני בקליניקה בראשון לציון" },
   { src: "/adi-desk.jpg", alt: "חדר ייעוץ ואבחון בקליניקה לרפואה סינית - עדי שלו" },
   { src: "/clinic-entrance.jpg", alt: "כניסה לקליניקת רפואה סינית עדי שלו בראשון לציון" },
