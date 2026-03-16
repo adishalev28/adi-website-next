@@ -59,8 +59,8 @@ const ARTICLES = [
     tag: "שאלות ותשובות",
     date: "מרץ 2026",
     readTime: "7",
-    image: "/clinic-entrance.jpg",
-    imageAlt: "כניסה לקליניקה לרפואה סינית בראשון לציון",
+    image: "/clinic-room.jpg",
+    imageAlt: "חדר טיפולים בקליניקה לרפואה סינית בראשון לציון",
   },
 ];
 
