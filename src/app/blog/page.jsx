@@ -19,6 +19,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "9",
+    image: "/adi-acupuncture.jpg",
+    imageAlt: "טיפול דיקור סיני למיגרנות בקליניקה בראשון לציון",
   },
   {
     slug: "what-is-acupuncture",
@@ -27,6 +29,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "5",
+    image: "/acupuncture-treatment.jpg",
+    imageAlt: "טיפול דיקור סיני בקליניקה בראשון לציון",
   },
   {
     slug: "back-pain",
@@ -35,6 +39,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "8",
+    image: "/adi-treatment.jpg",
+    imageAlt: "טיפול דיקור סיני לכאבי גב בקליניקה בראשון לציון",
   },
   {
     slug: "faq-complete",
@@ -43,13 +49,15 @@ const ARTICLES = [
     tag: "שאלות ותשובות",
     date: "מרץ 2026",
     readTime: "7",
+    image: "/clinic-room.jpg",
+    imageAlt: "חדר טיפולים בקליניקה לרפואה סינית בראשון לציון",
   },
 ];
 
 export default function BlogIndex() {
   return (
     <>
-      <Navbar />
+      <Navbar basePath="/" />
 
       <header style={{
         background: `linear-gradient(135deg, ${C.sage} 0%, ${C.sageDark} 100%)`,
@@ -81,42 +89,53 @@ export default function BlogIndex() {
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {ARTICLES.map(a => (
             <a key={a.slug} href={`/blog/${a.slug}/`} className="blog-article-card" style={{
-              background: "white", borderRadius: "20px", padding: "28px 32px",
-              textDecoration: "none", display: "block",
+              background: "white", borderRadius: "20px",
+              textDecoration: "none", display: "flex",
+              overflow: "hidden",
               border: `1px solid ${C.sage}15`,
               boxShadow: "0 2px 12px rgba(44,42,38,0.04)",
               transition: "all 0.25s",
             }}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-                <span style={{
-                  background: `${C.sage}15`, color: C.sage,
-                  padding: "4px 14px", borderRadius: "20px",
-                  fontSize: "12px", fontWeight: 700,
+              {/* תמונה */}
+              <div className="blog-card-image" style={{
+                width: "220px", minHeight: "200px", flexShrink: 0,
+                backgroundImage: `url(${a.image})`,
+                backgroundSize: "cover", backgroundPosition: "center",
+              }} role="img" aria-label={a.imageAlt} />
+
+              {/* תוכן */}
+              <div style={{ padding: "24px 28px", flex: 1, minWidth: 0 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                  <span style={{
+                    background: `${C.sage}15`, color: C.sage,
+                    padding: "4px 14px", borderRadius: "20px",
+                    fontSize: "12px", fontWeight: 700,
+                  }}>
+                    {a.tag}
+                  </span>
+                  <span style={{ fontSize: "12px", color: C.barkLight }}>
+                    {a.date} · {a.readTime} דק׳
+                  </span>
+                </div>
+                <h2 style={{
+                  fontSize: "20px", fontWeight: 800, color: C.bark,
+                  margin: "0 0 8px", lineHeight: 1.4,
                 }}>
-                  {a.tag}
-                </span>
-                <span style={{ fontSize: "12px", color: C.barkLight }}>
-                  {a.date} · {a.readTime} דק׳
+                  {a.title}
+                </h2>
+                <p style={{
+                  fontSize: "14px", color: C.barkLight, margin: 0, lineHeight: 1.6,
+                }}>
+                  {a.description}
+                </p>
+                <span style={{
+                  display: "inline-flex", alignItems: "center", gap: "6px",
+                  marginTop: "14px", fontSize: "14px", fontWeight: 700, color: C.sage,
+                }}>
+                  קראו עוד
+                  <span style={{ fontSize: "16px" }}>←</span>
                 </span>
               </div>
-              <h2 style={{
-                fontSize: "20px", fontWeight: 800, color: C.bark,
-                margin: "0 0 8px", lineHeight: 1.4,
-              }}>
-                {a.title}
-              </h2>
-              <p style={{
-                fontSize: "14px", color: C.barkLight, margin: 0, lineHeight: 1.6,
-              }}>
-                {a.description}
-              </p>
-              <span style={{
-                display: "inline-flex", alignItems: "center", gap: "6px",
-                marginTop: "14px", fontSize: "14px", fontWeight: 700, color: C.sage,
-              }}>
-                קראו עוד
-                <span style={{ fontSize: "16px" }}>←</span>
-              </span>
             </a>
           ))}
         </div>

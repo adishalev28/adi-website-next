@@ -9,7 +9,7 @@ import { C } from "@/lib/constants";
 export default function ServiceLayout({ children, otherServices = [] }) {
   return (
     <>
-      <Navbar />
+      <Navbar basePath="/" />
       <div>
         {children}
       </div>

@@ -10,7 +10,7 @@ import Section from "@/components/Section";
 export default function ArticleLayout({ title, subtitle, date, readTime, children, relatedArticles = [] }) {
   return (
     <>
-      <Navbar />
+      <Navbar basePath="/" />
 
       {/* Hero */}
       <header style={{

@@ -436,6 +436,22 @@ body.a11y-large-cursor * {
   box-shadow: 0 8px 28px rgba(44,42,38,0.1) !important;
   border-color: #7A8B6A !important;
 }
+.blog-article-card:hover .blog-card-image {
+  transform: scale(1.05);
+}
+.blog-card-image {
+  transition: transform 0.4s ease;
+}
+@media (max-width: 600px) {
+  .blog-article-card {
+    flex-direction: column !important;
+  }
+  .blog-card-image {
+    width: 100% !important;
+    min-height: 180px !important;
+    height: 180px;
+  }
+}
 .related-article-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(44,42,38,0.1) !important;

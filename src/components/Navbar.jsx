@@ -6,7 +6,7 @@ import { C, WA_URL } from "@/lib/constants";
 export default function Navbar({ basePath = "" }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const isServicePage = basePath === "/";
+  const isInnerPage = basePath === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -14,13 +14,14 @@ export default function Navbar({ basePath = "" }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const prefix = isInnerPage ? "/" : "";
   const links = [
-    { label: "אודות",           href: `${basePath}#about`    },
-    { label: "שירותים",         href: `${basePath}#services` },
-    { label: "למי זה מתאים?",  href: `${basePath}#for-whom` },
-    { label: "שאלות נפוצות",   href: `${basePath}#faq`      },
-    { label: "המלצות",          href: `${basePath}#reviews`  },
-    { label: "צור קשר",         href: `${basePath}#contact`  },
+    { label: "אודות",           href: `${prefix}#about`    },
+    { label: "שירותים",         href: `${prefix}#services` },
+    { label: "למי זה מתאים?",  href: `${prefix}#for-whom` },
+    { label: "שאלות נפוצות",   href: `${prefix}#faq`      },
+    { label: "המלצות",          href: `${prefix}#reviews`  },
+    { label: "צור קשר",         href: `${prefix}#contact`  },
     { label: "מאמרים",          href: "/blog/"               },
   ];
 
@@ -58,17 +59,7 @@ export default function Navbar({ basePath = "" }) {
 
         {/* קישורים - desktop */}
         <div style={{ display: "flex", gap: "32px", alignItems: "center" }} className="desktop-nav">
-          {isServicePage ? (
-            <a href="/" style={{
-              display: "flex", alignItems: "center", gap: "6px",
-              fontSize: "13px", fontWeight: 700,
-              color: filled ? C.sage : "rgba(255,255,255,0.9)",
-              textDecoration: "none", transition: "color 0.3s",
-            }}>
-              <span style={{ fontSize: "16px" }}>→</span>
-              לדף הראשי
-            </a>
-          ) : links.map(l => (
+          {links.map(l => (
             <a key={l.href} href={l.href} className="nav-link" style={{
               fontSize: "13px", fontWeight: 600,
               color: filled ? C.barkLight : "rgba(255,255,255,0.85)",
@@ -115,17 +106,6 @@ export default function Navbar({ basePath = "" }) {
           display: "flex", flexDirection: "column", gap: "4px",
           borderTop: `1px solid ${C.sand}`,
         }}>
-          {isServicePage && (
-            <a href="/" onClick={() => setMenuOpen(false)} style={{
-              display: "flex", alignItems: "center", gap: "8px",
-              fontSize: "16px", fontWeight: 700, color: C.sage,
-              textDecoration: "none", padding: "12px 0",
-              borderBottom: `1px solid ${C.sand}`,
-            }}>
-              <span style={{ fontSize: "18px" }}>→</span>
-              לדף הראשי
-            </a>
-          )}
           {links.map(l => (
             <a key={l.href} href={l.href} onClick={() => setMenuOpen(false)} style={{
               fontSize: "16px", fontWeight: 600, color: C.bark,
