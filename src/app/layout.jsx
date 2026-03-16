@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import Script from "next/script";
+import { LocalBusinessSchema, FAQPageSchema, WebSiteSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "עדי שלו | רפואה סינית בראשון לציון - דיקור סיני, שיאצו וכוסות רוח",
@@ -43,6 +44,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
       </head>
       <body>
+        <LocalBusinessSchema />
+        <FAQPageSchema />
+        <WebSiteSchema />
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-MDLT6NWQ"

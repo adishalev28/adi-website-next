@@ -1,5 +1,6 @@
 import ArticleLayout from "@/components/ArticleLayout";
 import FaqAccordion from "@/components/FaqAccordion";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "שאלות ותשובות על רפואה סינית - המדריך המלא | עדי שלו",
@@ -118,8 +119,20 @@ const FAQS = [
 
 export default function FaqCompletePage() {
   return (
-    <ArticleLayout
-      title="שאלות ותשובות על רפואה סינית  - המדריך המלא"
+    <>
+      <ArticleSchema
+        title="שאלות ותשובות על רפואה סינית - המדריך המלא"
+        description="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות."
+        url="https://adishalev.co.il/blog/faq-complete"
+        datePublished="2026-03-08"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "בלוג", url: "https://adishalev.co.il/blog" },
+        { name: "שאלות ותשובות", url: "https://adishalev.co.il/blog/faq-complete" },
+      ]} />
+      <ArticleLayout
+        title="שאלות ותשובות על רפואה סינית  - המדריך המלא"
       subtitle="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה."
       date="מרץ 2026"
       readTime="7"
@@ -143,5 +156,6 @@ export default function FaqCompletePage() {
         </p>
       </div>
     </ArticleLayout>
+    </>
   );
 }

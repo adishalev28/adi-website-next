@@ -3,6 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
+import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "שיאצו בראשון לציון | עדי שלו - רפואה סינית",
@@ -17,7 +18,18 @@ const OTHER_SERVICES = [
 
 export default function ShiatsuPage() {
   return (
-    <ServiceLayout otherServices={OTHER_SERVICES}>
+    <>
+      <MedicalServiceSchema
+        name="שיאצו"
+        alternateName="Shiatsu"
+        description="עיסוי שיאצו מקצועי בראשון לציון. שחרור מתח, הקלה בכאבים ושיפור איכות החיים. טיפול מותאם אישית."
+        url="https://adishalev.co.il/shiatsu"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "שיאצו", url: "https://adishalev.co.il/shiatsu" },
+      ]} />
+      <ServiceLayout otherServices={OTHER_SERVICES}>
       {/* Hero */}
       <section style={{
         minHeight: "50vh", position: "relative", overflow: "hidden",
@@ -355,5 +367,6 @@ export default function ShiatsuPage() {
         </a>
       </section>
     </ServiceLayout>
+    </>
   );
 }

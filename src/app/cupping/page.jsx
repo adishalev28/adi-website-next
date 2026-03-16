@@ -3,6 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
+import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "כוסות רוח בראשון לציון | עדי שלו - רפואה סינית",
@@ -17,7 +18,18 @@ const OTHER_SERVICES = [
 
 export default function CuppingPage() {
   return (
-    <ServiceLayout otherServices={OTHER_SERVICES}>
+    <>
+      <MedicalServiceSchema
+        name="כוסות רוח"
+        alternateName="Cupping Therapy"
+        description="טיפול כוסות רוח מקצועי בראשון לציון. שיפור זרימת הדם, הקלה בכאבים ושחרור שרירים."
+        url="https://adishalev.co.il/cupping"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "כוסות רוח", url: "https://adishalev.co.il/cupping" },
+      ]} />
+      <ServiceLayout otherServices={OTHER_SERVICES}>
       {/* Hero */}
       <section style={{
         minHeight: "50vh", position: "relative", overflow: "hidden",
@@ -317,5 +329,6 @@ export default function CuppingPage() {
         </a>
       </section>
     </ServiceLayout>
+    </>
   );
 }

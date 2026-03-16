@@ -1,0 +1,5 @@
+# https://adishalev.co.il
+User-agent: *
+Allow: /
+
+Sitemap: https://adishalev.co.il/sitemap.xml

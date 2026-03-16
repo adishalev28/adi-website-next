@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "דיקור סיני לכאבי גב - איך זה עובד ולמי מתאים? | עדי שלו",
@@ -13,11 +14,23 @@ const RELATED = [
 
 export default function BackPainPage() {
   return (
-    <ArticleLayout
-      title="דיקור סיני לכאבי גב  - איך זה עובד ולמי מתאים?"
-      subtitle="כאבי גב הם הסיבה מספר 1 לפנייה לרפואה סינית. כך דיקור עוזר לטפל בשורש הבעיה."
-      date="מרץ 2026"
-      readTime="5"
+    <>
+      <ArticleSchema
+        title="דיקור סיני לכאבי גב - איך זה עובד ולמי מתאים?"
+        description="כאבי גב הם הסיבה מספר 1 לפנייה לרפואה סינית. למדו איך דיקור סיני מטפל בכאבי גב תחתון, פריצת דיסק, כאבי צוואר וכאבי גב בהריון."
+        url="https://adishalev.co.il/blog/back-pain"
+        datePublished="2026-03-08"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "בלוג", url: "https://adishalev.co.il/blog" },
+        { name: "דיקור סיני לכאבי גב", url: "https://adishalev.co.il/blog/back-pain" },
+      ]} />
+      <ArticleLayout
+        title="דיקור סיני לכאבי גב  - איך זה עובד ולמי מתאים?"
+        subtitle="כאבי גב הם הסיבה מספר 1 לפנייה לרפואה סינית. כך דיקור עוזר לטפל בשורש הבעיה."
+        date="מרץ 2026"
+        readTime="5"
       relatedArticles={RELATED}
     >
       <p>
@@ -106,5 +119,6 @@ export default function BackPainPage() {
         <strong>סובלים מכאבי גב?</strong> אל תחכו. צרו קשר ונשמח לעזור.
       </p>
     </ArticleLayout>
+    </>
   );
 }

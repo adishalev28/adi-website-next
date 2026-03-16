@@ -3,6 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
+import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "צמחי מרפא סיניים בראשון לציון | עדי שלו - רפואה סינית",
@@ -17,7 +18,18 @@ const OTHER_SERVICES = [
 
 export default function HerbsPage() {
   return (
-    <ServiceLayout otherServices={OTHER_SERVICES}>
+    <>
+      <MedicalServiceSchema
+        name="צמחי מרפא סיניים"
+        alternateName="Chinese Herbal Medicine"
+        description="פורמולות צמחי מרפא סיניים מותאמות אישית בראשון לציון. טיפול בשורש הבעיה ולא רק בתסמינים."
+        url="https://adishalev.co.il/herbs"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "צמחי מרפא סיניים", url: "https://adishalev.co.il/herbs" },
+      ]} />
+      <ServiceLayout otherServices={OTHER_SERVICES}>
       {/* Hero */}
       <section style={{
         minHeight: "50vh", position: "relative", overflow: "hidden",
@@ -303,5 +315,6 @@ export default function HerbsPage() {
         </a>
       </section>
     </ServiceLayout>
+    </>
   );
 }

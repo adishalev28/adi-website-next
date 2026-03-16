@@ -4,6 +4,7 @@ import ServiceFAQ from "@/components/ServiceFAQ";
 import MagnifyImage from "@/components/MagnifyImage";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
+import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "דיקור סיני בראשון לציון | עדי שלו - רפואה סינית",
@@ -18,6 +19,17 @@ const OTHER_SERVICES = [
 
 export default function AcupuncturePage() {
   return (
+    <>
+      <MedicalServiceSchema
+        name="דיקור סיני"
+        alternateName="Acupuncture"
+        description="טיפול דיקור סיני מותאם אישית בראשון לציון. אבחון מעמיק, גישה הוליסטית, הקלה על כאב ואיזון הגוף והנפש."
+        url="https://adishalev.co.il/dikur-sini"
+      />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "דיקור סיני", url: "https://adishalev.co.il/dikur-sini" },
+      ]} />
     <ServiceLayout otherServices={OTHER_SERVICES}>
       {/* Hero */}
       <section style={{
@@ -203,5 +215,6 @@ export default function AcupuncturePage() {
         </a>
       </section>
     </ServiceLayout>
+    </>
   );
 }
