@@ -49,8 +49,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "8",
-    image: "/adi-treatment.jpg",
-    imageAlt: "טיפול דיקור סיני לכאבי גב בקליניקה בראשון לציון",
+    image: "/blog-back-pain.jpg",
+    imageAlt: "דיקור סיני לכאבי גב תחתון - טיפול בקליניקה בראשון לציון",
   },
   {
     slug: "faq-complete",
