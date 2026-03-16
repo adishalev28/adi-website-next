@@ -19,8 +19,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "10",
-    image: "/clinic-room.jpg",
-    imageAlt: "חדר טיפולים רגוע בקליניקה לרפואה סינית בראשון לציון",
+    image: "/blog-anxiety.jpg",
+    imageAlt: "רגיעה ושחרור מתח - דיקור סיני לחרדה בקליניקה בראשון לציון",
   },
   {
     slug: "migraines",
