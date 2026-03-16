@@ -19,8 +19,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "10",
-    image: "/adi-shiatsu.jpg",
-    imageAlt: "טיפול דיקור סיני לחרדה בקליניקה בראשון לציון",
+    image: "/clinic-room.jpg",
+    imageAlt: "חדר טיפולים רגוע בקליניקה לרפואה סינית בראשון לציון",
   },
   {
     slug: "migraines",
@@ -39,8 +39,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "5",
-    image: "/acupuncture-treatment.jpg",
-    imageAlt: "טיפול דיקור סיני בקליניקה בראשון לציון",
+    image: "/adi-desk.jpg",
+    imageAlt: "עדי שלו בקליניקה לרפואה סינית בראשון לציון",
   },
   {
     slug: "back-pain",
@@ -59,8 +59,8 @@ const ARTICLES = [
     tag: "שאלות ותשובות",
     date: "מרץ 2026",
     readTime: "7",
-    image: "/clinic-room.jpg",
-    imageAlt: "חדר טיפולים בקליניקה לרפואה סינית בראשון לציון",
+    image: "/clinic-entrance.jpg",
+    imageAlt: "כניסה לקליניקה לרפואה סינית בראשון לציון",
   },
 ];
 
