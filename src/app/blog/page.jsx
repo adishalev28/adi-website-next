@@ -39,8 +39,8 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "5",
-    image: "/adi-desk.jpg",
-    imageAlt: "עדי שלו בקליניקה לרפואה סינית בראשון לציון",
+    image: "/blog-what-is-acupuncture.jpg",
+    imageAlt: "מחטי דיקור סיני וכלי רפואה סינית - מדריך למתחילים",
   },
   {
     slug: "back-pain",
