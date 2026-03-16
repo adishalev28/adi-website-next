@@ -53,6 +53,12 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/migraines`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/blog/faq-complete`,
       lastModified: new Date(),
       changeFrequency: "monthly",
