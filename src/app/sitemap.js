@@ -65,6 +65,12 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/neck-shoulder-pain`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${baseUrl}/blog/sleep`,
       lastModified: new Date(),
       changeFrequency: "monthly",
