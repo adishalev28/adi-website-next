@@ -3,7 +3,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "שאלות ותשובות על רפואה סינית - המדריך המלא | עדי שלו",
+  title: "שאלות ותשובות על רפואה סינית | עדי שלו",
   description: "20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות.",
 };
 
@@ -121,7 +121,7 @@ export default function FaqCompletePage() {
   return (
     <>
       <ArticleSchema
-        title="שאלות ותשובות על רפואה סינית - המדריך המלא"
+        title="שאלות ותשובות על רפואה סינית"
         description="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות."
         url="https://adishalev.co.il/blog/faq-complete"
         datePublished="2026-03-08"
@@ -132,7 +132,7 @@ export default function FaqCompletePage() {
         { name: "שאלות ותשובות", url: "https://adishalev.co.il/blog/faq-complete" },
       ]} />
       <ArticleLayout
-        title="שאלות ותשובות על רפואה סינית  - המדריך המלא"
+        title="שאלות ותשובות על רפואה סינית "
       subtitle="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה."
       date="מרץ 2026"
       readTime="7"

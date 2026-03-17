@@ -2,7 +2,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "דיקור סיני לבעיות שינה ונדודי שינה - המדריך המלא | עדי שלו",
+  title: "דיקור סיני לבעיות שינה ונדודי שינה | עדי שלו",
   description:
     "סובלים מנדודי שינה או קושי להירדם? דיקור סיני הוכח כטיפול יעיל לשיפור איכות השינה בצורה טבעית וללא תרופות. מדריך מקיף.",
   keywords:
@@ -31,7 +31,7 @@ export default function SleepPage() {
   return (
     <>
       <ArticleSchema
-        title="דיקור סיני לבעיות שינה ונדודי שינה - המדריך המלא"
+        title="דיקור סיני לבעיות שינה ונדודי שינה"
         description="סובלים מנדודי שינה או קושי להירדם? דיקור סיני הוכח כטיפול יעיל לשיפור איכות השינה בצורה טבעית וללא תרופות."
         url="https://adishalev.co.il/blog/sleep"
         datePublished="2026-03-17"

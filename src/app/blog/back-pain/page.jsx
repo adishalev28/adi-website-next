@@ -2,7 +2,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "דיקור סיני לכאבי גב  - המדריך המלא (2026) | עדי שלו - ראשון לציון",
+  title: "דיקור סיני לכאבי גב  (2026) | עדי שלו - ראשון לציון",
   description:
     "סובלים מכאבי גב? דיקור סיני מוכח מחקרית כטיפול יעיל לכאבי גב תחתון, פריצת דיסק, כאבי צוואר ושיגרון. קליניקה בראשון לציון  - קראו את המדריך.",
   keywords:
@@ -17,7 +17,7 @@ const RELATED = [
   },
   {
     href: "/blog/faq-complete/",
-    title: "שאלות ותשובות  - המדריך המלא",
+    title: "שאלות ותשובות ",
     tag: "שאלות ותשובות",
   },
   {
@@ -31,7 +31,7 @@ export default function BackPainPage() {
   return (
     <>
       <ArticleSchema
-        title="דיקור סיני לכאבי גב  - המדריך המלא (2026)"
+        title="דיקור סיני לכאבי גב  (2026)"
         description="סובלים מכאבי גב? דיקור סיני מוכח מחקרית כטיפול יעיל לכאבי גב תחתון, פריצת דיסק, כאבי צוואר ושיגרון. קליניקה בראשון לציון."
         url="https://adishalev.co.il/blog/back-pain"
         datePublished="2026-03-08"
@@ -48,7 +48,7 @@ export default function BackPainPage() {
         ]}
       />
       <ArticleLayout
-        title="דיקור סיני לכאבי גב  - המדריך המלא"
+        title="דיקור סיני לכאבי גב "
         subtitle="כאבי גב הם הסיבה מספר 1 לפנייה לרפואה סינית. כך דיקור עוזר לטפל בשורש הבעיה ולהחזיר אתכם לשגרה."
         date="מרץ 2026"
         readTime="8"

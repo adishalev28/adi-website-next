@@ -12,7 +12,7 @@ export const metadata = {
 const RELATED = [
   {
     href: "/blog/back-pain/",
-    title: "דיקור סיני לכאבי גב - המדריך המלא",
+    title: "דיקור סיני לכאבי גב",
     tag: "דיקור סיני",
   },
   {

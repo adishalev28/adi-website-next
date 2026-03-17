@@ -8,7 +8,7 @@ export const metadata = {
 
 const RELATED = [
   { href: "/blog/back-pain/", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
-  { href: "/blog/faq-complete/", title: "שאלות ותשובות  - המדריך המלא", tag: "שאלות ותשובות" },
+  { href: "/blog/faq-complete/", title: "שאלות ותשובות על רפואה סינית", tag: "שאלות ותשובות" },
   { href: "/dikur-sini/", title: "דיקור סיני  - דף השירות", tag: "שירותים" },
 ];
 
