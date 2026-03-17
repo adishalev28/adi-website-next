@@ -49,7 +49,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "9",
-    image: "/blog-back-pain.jpg",
+    image: "/blog-neck-shoulder.jpg",
     imageAlt: "דיקור סיני לכאבי צוואר וכתפיים בקליניקה בראשון לציון",
   },
   {
