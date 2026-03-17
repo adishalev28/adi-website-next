@@ -39,7 +39,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "9",
-    image: "/blog-anxiety.jpg",
+    image: "/blog-sleep.jpg",
     imageAlt: "דיקור סיני לשיפור שינה - טיפול טבעי בקליניקה בראשון לציון",
   },
   {
