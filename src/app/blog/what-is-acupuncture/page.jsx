@@ -2,7 +2,7 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "מה זה דיקור סיני? מדריך מקיף למתחילים | עדי שלו",
+  title: "מה זה דיקור סיני? | עדי שלו",
   description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות.",
 };
 
@@ -16,7 +16,7 @@ export default function WhatIsAcupuncturePage() {
   return (
     <>
       <ArticleSchema
-        title="מה זה דיקור סיני? מדריך מקיף למתחילים"
+        title="מה זה דיקור סיני?"
         description="הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות."
         url="https://adishalev.co.il/blog/what-is-acupuncture"
         datePublished="2026-03-08"
@@ -27,7 +27,7 @@ export default function WhatIsAcupuncturePage() {
         { name: "מה זה דיקור סיני?", url: "https://adishalev.co.il/blog/what-is-acupuncture" },
       ]} />
       <ArticleLayout
-        title="מה זה דיקור סיני? מדריך מקיף למתחילים"
+        title="מה זה דיקור סיני?"
         subtitle="כל מה שצריך לדעת לפני הטיפול הראשון  - איך דיקור עובד, למי מתאים, ומה לצפות."
         date="מרץ 2026"
         readTime="5"

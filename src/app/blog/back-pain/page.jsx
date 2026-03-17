@@ -12,7 +12,7 @@ export const metadata = {
 const RELATED = [
   {
     href: "/blog/what-is-acupuncture/",
-    title: "מה זה דיקור סיני? מדריך למתחילים",
+    title: "מה זה דיקור סיני?",
     tag: "דיקור סיני",
   },
   {
