@@ -59,7 +59,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "מרץ 2026",
     readTime: "9",
-    image: "/blog-anxiety.jpg",
+    image: "/blog-digestive.jpg",
     imageAlt: "דיקור סיני לבעיות עיכול בקליניקה בראשון לציון",
   },
   {
