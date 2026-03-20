@@ -88,6 +88,12 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+    {
+      url: `${baseUrl}/blog/back-pain-guide`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
     // דפים משפטיים
     {
       url: `${baseUrl}/privacy`,
