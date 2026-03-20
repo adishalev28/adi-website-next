@@ -4,7 +4,7 @@ import ServiceFAQ from "@/components/ServiceFAQ";
 import MagnifyImage from "@/components/MagnifyImage";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
-import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
+import { MedicalServiceSchema, BreadcrumbSchema, HowToSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "דיקור סיני בראשון לציון | עדי שלו - רפואה סינית",
@@ -25,6 +25,18 @@ export default function AcupuncturePage() {
         alternateName="Acupuncture"
         description="טיפול דיקור סיני מותאם אישית בראשון לציון. אבחון מעמיק, גישה הוליסטית, הקלה על כאב ואיזון הגוף והנפש."
         url="https://adishalev.co.il/dikur-sini"
+      />
+      <HowToSchema
+        name="מה קורה בטיפול דיקור סיני?"
+        description="תהליך טיפול דיקור סיני מהשלב הראשון ועד הסיום — מה לצפות בביקור בקליניקה של עדי שלו בראשון לציון."
+        totalTime="PT60M"
+        steps={[
+          { name: "שיחת אבחון", text: "שיחה מקיפה על הבעיה, ההיסטוריה הרפואית, אורח החיים, שינה ותזונה. כ-15 דקות." },
+          { name: "אבחון ברפואה סינית", text: "בדיקת דופק סיני ולשון, מישוש נקודות רגישות באזורים הרלוונטיים." },
+          { name: "הטיפול עצמו", text: "החדרת מחטים דקיקות לנקודות ספציפיות בגוף. המחטים נשארות כ-20–30 דקות. רוב המטופלים לא מרגישים כאב." },
+          { name: "מנוחה ואיזון", text: "זמן מנוחה עם המחטים — רבים נרדמים. הגוף מתחיל את תהליך הריפוי." },
+          { name: "סיכום והמלצות", text: "הוצאת המחטים, סיכום הטיפול והמלצות לשמירה על התוצאות — תזונה, תרגילים, מתיחות." },
+        ]}
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

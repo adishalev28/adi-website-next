@@ -7,7 +7,7 @@ import AccessibilityWidget from "@/components/AccessibilityWidget";
 import { C } from "@/lib/constants";
 import Section from "@/components/Section";
 
-export default function ArticleLayout({ title, subtitle, date, readTime, children, relatedArticles = [] }) {
+export default function ArticleLayout({ title, subtitle, date, readTime, lastUpdated, children, relatedArticles = [] }) {
   return (
     <>
       <Navbar basePath="/" />
@@ -48,6 +48,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, childre
         <div style={{ display: "flex", gap: "16px", justifyContent: "center", fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
           {date && <span>{date}</span>}
           {readTime && <span>· {readTime} דקות קריאה</span>}
+          {lastUpdated && <span>· עודכן: {lastUpdated}</span>}
         </div>
       </header>
 

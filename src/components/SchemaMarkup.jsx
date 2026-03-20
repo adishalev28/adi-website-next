@@ -265,3 +265,31 @@ export function MedicalServiceSchema({ name, alternateName, description, url }) 
     />
   );
 }
+
+export function HowToSchema({ name, description, steps, totalTime }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: name,
+    description: description,
+    totalTime: totalTime || "PT60M",
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+    })),
+    provider: {
+      "@type": "LocalBusiness",
+      name: "עדי שלו - רפואה סינית",
+      url: "https://adishalev.co.il",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
