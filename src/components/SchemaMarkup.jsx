@@ -80,7 +80,12 @@ export function LocalBusinessSchema() {
     founder: {
       "@type": "Person",
       name: "עדי שלו",
+      alternateName: "Adi Shalev",
       jobTitle: "מטפל ברפואה סינית",
+      url: "https://adishalev.co.il",
+      sameAs: [
+        "https://www.facebook.com/adi.zablodovitz.Shalev",
+      ],
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -91,6 +96,7 @@ export function LocalBusinessSchema() {
     },
     sameAs: [
       "https://wa.me/972528029031",
+      "https://www.facebook.com/adi.zablodovitz.Shalev",
     ],
   };
 
@@ -221,7 +227,11 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
     author: {
       "@type": "Person",
       name: "עדי שלו",
+      alternateName: "Adi Shalev",
       url: "https://adishalev.co.il",
+      sameAs: [
+        "https://www.facebook.com/adi.zablodovitz.Shalev",
+      ],
     },
     publisher: {
       "@type": "Organization",
