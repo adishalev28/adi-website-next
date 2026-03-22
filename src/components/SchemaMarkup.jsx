@@ -85,6 +85,7 @@ export function LocalBusinessSchema() {
       url: "https://adishalev.co.il",
       sameAs: [
         "https://www.facebook.com/adi.zablodovitz.Shalev",
+        "https://maps.google.com/?cid=2830836878633217880",
       ],
     },
     aggregateRating: {
@@ -97,6 +98,7 @@ export function LocalBusinessSchema() {
     sameAs: [
       "https://wa.me/972528029031",
       "https://www.facebook.com/adi.zablodovitz.Shalev",
+      "https://maps.google.com/?cid=2830836878633217880",
     ],
   };
 
