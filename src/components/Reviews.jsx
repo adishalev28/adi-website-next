@@ -43,7 +43,7 @@ const Stars = ({ count = 5 }) => (
 );
 
 function ReviewCard({ r }) {
-  const isLong = r.text.length > 200;
+  const isLong = r.text.length > 400;
   const [collapsed, setCollapsed] = useState(isLong);
 
   return (
@@ -70,7 +70,7 @@ function ReviewCard({ r }) {
         <p style={{
           fontSize: "14px", color: C.barkLight, lineHeight: 1.75, margin: 0,
           ...(isLong && collapsed ? {
-            display: "-webkit-box", WebkitLineClamp: 5, WebkitBoxOrient: "vertical",
+            display: "-webkit-box", WebkitLineClamp: 7, WebkitBoxOrient: "vertical",
             overflow: "hidden",
           } : {}),
         }}>{r.text}</p>
