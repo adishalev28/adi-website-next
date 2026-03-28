@@ -43,27 +43,34 @@ const Stars = ({ count = 5 }) => (
 );
 
 function ReviewCard({ r }) {
-  const [collapsed, setCollapsed] = useState(false);
-  const isLong = r.text.length > 255;
+  const isLong = r.text.length > 200;
+  const [collapsed, setCollapsed] = useState(isLong);
 
   return (
     <div className="review-card" style={{
-      flexShrink: 0, width: "380px",
-      background: "white", borderRadius: "20px", padding: "28px 24px",
+      flexShrink: 0, width: "340px",
+      background: "white", borderRadius: "20px", padding: "24px 22px",
       boxShadow: "0 2px 20px rgba(44,42,38,0.06)",
       border: `1px solid ${C.sand}`,
       display: "flex", flexDirection: "column",
       scrollSnapAlign: "start",
     }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
+      {/* Header: Stars + Google */}
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "12px" }}>
         <Stars />
         <GoogleSvg />
       </div>
-      <div style={{ margin: "0 0 20px", flex: 1 }}>
+      {/* Name + treatment reason — top for engagement */}
+      <div style={{ marginBottom: "12px", paddingBottom: "10px", borderBottom: `1px solid ${C.sand}` }}>
+        <div style={{ fontWeight: 700, color: C.bark, fontSize: "15px" }}>{r.name}</div>
+        <div style={{ color: C.sage, fontSize: "12px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
+      </div>
+      {/* Review text */}
+      <div style={{ margin: 0, flex: 1 }}>
         <p style={{
-          fontSize: "14px", color: C.barkLight, lineHeight: 1.8, margin: 0,
+          fontSize: "14px", color: C.barkLight, lineHeight: 1.75, margin: 0,
           ...(isLong && collapsed ? {
-            display: "-webkit-box", WebkitLineClamp: 7, WebkitBoxOrient: "vertical",
+            display: "-webkit-box", WebkitLineClamp: 5, WebkitBoxOrient: "vertical",
             overflow: "hidden",
           } : {}),
         }}>{r.text}</p>
@@ -76,10 +83,6 @@ function ReviewCard({ r }) {
             {collapsed ? "קרא עוד..." : "הצג פחות"}
           </button>
         )}
-      </div>
-      <div style={{ borderTop: `1px solid ${C.sand}`, paddingTop: "14px" }}>
-        <div style={{ fontWeight: 700, color: C.bark, fontSize: "14px" }}>{r.name}</div>
-        <div style={{ color: C.sage, fontSize: "12px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
       </div>
     </div>
   );
