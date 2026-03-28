@@ -155,20 +155,26 @@ export default function BlogIndex() {
         </p>
       </header>
 
-      {/* Quick navigation */}
+      {/* Quick navigation — collapsible */}
       <nav style={{
         maxWidth: "800px", margin: "0 auto", padding: "24px 24px 0",
       }}>
-        <div style={{
-          background: "white", borderRadius: "16px", padding: "16px 20px",
+        <details style={{
+          background: "white", borderRadius: "16px",
           border: `1px solid ${C.sage}15`, boxShadow: "0 2px 12px rgba(44,42,38,0.04)",
+          overflow: "hidden",
         }}>
-          <p style={{ fontSize: "13px", fontWeight: 700, color: C.bark, margin: "0 0 10px" }}>
-            ניווט מהיר למאמרים ({ARTICLES.length})
-          </p>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+          <summary style={{
+            padding: "14px 20px", cursor: "pointer", fontSize: "14px",
+            fontWeight: 700, color: C.sage, listStyle: "none",
+            display: "flex", alignItems: "center", justifyContent: "space-between",
+          }}>
+            <span>📋 ניווט מהיר למאמרים ({ARTICLES.length})</span>
+            <span style={{ fontSize: "12px", color: C.barkLight }}>לחצו לפתיחה ▾</span>
+          </summary>
+          <div style={{ padding: "0 20px 16px", display: "flex", flexWrap: "wrap", gap: "6px" }}>
             {ARTICLES.map(a => (
-              <a key={a.slug} href={`/blog/${a.slug}/`} style={{
+              <a key={a.slug} href={`#${a.slug}`} style={{
                 padding: "5px 12px", borderRadius: "20px", fontSize: "12px",
                 fontWeight: 600, textDecoration: "none",
                 background: `${C.sage}12`, color: C.sage,
@@ -180,13 +186,13 @@ export default function BlogIndex() {
               </a>
             ))}
           </div>
-        </div>
+        </details>
       </nav>
 
       <section style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 24px 60px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {ARTICLES.map(a => (
-            <a key={a.slug} href={`/blog/${a.slug}/`} className="blog-article-card" style={{
+            <a key={a.slug} id={a.slug} href={`/blog/${a.slug}/`} className="blog-article-card" style={{
               background: "white", borderRadius: "20px",
               textDecoration: "none", display: "flex",
               overflow: "hidden",
