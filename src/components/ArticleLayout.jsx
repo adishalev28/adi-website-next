@@ -4,7 +4,7 @@ import FloatingWA from "@/components/FloatingWA";
 import ContactCTA from "@/components/ContactCTA";
 import CookieConsent from "@/components/CookieConsent";
 import AccessibilityWidget from "@/components/AccessibilityWidget";
-import { C } from "@/lib/constants";
+import { C, WA_URL } from "@/lib/constants";
 import Section from "@/components/Section";
 
 export default function ArticleLayout({ title, subtitle, date, readTime, lastUpdated, children, relatedArticles = [] }) {
@@ -59,6 +59,40 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
         fontSize: "16px", lineHeight: 1.8, color: C.bark,
       }}>
         {children}
+
+        {/* Inline CTA — appears at end of every article */}
+        <div style={{
+          background: `linear-gradient(135deg, ${C.sage}, ${C.sageDark})`,
+          borderRadius: '16px',
+          padding: '32px 24px',
+          textAlign: 'center',
+          marginTop: '40px',
+        }}>
+          <h2 style={{ color: 'white', fontSize: '22px', margin: '0 0 10px', fontWeight: 700 }}>
+            רוצה לדבר על הטיפול?
+          </h2>
+          <p style={{ color: 'rgba(255,255,255,0.85)', margin: '0 0 20px', fontSize: '15px' }}>
+            שלח הודעה ואחזור אליך בהקדם. ללא התחייבות.
+          </p>
+          <a
+            href={WA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              background: 'white',
+              color: C.sageDark,
+              fontWeight: 700,
+              fontSize: '16px',
+              padding: '12px 32px',
+              borderRadius: '30px',
+              textDecoration: 'none',
+              transition: 'all 0.2s',
+            }}
+          >
+            📲 WhatsApp — התייעצות מהירה
+          </a>
+        </div>
       </article>
 
       {/* Related articles */}
