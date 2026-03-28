@@ -86,6 +86,7 @@ export function LocalBusinessSchema() {
       sameAs: [
         "https://www.facebook.com/adi.zablodovitz.Shalev",
         "https://maps.google.com/?cid=2830836878633217880",
+        "https://www.linkedin.com/in/adi-shalev-chinese-medicine",
       ],
     },
     aggregateRating: {
@@ -93,12 +94,13 @@ export function LocalBusinessSchema() {
       ratingValue: "5",
       bestRating: "5",
       ratingCount: "27",
-      reviewCount: "16",
+      reviewCount: "17",
     },
     sameAs: [
       "https://wa.me/972528029031",
       "https://www.facebook.com/adi.zablodovitz.Shalev",
       "https://maps.google.com/?cid=2830836878633217880",
+      "https://www.linkedin.com/in/adi-shalev-chinese-medicine",
     ],
   };
 
@@ -233,6 +235,7 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
       url: "https://adishalev.co.il",
       sameAs: [
         "https://www.facebook.com/adi.zablodovitz.Shalev",
+        "https://www.linkedin.com/in/adi-shalev-chinese-medicine",
       ],
     },
     publisher: {
