@@ -13,36 +13,6 @@ export const metadata = {
 
 const ARTICLES = [
   {
-    slug: "facial-paralysis",
-    title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy)",
-    description: "שיתוק פנים יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה ומשחזר תפקוד. מדריך מקיף כולל ניסיון קליני.",
-    tag: "דיקור סיני",
-    date: "מרץ 2026",
-    readTime: "8",
-    image: "/blog-facial-paralysis.jpg",
-    imageAlt: "דיקור סיני לשיתוק פנים (פציאליס) בקליניקה בראשון לציון",
-  },
-  {
-    slug: "sciatica",
-    title: "דיקור סיני לסיאטיקה — טיפול יעיל בכאב הקורן לרגל",
-    description: "סובלים מסיאטיקה? כאב שיורד מהגב לרגל? דיקור סיני מטפל בשורש הבעיה — משחרר לחץ על העצב ומפחית דלקת.",
-    tag: "דיקור סיני",
-    date: "מרץ 2026",
-    readTime: "9",
-    image: "/blog-sciatica.jpg",
-    imageAlt: "דיקור סיני לסיאטיקה — טיפול בכאב גב וברגל בקליניקה בראשון לציון",
-  },
-  {
-    slug: "cupping-therapy",
-    title: "כוסות רוח — מתי ולמה? מדריך מקיף",
-    description: "הסימנים העגולים על הגב — מה באמת קורה בטיפול כוסות רוח, למי זה מתאים, ומתי כדאי לנסות.",
-    tag: "כוסות רוח",
-    date: "מרץ 2026",
-    readTime: "7",
-    image: "/blog-cupping.jpg",
-    imageAlt: "טיפול כוסות רוח בקליניקה לרפואה סינית בראשון לציון",
-  },
-  {
     slug: "anxiety",
     title: "דיקור סיני לחרדה ולחץ נפשי - טיפול טבעי שעובד",
     description: "סובלים מחרדה, מתח או לחץ נפשי? דיקור סיני מוכח מחקרית כטיפול יעיל להפחתת חרדה ושיפור איכות החיים. מדריך מקיף.",
@@ -91,6 +61,36 @@ const ARTICLES = [
     readTime: "9",
     image: "/blog-digestive.jpg",
     imageAlt: "דיקור סיני לבעיות עיכול בקליניקה בראשון לציון",
+  },
+  {
+    slug: "sciatica",
+    title: "דיקור סיני לסיאטיקה — טיפול יעיל בכאב הקורן לרגל",
+    description: "סובלים מסיאטיקה? כאב שיורד מהגב לרגל? דיקור סיני מטפל בשורש הבעיה — משחרר לחץ על העצב ומפחית דלקת.",
+    tag: "דיקור סיני",
+    date: "מרץ 2026",
+    readTime: "9",
+    image: "/blog-sciatica.jpg",
+    imageAlt: "דיקור סיני לסיאטיקה — טיפול בכאב גב וברגל בקליניקה בראשון לציון",
+  },
+  {
+    slug: "cupping-therapy",
+    title: "כוסות רוח — מתי ולמה? מדריך מקיף",
+    description: "הסימנים העגולים על הגב — מה באמת קורה בטיפול כוסות רוח, למי זה מתאים, ומתי כדאי לנסות.",
+    tag: "כוסות רוח",
+    date: "מרץ 2026",
+    readTime: "7",
+    image: "/blog-cupping.jpg",
+    imageAlt: "טיפול כוסות רוח בקליניקה לרפואה סינית בראשון לציון",
+  },
+  {
+    slug: "facial-paralysis",
+    title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy)",
+    description: "שיתוק פנים יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה ומשחזר תפקוד. מדריך מקיף כולל ניסיון קליני.",
+    tag: "דיקור סיני",
+    date: "מרץ 2026",
+    readTime: "8",
+    image: "/blog-facial-paralysis.jpg",
+    imageAlt: "דיקור סיני לשיתוק פנים (פציאליס) בקליניקה בראשון לציון",
   },
   {
     slug: "what-is-acupuncture",
@@ -155,7 +155,35 @@ export default function BlogIndex() {
         </p>
       </header>
 
-      <section style={{ maxWidth: "800px", margin: "0 auto", padding: "48px 24px 60px" }}>
+      {/* Quick navigation */}
+      <nav style={{
+        maxWidth: "800px", margin: "0 auto", padding: "24px 24px 0",
+      }}>
+        <div style={{
+          background: "white", borderRadius: "16px", padding: "16px 20px",
+          border: `1px solid ${C.sage}15`, boxShadow: "0 2px 12px rgba(44,42,38,0.04)",
+        }}>
+          <p style={{ fontSize: "13px", fontWeight: 700, color: C.bark, margin: "0 0 10px" }}>
+            ניווט מהיר למאמרים ({ARTICLES.length})
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+            {ARTICLES.map(a => (
+              <a key={a.slug} href={`/blog/${a.slug}/`} style={{
+                padding: "5px 12px", borderRadius: "20px", fontSize: "12px",
+                fontWeight: 600, textDecoration: "none",
+                background: `${C.sage}12`, color: C.sage,
+                border: `1px solid ${C.sage}20`,
+                transition: "all 0.2s",
+                whiteSpace: "nowrap",
+              }}>
+                {a.title.length > 30 ? a.title.slice(0, 30) + '…' : a.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
+      <section style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 24px 60px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {ARTICLES.map(a => (
             <a key={a.slug} href={`/blog/${a.slug}/`} className="blog-article-card" style={{
