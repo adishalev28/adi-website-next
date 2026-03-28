@@ -89,6 +89,12 @@ export default function sitemap() {
       priority: 0.7,
     },
     {
+      url: `${baseUrl}/blog/facial-paralysis`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+    {
       url: `${baseUrl}/blog/back-pain-guide`,
       lastModified: new Date(),
       changeFrequency: "monthly",
