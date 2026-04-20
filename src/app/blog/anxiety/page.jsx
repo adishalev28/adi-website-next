@@ -221,7 +221,20 @@ export default function AnxietyPage() {
         <p>
           מחקר נוסף שפורסם ב-Journal of Acupuncture and Meridian Studies
           הראה שדיקור מפחית חרדה גם במצבים ספציפיים כמו לפני ניתוחים, בזמן
-          הריון ואצל חולים כרוניים.
+          הריון ואצל חולים כרוניים.{" "}
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/?term=acupuncture+anxiety+disorders+systematic+review"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+          >
+            (לעיון במחקרים נוספים ב-PubMed)
+          </a>
+        </p>
+        <p>
+          המרכז הלאומי האמריקאי לרפואה משלימה (NCCIH) מכיר בדיקור כשיטת
+          טיפול עם בסיס מחקרי ומצוטט כאופציה משלימה למצבי חרדה ולחץ
+          נפשי.
         </p>
 
         <h2>טיפים להתמודדות עם חרדה בין טיפולים</h2>

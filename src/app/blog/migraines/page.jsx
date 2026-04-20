@@ -188,9 +188,19 @@ export default function MigrainesPage() {
         </ul>
 
         <blockquote>
-          מחקר רחב היקף שפורסם ב-JAMA Internal Medicine מצא שדיקור סיני
-          מפחית את תדירות התקפי המיגרנה בצורה משמעותית, עם תוצאות שנשמרות
-          חודשים אחרי סיום הטיפולים.
+          סקירת Cochrane המקיפה (Linde וחוקריו, 2016) שבחנה 22 מחקרים
+          קליניים מצאה שדיקור סיני יעיל למניעת מיגרנות לפחות כמו תרופות
+          מניעתיות - ובלי תופעות לוואי. מחקר נוסף שפורסם ב-JAMA Internal
+          Medicine מצא שדיקור מפחית את תדירות התקפי המיגרנה בצורה משמעותית,
+          עם תוצאות שנשמרות חודשים אחרי סיום הטיפולים.{" "}
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/27351677/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+          >
+            (לקריאת סקירת Cochrane ב-PubMed)
+          </a>
         </blockquote>
 
         <h2>שיטת ד"ר טאן - הגישה שלי לטיפול בכאבי ראש</h2>
