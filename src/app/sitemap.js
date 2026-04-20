@@ -112,6 +112,12 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.85,
     },
+    {
+      url: `${baseUrl}/blog/shiatsu`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     // דפים משפטיים
     {
       url: `${baseUrl}/privacy`,
