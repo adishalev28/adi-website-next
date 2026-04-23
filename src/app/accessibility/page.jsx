@@ -4,6 +4,7 @@ import { PHONE } from "@/lib/constants";
 export const metadata = {
   title: "הצהרת נגישות | עדי שלו - רפואה סינית",
   description: "הצהרת הנגישות של אתר עדי שלו - קליניקה לרפואה סינית בראשון לציון.",
+  robots: { index: false, follow: true },
 };
 
 const PHONE_DISPLAY = "052-802-9031";
