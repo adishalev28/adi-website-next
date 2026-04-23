@@ -26,7 +26,7 @@ export default function About() {
           </h2>
           <div className="about-divider" style={{ width: "40px", height: "3px", background: C.gold, borderRadius: "2px", marginBottom: "24px" }} />
           <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
-            בוגר <strong style={{ color: C.bark }}>מכללת רידמן</strong> לרפואה סינית, עם למעלה מ-8 שנות ניסיון קליני ומעל 500 מטופלים. מתמחה בדיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים.
+            בוגר <strong style={{ color: C.bark }}>מכללת רידמן</strong> לרפואה סינית, עם למעלה מ-8 שנות ניסיון קליני ומעל 500 מטופלים. במקביל לקליניקה הפרטית אני מטפל ב<strong style={{ color: C.bark }}>מכבי טבעי</strong> מעל 6 שנים בדיקור סיני ושיאצו. מתמחה בדיקור, שיאצו, כוסות רוח וצמחי מרפא סיניים.
           </p>
           <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
             בקליניקה שלי ב<strong style={{ color: C.bark }}>ראשון לציון</strong> אני מעניק לכל מטופל יחס אישי ומקצועי. בטיפול הראשון אני מבצע אבחון מעמיק - שיחה, בדיקת דופק ולשון - ובונה תוכנית טיפול מותאמת שמשלבת בין השיטות השונות לפי הצורך.
