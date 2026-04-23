@@ -57,6 +57,7 @@ export default function SciaticaPage() {
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
           <strong>בקצרה:</strong> סיאטיקה היא כאב שמקרין מהגב התחתון דרך הישבן ולאורך הרגל.
           דיקור סיני מוכח מחקרית כטיפול יעיל שמפחית דלקת, משחרר לחץ על העצב ומחזיר תנועה חופשית.
+          בקליניקה שלי במערב ראשון לציון, רוב המטופלים מרגישים שיפור ניכר כבר לאחר 3-5 טיפולים.
         </p>
 
         <h2 id="what">מה זה סיאטיקה?</h2>

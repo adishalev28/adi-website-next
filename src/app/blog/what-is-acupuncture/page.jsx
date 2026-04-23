@@ -2,8 +2,8 @@ import ArticleLayout from "@/components/ArticleLayout";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "מה זה דיקור סיני? | עדי שלו",
-  description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות.",
+  title: "מה זה דיקור סיני? המדריך למתחילים | עדי שלו ראשון לציון",
+  description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות. מדריך מקיף למתחילים מהקליניקה בראשון לציון.",
 };
 
 const RELATED = [

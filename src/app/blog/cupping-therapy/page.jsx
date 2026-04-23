@@ -57,6 +57,7 @@ export default function CuppingTherapyPage() {
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
           <strong>בקצרה:</strong> כוסות רוח (Cupping) הן טכניקה ברפואה הסינית שמשפרת זרימת דם,
           משחררת מתח שרירי ומפחיתה דלקת. הטיפול מתאים במיוחד לכאבי גב, צוואר תפוס ומתח כללי.
+          בקליניקה שלי בראשון לציון אני משלב כוסות רוח עם דיקור סיני לתוצאות טובות יותר.
         </p>
 
         <h2 id="what">מה זה כוסות רוח?</h2>
