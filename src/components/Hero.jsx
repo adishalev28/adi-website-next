@@ -68,14 +68,24 @@ export default function Hero() {
           color: C.goldLight, margin: "0 0 8px", lineHeight: 1.1,
           textShadow: "0 2px 20px rgba(0,0,0,0.15)",
         }}>
-          עדי שלו
+          <span style={{ display: "block" }}>עדי שלו</span>
+          <span style={{
+            display: "block",
+            fontSize: "clamp(20px, 3.2vw, 28px)",
+            fontWeight: 600,
+            color: "rgba(255,255,255,0.92)",
+            marginTop: "10px",
+            letterSpacing: "0.5px",
+          }}>
+            דיקור סיני בראשון לציון
+          </span>
         </h1>
         <p style={{
-          fontSize: "clamp(18px, 3vw, 24px)", fontWeight: 500,
-          color: "rgba(255,255,255,0.85)", margin: "0 0 28px",
-          letterSpacing: "1px",
+          fontSize: "clamp(16px, 2.4vw, 20px)", fontWeight: 500,
+          color: "rgba(255,255,255,0.8)", margin: "14px 0 28px",
+          letterSpacing: "0.5px",
         }}>
-          מטפל ברפואה סינית
+          מטפל ברפואה סינית · שיאצו · כוסות רוח · צמחי מרפא
         </p>
 
         {/* Treatment pills */}

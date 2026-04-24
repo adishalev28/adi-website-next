@@ -7,8 +7,27 @@ import { C, WA_URL } from "@/lib/constants";
 import { MedicalServiceSchema, BreadcrumbSchema, HowToSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "דיקור סיני בראשון לציון | עדי שלו - רפואה סינית",
-  description: "טיפול דיקור סיני מותאם אישית בראשון לציון. אבחון מעמיק, גישה הוליסטית, הקלה על כאב ואיזון הגוף והנפש. קבעו תור עכשיו.",
+  title: "דיקור סיני בראשון לציון - טיפול מותאם אישית | עדי שלו",
+  description: "דיקור סיני בראשון לציון אצל עדי שלו. הקלה על כאבי גב, צוואר, מיגרנות, חרדה ושינה. שיטות דונג וד״ר טאן. אבחון מעמיק וטיפול הוליסטי. תיאום תור בוואטסאפ.",
+  keywords: [
+    "דיקור סיני",
+    "דיקור סיני בראשון לציון",
+    "טיפול בדיקור",
+    "דיקור לכאבי גב",
+    "דיקור לחרדה",
+    "שיטת דונג",
+    "שיטת ד״ר טאן",
+    "רפואה סינית",
+    "עדי שלו",
+  ],
+  alternates: { canonical: "https://adishalev.co.il/dikur-sini" },
+  openGraph: {
+    title: "דיקור סיני בראשון לציון | עדי שלו",
+    description: "טיפול דיקור סיני מותאם אישית. שיטות דונג וד״ר טאן. הקלה על כאב, מתח וחרדה.",
+    url: "https://adishalev.co.il/dikur-sini",
+    locale: "he_IL",
+    type: "article",
+  },
 };
 
 const OTHER_SERVICES = [

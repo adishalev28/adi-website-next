@@ -3,20 +3,42 @@ import Script from "next/script";
 import { LocalBusinessSchema, FAQPageSchema, WebSiteSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "עדי שלו | רפואה סינית בראשון לציון - דיקור סיני, שיאצו וכוסות רוח",
+  metadataBase: new URL("https://adishalev.co.il"),
+  title: "דיקור סיני בראשון לציון | עדי שלו - קליניקה לרפואה סינית",
   description:
-    "קליניקה לרפואה סינית בראשון לציון. עדי שלו - מטפל מוסמך עם 8+ שנות ניסיון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא. יחס אישי ומקצועי. צרו קשר לתיאום תור.",
+    "דיקור סיני בראשון לציון אצל עדי שלו. קליניקה פרטית לטיפול מותאם אישית בכאב, מתח, שינה וחרדה. שיטות דונג וד״ר טאן, שיאצו, כוסות רוח וצמחי מרפא. תיאום תור בוואטסאפ.",
+  keywords: [
+    "דיקור סיני",
+    "דיקור סיני בראשון לציון",
+    "רפואה סינית בראשון לציון",
+    "מטפלים בראשון לציון",
+    "שיאצו בראשון לציון",
+    "כוסות רוח",
+    "צמחי מרפא סיניים",
+    "שיטת דונג",
+    "שיטת ד״ר טאן",
+    "עדי שלו",
+  ],
+  alternates: { canonical: "https://adishalev.co.il/" },
   manifest: "/manifest.json",
   icons: { icon: "/favicon.ico", apple: "/icon-192.png" },
   themeColor: "#6B7A5A",
   openGraph: {
-    title: "עדי שלו | רפואה סינית בראשון לציון",
-    description: "דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. קליניקה בראשון לציון עם 8+ שנות ניסיון.",
+    title: "דיקור סיני בראשון לציון | עדי שלו - רפואה סינית",
+    description: "קליניקה פרטית לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא - טיפול מותאם אישית בכאב, מתח ושינה.",
     url: "https://adishalev.co.il",
     siteName: "עדי שלו - רפואה סינית",
     locale: "he_IL",
     type: "website",
+    images: [{ url: "/clinic-room.jpg", width: 1200, height: 630, alt: "הקליניקה של עדי שלו בראשון לציון" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני בראשון לציון | עדי שלו",
+    description: "קליניקה פרטית לרפואה סינית - דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא.",
+    images: ["/clinic-room.jpg"],
+  },
+  robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
 };
 
 export default function RootLayout({ children }) {
