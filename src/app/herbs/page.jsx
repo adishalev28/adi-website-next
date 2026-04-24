@@ -6,8 +6,24 @@ import { C, WA_URL } from "@/lib/constants";
 import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "צמחי מרפא סיניים בראשון לציון | עדי שלו - רפואה סינית",
-  description: "פורמולות צמחי מרפא סיניים מותאמות אישית בראשון לציון. טיפול בשורש הבעיה ולא רק בתסמינים. קבעו תור.",
+  title: "צמחי מרפא סיניים בראשון לציון - פורמולות אישיות | עדי שלו",
+  description: "צמחי מרפא סיניים בראשון לציון אצל עדי שלו. פורמולות מותאמות אישית לטיפול בעיכול, שינה, חרדה ומערכת החיסון. רפואה סינית מסורתית. תיאום תור בוואטסאפ.",
+  keywords: [
+    "צמחי מרפא סיניים",
+    "צמחי מרפא בראשון לציון",
+    "פורמולות סיניות",
+    "צמחי מרפא לעיכול",
+    "רפואה סינית",
+    "עדי שלו",
+  ],
+  alternates: { canonical: "https://adishalev.co.il/herbs" },
+  openGraph: {
+    title: "צמחי מרפא סיניים בראשון לציון | עדי שלו",
+    description: "פורמולות צמחי מרפא סיניים מותאמות אישית - עיכול, שינה, חרדה ועוד.",
+    url: "https://adishalev.co.il/herbs",
+    locale: "he_IL",
+    type: "article",
+  },
 };
 
 const OTHER_SERVICES = [

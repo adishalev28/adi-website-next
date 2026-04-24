@@ -7,8 +7,25 @@ import AccessibilityWidget from "@/components/AccessibilityWidget";
 import { C } from "@/lib/constants";
 
 export const metadata = {
-  title: "מאמרים ומידע מקצועי | עדי שלו - רפואה סינית",
-  description: "מאמרים מקצועיים על רפואה סינית, דיקור, שיאצו ובריאות טבעית. מידע מבוסס ניסיון קליני.",
+  title: "מאמרים על רפואה סינית - דיקור, שיאצו וצמחי מרפא | עדי שלו",
+  description: "מאמרים מקצועיים של עדי שלו על רפואה סינית - דיקור לכאבי גב, חרדה, מיגרנות, סיאטיקה, שיאצו ועוד. מידע מבוסס ניסיון קליני. קליניקה בראשון לציון.",
+  keywords: [
+    "מאמרים רפואה סינית",
+    "דיקור סיני",
+    "בלוג רפואה סינית",
+    "דיקור לכאבי גב",
+    "שיאצו",
+    "כוסות רוח",
+    "עדי שלו",
+  ],
+  alternates: { canonical: "https://adishalev.co.il/blog" },
+  openGraph: {
+    title: "מאמרים על רפואה סינית | עדי שלו",
+    description: "מדריכים מקצועיים על דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא. מבוסס ניסיון קליני.",
+    url: "https://adishalev.co.il/blog",
+    locale: "he_IL",
+    type: "website",
+  },
 };
 
 const ARTICLES = [

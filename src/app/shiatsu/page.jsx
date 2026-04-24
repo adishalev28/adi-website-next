@@ -6,8 +6,26 @@ import { C, WA_URL } from "@/lib/constants";
 import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "שיאצו בראשון לציון | עדי שלו - רפואה סינית",
-  description: "עיסוי שיאצו מקצועי בראשון לציון. שחרור מתח, הקלה בכאבים ושיפור איכות החיים. טיפול מותאם אישית. קבעו תור.",
+  title: "שיאצו בראשון לציון - טיפול שחרור מתח וכאבים | עדי שלו",
+  description: "טיפול שיאצו בראשון לציון אצל עדי שלו. עיסוי לחץ יפני לשחרור מתח, כאבי גב וצוואר, מיגרנות ושינה. קליניקה פרטית, שעה של איזון. תיאום תור בוואטסאפ.",
+  keywords: [
+    "שיאצו",
+    "שיאצו בראשון לציון",
+    "טיפול שיאצו",
+    "עיסוי יפני",
+    "שיאצו לכאבי גב",
+    "שיאצו למתח",
+    "עדי שלו",
+    "רפואה סינית",
+  ],
+  alternates: { canonical: "https://adishalev.co.il/shiatsu" },
+  openGraph: {
+    title: "שיאצו בראשון לציון | עדי שלו",
+    description: "עיסוי שיאצו לשחרור מתח, כאבים ושיפור השינה. קליניקה פרטית בראשון לציון.",
+    url: "https://adishalev.co.il/shiatsu",
+    locale: "he_IL",
+    type: "article",
+  },
 };
 
 const OTHER_SERVICES = [
