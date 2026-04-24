@@ -71,6 +71,76 @@ src/
 - **שיטת ד"ר טאן** — לכאבים (גב, צוואר, כתפיים)
 - **משך טיפול** — "כשעה" + שילוב כלים מהרפואה הסינית
 
+## 🎯 SEO STANDARD — חובה לכל דף/מאמר חדש
+
+**המטרה: מקום ראשון בגוגל ללא Google Ads.** הניסיון של 24.4.2026 הראה שמטאדאטה חלשה = מיקום 3 עם 0% CTR.
+
+### 1. Metadata של דף חדש (חובה בכל `page.jsx` בתוך app/)
+
+```js
+export const metadata = {
+  title: "מילת מפתח ראשית + מיקום | שם הברנד",     // לדוגמה: "דיקור סיני לכאבי גב | עדי שלו"
+  description: "מילת מפתח ראשית בתחילה. תועלת. שיטת דונג/טאן. תיאום תור בוואטסאפ.", // 150-160 תווים
+  keywords: ["מילה1", "מילה2 + מיקום", "שם הברנד"],
+  alternates: { canonical: "https://adishalev.co.il/SLUG" },
+  openGraph: {
+    title: "קצר+חזק",
+    description: "1 משפט",
+    url: "https://adishalev.co.il/SLUG",
+    locale: "he_IL",
+    type: "article",  // או "website" לדפי נחיתה
+    images: [{ url: "/IMAGE.jpg", width: 1200, height: 630, alt: "תיאור" }],
+  },
+};
+```
+
+### 2. מבנה Heading (חובה)
+- **H1 אחד בלבד** — חייב להכיל את מילת המפתח הראשית + אפשר גם ברנד
+- **H2-H4** — מילות מפתח משניות / long-tail queries
+- לדוגמה H1 של מאמר: "דיקור סיני לכאבי גב בראשון לציון"
+
+### 3. Schema חובה לכל מאמר
+```jsx
+import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
+<ArticleSchema
+  title="..." description="..." url="..." 
+  datePublished="2026-04-24" 
+  image="https://adishalev.co.il/IMAGE.jpg"
+/>
+<BreadcrumbSchema items={[
+  { name: "בית", url: "https://adishalev.co.il/" },
+  { name: "בלוג", url: "https://adishalev.co.il/blog" },
+  { name: "הכותרת", url: "https://adishalev.co.il/blog/SLUG" },
+]} />
+```
+
+לדפי שירות: להשתמש ב-`MedicalServiceSchema` + `HowToSchema` (ראה dikur-sini/page.jsx).
+
+### 4. לעדכן `src/app/sitemap.js`
+להוסיף את ה-URL החדש:
+```js
+{ url: `${baseUrl}/blog/NEW-SLUG`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 }
+```
+
+### 5. חובה אחרי deploy
+1. להמתין ~2 דקות שוורסל יעלה
+2. לפתוח GSC: `https://search.google.com/search-console?resource_id=https%3A%2F%2Fadishalev.co.il%2F`
+3. בסרגל החיפוש העליון להדביק את ה-URL החדש
+4. ללחוץ "הגש בקשה ליצירת אינדקס" (מגבלה ~10/יום)
+
+### 6. Checklist לפני deploy של מאמר
+- [ ] `metadata` (title + description + keywords + canonical + og + type: "article")
+- [ ] H1 יחיד עם מילת המפתח
+- [ ] `ArticleSchema` + `BreadcrumbSchema`
+- [ ] פסקה ראשונה מכילה את מילת המפתח הראשית
+- [ ] 3+ H2 עם long-tail keywords
+- [ ] Internal links ל-2-3 דפי שירות רלוונטיים (dikur-sini/shiatsu/etc)
+- [ ] Alt text לכל תמונה ("בקליניקה בראשון לציון")
+- [ ] מילים 800+ (Google מעדיף תוכן מעמיק)
+- [ ] CTA לוואטסאפ בסוף
+- [ ] עדכון ב-sitemap.js
+- [ ] אחרי deploy: בקשת אינדקסציה ב-GSC
+
 ## כללים טכניים
 - RTL + עברית בכל UI
 - WhatsApp בלבד ליצירת קשר (אין טפסים)
