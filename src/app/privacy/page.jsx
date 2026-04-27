@@ -5,6 +5,7 @@ export const metadata = {
   title: "מדיניות פרטיות | עדי שלו - רפואה סינית",
   description: "מדיניות הפרטיות של אתר עדי שלו - קליניקה לרפואה סינית בראשון לציון.",
   robots: { index: false, follow: true },
+  alternates: { canonical: "https://adishalev.co.il/privacy" },
 };
 
 const PHONE_DISPLAY = "052-802-9031";

@@ -5,6 +5,7 @@ export const metadata = {
   title: "הצהרת נגישות | עדי שלו - רפואה סינית",
   description: "הצהרת הנגישות של אתר עדי שלו - קליניקה לרפואה סינית בראשון לציון.",
   robots: { index: false, follow: true },
+  alternates: { canonical: "https://adishalev.co.il/accessibility" },
 };
 
 const PHONE_DISPLAY = "052-802-9031";

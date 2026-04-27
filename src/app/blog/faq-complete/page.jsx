@@ -5,6 +5,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 export const metadata = {
   title: "שאלות ותשובות על רפואה סינית | עדי שלו - ראשון לציון",
   description: "20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות מעדי שלו, קליניקה בראשון לציון.",
+  alternates: { canonical: "https://adishalev.co.il/blog/faq-complete" },
 };
 
 const RELATED = [
