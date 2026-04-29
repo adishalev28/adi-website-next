@@ -56,6 +56,7 @@ function ReviewCard({ r }) {
       border: `1px solid ${C.sand}`,
       display: "flex", flexDirection: "column",
       scrollSnapAlign: "start",
+      scrollSnapStop: "always",
     }}>
       {/* Header: Stars + Google */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "12px" }}>
@@ -141,7 +142,7 @@ export default function Reviews() {
             <GoogleSvg />
             <span style={{ fontSize: "22px", fontWeight: 900, color: C.bark }}>5.0</span>
             <Stars />
-            <span style={{ fontSize: "13px", color: C.barkLight, fontWeight: 500 }}>מבוסס על 28 ביקורות</span>
+            <span style={{ fontSize: "13px", color: C.barkLight, fontWeight: 500 }}>מבוסס על 29 ביקורות</span>
           </a>
         </div>
       </div>
