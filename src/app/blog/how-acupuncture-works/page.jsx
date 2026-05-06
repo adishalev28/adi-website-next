@@ -18,7 +18,7 @@ export default function HowAcupunctureWorksPage() {
     <>
       <ArticleSchema
         title="איך דיקור סיני עובד?"
-        description="הסבר ברור ופשוט על איך מחטים דקיקות מצליחות להעלים כאב פיזי או רגשי - מרידיאנים, חסימות אנרגיה ושיטת ד\"ר טאן."
+        description='הסבר ברור ופשוט על איך מחטים דקיקות מצליחות להעלים כאב פיזי או רגשי - מרידיאנים, חסימות אנרגיה ושיטת ד"ר טאן.'
         url="https://adishalev.co.il/blog/how-acupuncture-works"
         datePublished="2026-05-05"
       />
