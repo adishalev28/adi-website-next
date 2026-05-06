@@ -124,6 +124,12 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/blog/how-acupuncture-works`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.85,
+    },
     // דפים משפטיים
     {
       url: `${baseUrl}/privacy`,
