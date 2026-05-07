@@ -41,11 +41,30 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
         {subtitle && (
           <p style={{
             fontSize: "17px", color: "rgba(255,255,255,0.75)",
-            maxWidth: "600px", margin: "0 auto 20px", lineHeight: 1.6,
+            maxWidth: "600px", margin: "0 auto 16px", lineHeight: 1.6,
           }}>
             {subtitle}
           </p>
         )}
+
+        <div style={{
+          fontSize: "14px",
+          color: "rgba(255,255,255,0.7)",
+          marginBottom: "10px",
+        }}>
+          מאת{" "}
+          <a href="/" style={{
+            color: "white",
+            fontWeight: 700,
+            textDecoration: "none",
+            borderBottom: "1px solid rgba(255,255,255,0.5)",
+            paddingBottom: "1px",
+          }}>
+            עדי שלו
+          </a>
+          {" "}- מטפל ברפואה סינית בראשון לציון
+        </div>
+
         <div style={{ display: "flex", gap: "16px", justifyContent: "center", fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
           {date && <span>{date}</span>}
           {readTime && <span>· {readTime} דקות קריאה</span>}
