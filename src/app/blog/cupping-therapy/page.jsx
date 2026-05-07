@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -113,6 +114,8 @@ export default function CuppingTherapyPage() {
           הסימנים נעלמים בדרך כלל תוך <strong>3-7 ימים</strong>. בטיפולים חוזרים,
           הסימנים הולכים ומתבהרים -סימן שהזרימה משתפרת.
         </p>
+
+        <BlogMidCTA question="מתעניינים בטיפול בכוסות רוח?" />
 
         <h2 id="session">מה קורה בטיפול?</h2>
         <ol>

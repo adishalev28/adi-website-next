@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -98,6 +99,8 @@ export default function SciaticaPage() {
         <p>
           הטיפול מתמקד בפתיחת החסימה, שיפור זרימת הדם וחיזוק האזור.
         </p>
+
+        <BlogMidCTA topic="סיאטיקה" />
 
         <h2 id="treatment">איך הטיפול עובד?</h2>
         <h3>שיטת מאסטר טונג</h3>

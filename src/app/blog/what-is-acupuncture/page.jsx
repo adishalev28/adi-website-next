@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -72,6 +73,8 @@ export default function WhatIsAcupuncturePage() {
       <blockquote>
         ארגון הבריאות העולמי (WHO) מכיר בדיקור סיני כטיפול יעיל ליותר מ-40 מצבים רפואיים.
       </blockquote>
+
+      <BlogMidCTA question="חושבים לנסות דיקור סיני בפעם הראשונה?" />
 
       <h2>מה קורה בטיפול הראשון?</h2>
       <h3>שלב 1  - אבחון ושיחה</h3>

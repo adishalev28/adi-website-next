@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -145,6 +146,8 @@ export default function SleepPage() {
           לגוף לשקוע לשינה עמוקה. ההבדל מורגש כבר מהטיפול הראשון - מטופלים רבים
           מספרים שישנו את שינת הלילה הכי טובה שהיתה להם מזה חודשים.
         </p>
+
+        <BlogMidCTA topic="בעיות שינה" />
 
         <h2>איך נראה טיפול לבעיות שינה?</h2>
         <p>

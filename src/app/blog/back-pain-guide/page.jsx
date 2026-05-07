@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 import { C } from "@/lib/constants";
 
@@ -121,6 +122,8 @@ export default function BackPainGuidePage() {
         </p>
 
         {/* 3. דיקור סיני */}
+        <BlogMidCTA topic="כאבי גב" />
+
         <h2 id="acupuncture">🪡 דיקור סיני לכאבי גב</h2>
         <p>
           דיקור סיני הוכח במחקרים קליניים רבים כטיפול יעיל לכאבי גב -חריפים וכרוניים.

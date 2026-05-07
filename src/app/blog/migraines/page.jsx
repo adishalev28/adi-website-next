@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -216,6 +217,8 @@ export default function MigrainesPage() {
           היתרון הגדול - הרבה מטופלים מרגישים שהכאב יורד כבר בזמן הטיפול עצמו,
           עוד לפני שהמחטים יוצאות. זה מאפשר לי לבדוק ולכוונן את הטיפול בזמן אמת.
         </p>
+
+        <BlogMidCTA topic="מיגרנות וכאבי ראש" />
 
         <h2>מה קורה בטיפול דיקור לכאבי ראש?</h2>
         <p>

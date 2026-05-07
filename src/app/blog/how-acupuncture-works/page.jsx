@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -106,6 +107,8 @@ export default function HowAcupunctureWorksPage() {
           <li><strong>בעיות פנימיות</strong> (חרדה, שינה, עיכול, מיגרנות) - שיטת מאסטר דונג והרפואה הסינית הקלאסית</li>
           <li><strong>טיפול משולב</strong> - לעיתים קרובות אני משלב בין השיטות באותו טיפול</li>
         </ul>
+
+        <BlogMidCTA question="מתעניינים בטיפול דיקור סיני?" />
 
         <h2>מה מרגישים בטיפול?</h2>
         <p>

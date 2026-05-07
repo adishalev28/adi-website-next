@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -230,6 +231,8 @@ export default function ShiatsuBlogPage() {
           אחרי תקופה מאומצת - עבודה, מילואים, תקופה עמוסה בבית - שיאצו עוזר
           לגוף לחזור לעצמו.
         </p>
+
+        <BlogMidCTA question="מתעניינים בטיפול שיאצו?" />
 
         <h2>מה קורה בטיפול שיאצו?</h2>
         <p>

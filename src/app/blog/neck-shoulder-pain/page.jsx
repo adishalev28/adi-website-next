@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -147,6 +148,8 @@ export default function NeckShoulderPainPage() {
           מבקש מהמטופל לזוז, לסובב את הראש, להרים את הכתף - ובודק אם יש
           שיפור מיידי. אם צריך, מתאים את הנקודות עד שמגיעים לתוצאה.
         </p>
+
+        <BlogMidCTA topic="כאבי צוואר וכתפיים" />
 
         <h2>איך נראה טיפול לכאבי צוואר וכתפיים?</h2>
         <p>

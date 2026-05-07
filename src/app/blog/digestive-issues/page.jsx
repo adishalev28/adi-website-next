@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -160,6 +161,8 @@ export default function DigestiveIssuesPage() {
           וגם משפר את תפקוד מערכת העיכול. זו אחת הסיבות שדיקור כל כך יעיל
           לבעיות כמו מעי רגיז, שבהן המרכיב הנפשי משחק תפקיד מרכזי.
         </p>
+
+        <BlogMidCTA topic="בעיות עיכול" />
 
         <h2>איך נראה הטיפול?</h2>
         <p>

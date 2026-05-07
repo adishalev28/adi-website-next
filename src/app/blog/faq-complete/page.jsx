@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import FaqAccordion from "@/components/FaqAccordion";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
@@ -144,10 +145,13 @@ export default function FaqCompletePage() {
         לחצו על כל שאלה כדי לראות את התשובה.
       </p>
 
-      {FAQS.map(cat => (
+      {FAQS.map((cat, idx) => (
         <div key={cat.category}>
           <h2>{cat.category}</h2>
           <FaqAccordion items={cat.items} />
+          {idx === Math.floor(FAQS.length / 2) - 1 && (
+            <BlogMidCTA question="עדיין יש לכם שאלות לפני שמתחילים?" />
+          )}
         </div>
       ))}
 

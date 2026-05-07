@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 import { WA_URL } from "@/lib/constants";
 
@@ -95,6 +96,8 @@ export default function FacialParalysisPage() {
           <li><strong>שחרור המרידיאנים</strong> -החזרת זרימת הצ&apos;י והדם לפנים</li>
           <li><strong>חיזוק הצ&apos;י</strong> -תמיכה ביכולת ההחלמה של הגוף</li>
         </ul>
+
+        <BlogMidCTA question="התמודדות עם פציאליס? אני מטפל בזה." />
 
         <h2 id="treatment">איך הטיפול עובד בפועל?</h2>
         <p>

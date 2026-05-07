@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -135,6 +136,8 @@ export default function AnxietyPage() {
           והנפש הם מערכת אחת, ולכן הטיפול מכוון גם לתסמינים הגופניים וגם
           לשורש הרגשי.
         </p>
+
+        <BlogMidCTA topic="חרדה ומתח נפשי" />
 
         <h2>איך הטיפול עובד בפועל?</h2>
         <p>

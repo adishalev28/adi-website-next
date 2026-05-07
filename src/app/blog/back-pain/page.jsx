@@ -1,4 +1,5 @@
 import ArticleLayout from "@/components/ArticleLayout";
+import BlogMidCTA from "@/components/BlogMidCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
@@ -196,6 +197,8 @@ export default function BackPainPage() {
           חשוב לציין: ככל שמגיעים מוקדם יותר אחרי החזרה מהשירות, קל יותר
           לגוף לחזור לעצמו. אל תחכו שהכאב יהפוך לכרוני.
         </p>
+
+        <BlogMidCTA topic="כאבי גב" />
 
         <h2>מה קורה בטיפול דיקור לכאבי גב?</h2>
         <p>
