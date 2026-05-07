@@ -35,6 +35,9 @@ const nextConfig = {
       { source: "/category/uncategorized/", destination: "/blog", permanent: true },
       { source: "/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA", destination: "/accessibility", permanent: true },
       { source: "/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA/", destination: "/accessibility", permanent: true },
+      // מאמר שיאצו או עיסוי - הוסר 7.5.2026 (לא תאם את הגישה הקלינית של עדי)
+      { source: "/blog/shiatsu-vs-massage", destination: "/blog/shiatsu", permanent: true },
+      { source: "/blog/shiatsu-vs-massage/", destination: "/blog/shiatsu", permanent: true },
     ];
   },
 };
