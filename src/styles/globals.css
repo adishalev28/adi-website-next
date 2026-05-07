@@ -452,6 +452,20 @@ body.a11y-large-cursor * {
     height: 180px;
   }
 }
+
+/* ─── HomepageCTA (end of blog articles) ─── */
+.homepage-cta-card a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(91,107,74,0.35);
+}
+@media (max-width: 720px) {
+  .homepage-cta-inner {
+    grid-template-columns: 1fr !important;
+  }
+  .homepage-cta-photo {
+    min-height: 280px !important;
+  }
+}
 .related-article-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(44,42,38,0.1) !important;
