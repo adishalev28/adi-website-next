@@ -6,7 +6,35 @@ import CookieConsent from "@/components/CookieConsent";
 import AccessibilityWidget from "@/components/AccessibilityWidget";
 import Section from "@/components/Section";
 import Image from "next/image";
-import { BreadcrumbSchema } from "@/components/SchemaMarkup";
+import { BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
+import ServiceFAQ from "@/components/ServiceFAQ";
+
+const ABOUT_FAQ = [
+  {
+    q: "מה ההכשרה שלך ברפואה סינית?",
+    a: "אני בוגר מכללת רידמן לרפואה סינית, אחת המכללות המובילות בארץ בתחום. בנוסף, אני מטפל מעל 6 שנים בקופת חולים מכבי טבעי בדיקור סיני ושיאצו - מה שמחייב סינון מקצועי קפדני וחידוש הסמכות שוטף.",
+  },
+  {
+    q: "איפה הקליניקה?",
+    a: "הקליניקה ממוקמת במערב ראשון לציון. לכתובת המדויקת ותיאום הגעה - שלחו הודעה בוואטסאפ, אחזור אליכם בהקדם.",
+  },
+  {
+    q: "האם הטיפול אצלך דרך מכבי טבעי?",
+    a: "אני מטפל גם במכבי טבעי וגם בקליניקה הפרטית שלי. הטיפול בקליניקה הוא פרטי (לא דרך הקופה). היתרון בקליניקה הפרטית: זמן ארוך יותר לכל מטופל, גמישות בתיאום, וגישה אישית עמוקה יותר.",
+  },
+  {
+    q: "באילו שיטות אתה מתמחה?",
+    a: "אני משלב שתי שיטות עיקריות בדיקור סיני: שיטת ד\"ר טאן - שיטה מתקדמת לטיפול בכאבים (גב, צוואר, כתפיים, סיאטיקה) שעובדת דרך נקודות מרוחקות; ושיטת מאסטר טונג (דונג) - שיטה ייחודית לבעיות פנימיות (חרדה, שינה, עיכול, פוריות). בנוסף - שיאצו, כוסות רוח וצמחי מרפא סיניים לפי הצורך.",
+  },
+  {
+    q: "כמה זמן אתה כבר מטפל?",
+    a: "אני מטפל כבר מעל 8 שנים, עם מעל 500 מטופלים שעברו אצלי טיפולים. במכבי טבעי אני נמצא 6+ שנים - מה שאומר שעברתי תהליך ארוך של ביסוס מקצועי וניסיון קליני מגוון.",
+  },
+  {
+    q: "מה ההבדל בינך לבין מטפלים אחרים?",
+    a: "השילוב הייחודי בין הסמכה ממכבי טבעי (סטנדרט מוסדי גבוה) לבין קליניקה פרטית (זמן וגישה אישית), והמומחיות בשתי שיטות הדיקור המתקדמות (טאן + טונג). אני לא מאמין בטיפול שטחי - אני בוחן את שורש הבעיה ובונה תוכנית טיפול אישית.",
+  },
+];
 import { C } from "@/lib/constants";
 
 export const metadata = {
@@ -77,6 +105,7 @@ export default function AboutPage() {
           { name: "אודות", url: "https://adishalev.co.il/about" },
         ]}
       />
+      <FAQPageSchema items={ABOUT_FAQ} />
 
       <Navbar basePath="/" />
 
@@ -489,6 +518,37 @@ export default function AboutPage() {
               </div>
             ))}
           </div>
+        </div>
+      </Section>
+
+      {/* שאלות נפוצות */}
+      <Section bg={C.cream} style={{ padding: "60px 24px" }}>
+        <div style={{ maxWidth: "720px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "32px" }}>
+            <div
+              style={{
+                color: C.sage,
+                fontSize: "12px",
+                fontWeight: 700,
+                letterSpacing: "3px",
+                marginBottom: "12px",
+                textTransform: "uppercase",
+              }}
+            >
+              שאלות נפוצות
+            </div>
+            <h2
+              style={{
+                fontSize: "32px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: 0,
+              }}
+            >
+              שאלות שמטופלים שואלים אותי
+            </h2>
+          </div>
+          <ServiceFAQ items={ABOUT_FAQ} />
         </div>
       </Section>
 
