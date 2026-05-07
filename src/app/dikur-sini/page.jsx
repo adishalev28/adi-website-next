@@ -222,6 +222,143 @@ export default function AcupuncturePage() {
         </div>
       </Section>
 
+      {/* סיפורי הצלחה - מקרים מהקליניקה */}
+      <Section bg={C.sand}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <div style={{
+              color: C.gold,
+              fontSize: "12px",
+              fontWeight: 700,
+              letterSpacing: "3px",
+              marginBottom: "12px",
+              textTransform: "uppercase",
+            }}>
+              ✦ מקרים מהקליניקה ✦
+            </div>
+            <h2 style={{
+              fontSize: "32px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 12px",
+              lineHeight: 1.3,
+            }}>
+              סיפור אמיתי מהקליניקה
+            </h2>
+            <p style={{ fontSize: "15px", color: C.barkLight, margin: 0, fontStyle: "italic" }}>
+              שמות וזיהוי שונו לשמירה על פרטיות
+            </p>
+          </div>
+
+          <article style={{
+            background: "white",
+            borderRadius: "20px",
+            padding: "40px 36px",
+            boxShadow: "0 6px 32px rgba(44,42,38,0.08)",
+            border: `1px solid ${C.sage}20`,
+          }}>
+            <div style={{
+              display: "inline-block",
+              background: `${C.sage}15`,
+              color: C.sageDark,
+              fontSize: "13px",
+              fontWeight: 700,
+              padding: "6px 14px",
+              borderRadius: "20px",
+              marginBottom: "16px",
+            }}>
+              מ&apos;, בת 30, עובדת בעבודה שוחקת
+            </div>
+
+            <h3 style={{
+              fontSize: "22px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 16px",
+              lineHeight: 1.4,
+            }}>
+              כאבי ראש/מיגרנות כרוניים שניהלו את החיים שלה
+            </h3>
+
+            <div style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9 }}>
+              <p style={{ margin: "0 0 16px" }}>
+                מ&apos; הגיעה אליי אחרי תקופה ארוכה של כאבי ראש כרוניים, ספציפית באזור הרקות. הם הפכו לחלק מהיומיום שלה. בפגישה הראשונה היא סיפרה לי שהם ניהלו את החיים שלה. היא ביטלה מפגשים עם חברים, הפסיקה לצאת בערב, התחילה להסתגר בבית. בעבודה (שוחקת ועמוסה).
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                באבחון הסיני זיהיתי דפוס של סטגנציית צ&apos;י של הכבד (Liver Qi Stagnation) עם השפעה על מרידיאן ה-Gallbladder. דפוס קלאסי של אישה צעירה בלחץ מתמשך. התסמינים הנלווים סייעו בכיוון: ירידה בתיאבון, קושי להירדם, רגישות לרעש.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+                lineHeight: 1.4,
+              }}>
+                ועכשיו לחלק שמפתיע אנשים:
+              </h4>
+
+              <p style={{ margin: "0 0 16px" }}>
+                הנקודה הכי טובה שעבדתי איתה לכאבים ברקות - לא נמצאת ברקות עצמן. היא בכלל נמצאת <strong>בצד הרגל, מעל הברך</strong>. כן, ברגל. אישה עם כאב בראש, והפתרון עובר דרך הרגל.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                זה אחד הדברים הכי מרתקים ברפואה הסינית: <strong>המרידיאנים מקשרים בין אזורים שלא נראים קשורים פיזית.</strong> מרידיאן ה-Gallbladder, למשל, עובר בצד הראש (בדיוק באזור הרקות), יורד דרך הצוואר, השכמות, הצדדים של הגוף, ועד לרגליים. כשיש חסימה במרידיאן, הכאב מופיע במקום אחד אבל הפתרון נמצא במקום אחר לגמרי.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                באותה צורה: כאבי גב תחתון רבים מטופלים דרך נקודות בכפות הידיים. כאבי ראש קדמיים - דרך נקודה ברגל. בעיות עיכול - דרך נקודות בידיים וברגליים. <strong>הכל מחובר</strong>, ולפעמים הדרך הקצרה ביותר לפתרון עוברת במסלול שנראה לא הגיוני בכלל לעין מערבית.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                זו הסיבה שבטיפול הראשון רבים מופתעים. &quot;אבל הכאב כאן,&quot; הם אומרים ומצביעים על הראש. ואני אומר: &quot;את ההשפעה אתה תרגיש בראש, הטיפול נעשה מהרגל, וגם זה יכול להשתנות תלוי מקרה&quot;.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                הטיפול
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                דיקור ממוקד עם מעט מחטים בנקודות מדויקות - גישה של שיטת מאסטר דונג שבה אני מתמחה. הנקודה ברגל הייתה החלק המרכזי, יחד עם נקודות נוספות לאיזון מרידיאן ה-Gallbladder ופיזור סטגנציית הכבד.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                התוצאות
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                אצל מ&apos; הגוף הגיב מהר במיוחד. כבר אחרי הטיפול הראשון היא הרגישה הקלה משמעותית בכאבי הראש - וזה הלך והשתפר מטיפול לטיפול. אחרי 3-4 טיפולים היא כבר הרגישה הרבה יותר טוב.
+              </p>
+
+              <div style={{
+                background: `${C.gold}15`,
+                borderRight: `4px solid ${C.gold}`,
+                padding: "16px 20px",
+                borderRadius: "8px",
+                margin: "0 0 16px",
+              }}>
+                <p style={{ margin: 0, fontSize: "15px", lineHeight: 1.8 }}>
+                  <strong>חשוב לי לציין:</strong> זה לא תמיד ככה. כל מטופל מגיב בקצב משלו. לפעמים השיפור מורגש מהטיפול הראשון (כמו במקרה של מ&apos;), לפעמים הוא הדרגתי יותר ולוקח כמה טיפולים עד שמרגישים אותו.
+                </p>
+              </div>
+
+              <p style={{ margin: "0" }}>
+                מה ששימח אותי בטיפול לא היה שכאבי הראש הפסיקו בלבד. השינוי היה עמוק יותר. התיאבון חזר. השמחה חזרה. הביטחון לצאת למפגשים חזר. &quot;זה הפסיק לנהל אותי&quot;, היא אמרה לי בטיפול האחרון.
+              </p>
+            </div>
+          </article>
+        </div>
+      </Section>
+
       {/* שאלות נפוצות */}
       <Section bg={C.cream}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
