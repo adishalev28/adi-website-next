@@ -13,8 +13,8 @@ const FAQ_ITEMS = [
 ];
 
 export const metadata = {
-  title: "שיאצו בראשון לציון - טיפול שחרור מתח וכאבים | עדי שלו",
-  description: "טיפול שיאצו בראשון לציון אצל עדי שלו. עיסוי לחץ יפני לשחרור מתח, כאבי גב וצוואר, מיגרנות ושינה. קליניקה פרטית, שעה של איזון. תיאום תור בוואטסאפ.",
+  title: "שיאצו בראשון לציון - עדי שלו | שחרור מתח, כאבי גב ושיקום תנועה",
+  description: "מרגישים את הלחץ בכתפיים? בקליניקה שלי במערב ראשון לציון אני משלב שיאצו מסורתי עם ניסיון קליני עשיר. שעה אחת של טיפול עמוק שמחזיר לכם את האנרגיה. תיאום בוואטסאפ.",
   keywords: [
     "שיאצו",
     "שיאצו בראשון לציון",
@@ -22,16 +22,20 @@ export const metadata = {
     "עיסוי יפני",
     "שיאצו לכאבי גב",
     "שיאצו למתח",
+    "שיאצו לכאבי צוואר",
+    "שיאצו לאחר לידה",
+    "שיאצו לעובדי היי-טק",
     "עדי שלו",
     "רפואה סינית",
   ],
   alternates: { canonical: "https://adishalev.co.il/shiatsu" },
   openGraph: {
-    title: "שיאצו בראשון לציון | עדי שלו",
-    description: "עיסוי שיאצו לשחרור מתח, כאבים ושיפור השינה. קליניקה פרטית בראשון לציון.",
+    title: "שיאצו בראשון לציון - עדי שלו | שחרור מתח, כאבי גב ושיקום תנועה",
+    description: "מרגישים את הלחץ בכתפיים? בקליניקה שלי במערב ראשון לציון אני משלב שיאצו מסורתי עם ניסיון קליני עשיר. שעה של טיפול עמוק שמחזיר לכם את האנרגיה.",
     url: "https://adishalev.co.il/shiatsu",
     locale: "he_IL",
     type: "article",
+    images: [{ url: "/adi-shiatsu.jpg", width: 1200, height: 630, alt: "טיפול שיאצו בקליניקה בראשון לציון" }],
   },
 };
 
@@ -82,6 +86,45 @@ export default function ShiatsuPage() {
           </h1>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.85)", lineHeight: 1.7 }}>
             עיסוי שיאצו מקצועי  - שחרור מתח, הקלה בכאבים ושיפור איכות החיים
+          </p>
+        </div>
+      </section>
+
+      {/* באנר - פעם ראשונה? שיאצו זו ההתחלה הנכונה */}
+      <section style={{
+        background: `linear-gradient(135deg, ${C.gold}, ${C.goldLight})`,
+        padding: "32px 24px",
+        textAlign: "center",
+      }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <p style={{
+            fontSize: "13px",
+            fontWeight: 700,
+            letterSpacing: "3px",
+            color: "rgba(255,255,255,0.85)",
+            margin: "0 0 8px",
+            textTransform: "uppercase",
+          }}>
+            ✦ למתחילים ברפואה סינית ✦
+          </p>
+          <h2 style={{
+            fontSize: "clamp(20px, 3vw, 26px)",
+            fontWeight: 800,
+            color: "white",
+            margin: "0 0 8px",
+            lineHeight: 1.4,
+          }}>
+            פעם ראשונה ברפואה סינית? שיאצו זו ההתחלה הנכונה
+          </h2>
+          <p style={{
+            fontSize: "15px",
+            color: "rgba(255,255,255,0.95)",
+            lineHeight: 1.7,
+            margin: 0,
+            maxWidth: "640px",
+            marginInline: "auto",
+          }}>
+            ללא מחטים, בלבוש מלא, חוויה נעימה ומרגיעה. דרך מצוינת להכיר את הגישה הסינית לטיפול בכאב ובמתח, בלי להתחייב מראש לדיקור.
           </p>
         </div>
       </section>
@@ -361,6 +404,112 @@ export default function ShiatsuPage() {
         </div>
       </Section>
 
+      {/* 6 מיתוסים על שיאצו */}
+      <Section bg={C.bark}>
+        <div style={{ maxWidth: "820px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <div style={{
+              color: C.gold,
+              fontSize: "12px",
+              fontWeight: 700,
+              letterSpacing: "3px",
+              marginBottom: "12px",
+              textTransform: "uppercase",
+            }}>
+              שובר מיתוסים
+            </div>
+            <h2 style={{
+              fontSize: "32px",
+              fontWeight: 800,
+              color: "white",
+              margin: 0,
+              lineHeight: 1.3,
+            }}>
+              6 מיתוסים על שיאצו שכדאי להכיר
+            </h2>
+          </div>
+          <div className="shiatsu-myths" style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gap: "16px",
+          }}>
+            {[
+              {
+                myth: "שיאצו זה רק עיסוי לפינוק",
+                truth: "שיאצו הוא טיפול קליני שמטפל בכאבים, מתח, חרדה, בעיות שינה ועוד. ההבדל מעיסוי ספא הוא שיש מאחוריו אבחון של רפואה סינית.",
+              },
+              {
+                myth: "צריך להתפשט בטיפול",
+                truth: "לא. שיאצו מבוצע בלבוש מלא - חולצה ומכנסיים נוחים. אין צורך בשמנים, אין חשיפה. הרבה אנשים מעדיפים את זה.",
+              },
+              {
+                myth: "זה כואב",
+                truth: "הלחיצות עמוקות אבל מותאמות לרגישות שלכם. אם משהו חזק מדי - אומרים, ומתאימים. רוב האנשים מתארים את הטיפול כנעים מאוד ומרגיע.",
+              },
+              {
+                myth: "שיאצו ועיסוי שוודי זה בערך אותו דבר",
+                truth: "ההפך מוחלט. עיסוי שוודי מתמקד בשרירים. שיאצו עובד על מרידיאנים - ערוצי אנרגיה ברפואה סינית - ומטפל בשורש הבעיה, לא רק בסימפטום.",
+              },
+              {
+                myth: "צריך לעשות את זה הרבה זמן עד שעוזר",
+                truth: "מצבים חריפים (צוואר תפוס, מתח חריף) משתפרים תוך 2-3 טיפולים. רוב האנשים מרגישים הקלה ניכרת כבר מהטיפול הראשון.",
+              },
+              {
+                myth: "אם יש לי בעיה רפואית, שיאצו לא יכול לעזור",
+                truth: "שיאצו עובד מצוין כטיפול משלים. אני בודק שאין מגבלות, מתאים את עוצמת הטיפול, ועובד גם עם מטופלים שלוקחים תרופות או אחרי ניתוחים.",
+              },
+            ].map((m) => (
+              <div key={m.myth} style={{
+                background: "rgba(255,255,255,0.05)",
+                borderRadius: "16px",
+                padding: "24px",
+                border: "1px solid rgba(255,255,255,0.1)",
+              }}>
+                <div style={{ marginBottom: "12px" }}>
+                  <span style={{
+                    color: "#E06060",
+                    fontSize: "12px",
+                    fontWeight: 700,
+                    letterSpacing: "2px",
+                    textTransform: "uppercase",
+                  }}>
+                    ✗ מיתוס
+                  </span>
+                  <p style={{
+                    color: "rgba(255,255,255,0.9)",
+                    fontSize: "16px",
+                    fontWeight: 700,
+                    margin: "6px 0 0",
+                    lineHeight: 1.5,
+                  }}>
+                    {m.myth}
+                  </p>
+                </div>
+                <div>
+                  <span style={{
+                    color: C.gold,
+                    fontSize: "12px",
+                    fontWeight: 700,
+                    letterSpacing: "2px",
+                    textTransform: "uppercase",
+                  }}>
+                    ✓ האמת
+                  </span>
+                  <p style={{
+                    color: "rgba(255,255,255,0.85)",
+                    fontSize: "14px",
+                    margin: "6px 0 0",
+                    lineHeight: 1.7,
+                  }}>
+                    {m.truth}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
       {/* שאלות נפוצות */}
       <Section bg={C.sand}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
@@ -368,6 +517,66 @@ export default function ShiatsuPage() {
             שאלות נפוצות על שיאצו
           </h2>
           <ServiceFAQ items={FAQ_ITEMS} />
+        </div>
+      </Section>
+
+      {/* באנר התייעצות - לפני CTA הראשי */}
+      <Section bg={C.cream}>
+        <div style={{
+          maxWidth: "720px",
+          margin: "0 auto",
+          background: "white",
+          borderRadius: "20px",
+          padding: "40px 32px",
+          boxShadow: "0 6px 32px rgba(44,42,38,0.08)",
+          border: `1px solid ${C.sage}20`,
+          textAlign: "center",
+        }}>
+          <div style={{
+            color: C.sage,
+            fontSize: "12px",
+            fontWeight: 700,
+            letterSpacing: "3px",
+            marginBottom: "12px",
+            textTransform: "uppercase",
+          }}>
+            ✦ לפני שמתחייבים ✦
+          </div>
+          <h2 style={{
+            fontSize: "24px",
+            fontWeight: 800,
+            color: C.bark,
+            margin: "0 0 14px",
+            lineHeight: 1.4,
+          }}>
+            מתלבטים אם שיאצו מתאים לכם?
+          </h2>
+          <p style={{
+            fontSize: "16px",
+            color: C.barkLight,
+            lineHeight: 1.8,
+            margin: "0 0 24px",
+            maxWidth: "560px",
+            marginInline: "auto",
+          }}>
+            שלחו לי הודעה בוואטסאפ עם מה שעובר עליכם - 5 דקות שיחה, אספר לכם בכנות אם זה הטיפול הנכון לכם או שעדיף משהו אחר. אין התחייבות, אין &quot;מכירה&quot;, פשוט שיחה מקצועית.
+          </p>
+          <a href={WA_URL} target="_blank" rel="noreferrer" style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            background: "linear-gradient(135deg, #34A853, #2D9248)",
+            color: "white",
+            padding: "14px 32px",
+            borderRadius: "50px",
+            fontSize: "15px",
+            fontWeight: 700,
+            textDecoration: "none",
+            boxShadow: "0 4px 24px rgba(52,168,83,0.3)",
+          }}>
+            <WaSvg size={20} />
+            שיחת התייעצות בוואטסאפ
+          </a>
         </div>
       </Section>
 
