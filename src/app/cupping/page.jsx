@@ -6,8 +6,8 @@ import { C, WA_URL } from "@/lib/constants";
 import { MedicalServiceSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
-  title: "כוסות רוח בראשון לציון - שחרור שרירים וכאבים | עדי שלו",
-  description: "טיפול כוסות רוח בראשון לציון אצל עדי שלו. שיפור זרימת הדם, שחרור כאבי גב וצוואר, וייעוף שרירים תפוסים. שיטה מסורתית של רפואה סינית. תיאום תור בוואטסאפ.",
+  title: "כוסות רוח בראשון לציון - שחרור מהיר לכאב גב וצוואר | עדי שלו",
+  description: "כאב גב או שרירים תפוסים שלא עוברים? בקליניקה שלי בראשון לציון אני משחרר מתח עמוק עם כוסות רוח - מקל על כאבי גב, צוואר ומשפר זרימת דם. תיאום בוואטסאפ.",
   keywords: [
     "כוסות רוח",
     "כוסות רוח בראשון לציון",
@@ -19,8 +19,8 @@ export const metadata = {
   ],
   alternates: { canonical: "https://adishalev.co.il/cupping" },
   openGraph: {
-    title: "כוסות רוח בראשון לציון | עדי שלו",
-    description: "טיפול כוסות רוח לשחרור שרירים, כאבי גב וזרימת דם. קליניקה פרטית בראשון לציון.",
+    title: "כוסות רוח בראשון לציון - שחרור מהיר לשרירים תפוסים | עדי שלו",
+    description: "כאב גב או צוואר שלא עובר? כוסות רוח משחררות מתח עמוק ומקלות מיד. קליניקה פרטית בראשון לציון.",
     url: "https://adishalev.co.il/cupping",
     locale: "he_IL",
     type: "article",
