@@ -404,6 +404,131 @@ export default function ShiatsuPage() {
         </div>
       </Section>
 
+      {/* סיפור הצלחה - מקרה מהקליניקה */}
+      <Section bg={C.cream}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <div style={{
+              color: C.gold,
+              fontSize: "12px",
+              fontWeight: 700,
+              letterSpacing: "3px",
+              marginBottom: "12px",
+              textTransform: "uppercase",
+            }}>
+              ✦ מקרה מהקליניקה ✦
+            </div>
+            <h2 style={{
+              fontSize: "32px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 12px",
+              lineHeight: 1.3,
+            }}>
+              סיפור אמיתי מהקליניקה
+            </h2>
+            <p style={{ fontSize: "15px", color: C.barkLight, margin: 0, fontStyle: "italic" }}>
+              שמות וזיהוי שונו לשמירה על פרטיות
+            </p>
+          </div>
+
+          <article style={{
+            background: "white",
+            borderRadius: "20px",
+            padding: "40px 36px",
+            boxShadow: "0 6px 32px rgba(44,42,38,0.08)",
+            border: `1px solid ${C.sage}20`,
+          }}>
+            <div style={{
+              display: "inline-block",
+              background: `${C.sage}15`,
+              color: C.sageDark,
+              fontSize: "13px",
+              fontWeight: 700,
+              padding: "6px 14px",
+              borderRadius: "20px",
+              marginBottom: "16px",
+            }}>
+              ר&apos; - גבר בשנות ה-50
+            </div>
+
+            <h3 style={{
+              fontSize: "22px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 16px",
+              lineHeight: 1.4,
+            }}>
+              הגב העליון ששכח איך להיות משוחרר
+            </h3>
+
+            <div style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9 }}>
+              <p style={{ margin: "0 0 16px" }}>
+                ר&apos; הגיע אליי אחרי חודשים של עומס בגב העליון. הוא תיאר את זה בדיוק: &quot;בסוף יום עבודה אני מרגיש שיש לי עוד 20 קילו על הגב&quot;. הכל מכווץ, לחוץ, לא נוח. הוא כבר שכח איך הגב והשכמות אמורים להרגיש כשהם באמת משוחררים.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                זה תסמין נפוץ מאוד - ויש לזה סיבה.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+                lineHeight: 1.4,
+              }}>
+                החלק שמפתיע אנשים: הגב לא סוחב רק עומס פיזי
+              </h4>
+
+              <p style={{ margin: "0 0 16px" }}>
+                ברפואה הסינית, הגב העליון - האזור בין השכמות - הוא הבית של נקודות שקשורות לאיברים פנימיים: הריאות (BL-13), הלב (BL-15), הכבד (BL-18). לא במקרה אנחנו אומרים &quot;הוא לוקח את זה על הגב&quot;. מתח רגשי - חרדה, אחריות, לחץ - מצטבר באותן נקודות בדיוק.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                זו הסיבה שטיפול בגב העליון הוא לא רק פיזי. <strong>משחררים שריר, ולפעמים משחררים גם משהו עמוק יותר.</strong>
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                עיקרון נוסף: הגוף הוא יחידה אחת. אי אפשר לטפל בשכמות בלי להבין את ההמשך - הצוואר, הגב התחתון, הרגליים. עומס ברגליים יכול להתבטא בצוואר. לכן הטיפול תמיד גוף שלם, לא רק האזור הכואב.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                הטיפול
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                שיאצו ממוקד בנקודות ספציפיות בגב העליון - אלה שפותחות זרימה ומשחררות שרירים עמוקים. עבודה זהירה סביב הצוואר, עמוקה יותר בשכמות ובכתפיים, ולחיצות לאורך כל המסלול: גב, צוואר, גב תחתון ורגליים.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                התוצאות
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                המטופל לאחר הטיפול סיפר לי שהוא מרגיש שירד לו עול מהגב. וזה באמת קרה. גם פיזית - הגב היה משוחרר. אבל גם נפשית - מצב הרוח השתנה. ממצב של חוסר אנרגיה וחוסר חשק, הוא קם והרגיש כוח לתפקד.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                ר&apos; ממשיך להגיע אליי לטיפולים מניעתיים אחת לשבועיים-שלושה לפי הצורך - לתחזוקה ושמירה על המצב.
+              </p>
+
+              <p style={{ margin: "0", fontStyle: "italic" }}>
+                זה קורה לא מעט שמטופל מגיע עם בעיה מסוימת ומקבל הקלה גם במקומות שהוא לא ציפה להן.
+              </p>
+            </div>
+          </article>
+        </div>
+      </Section>
+
       {/* 6 מיתוסים על שיאצו */}
       <Section bg={C.bark}>
         <div style={{ maxWidth: "820px", margin: "0 auto" }}>
