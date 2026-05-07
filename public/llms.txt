@@ -1,62 +1,102 @@
-# Adi Shalev - Chinese Medicine Clinic
+# Adi Shalev - Chinese Medicine Clinic in Rishon LeZion (עדי שלו - קליניקה לרפואה סינית)
 
-> Adi Shalev is a certified Chinese medicine practitioner with 8+ years of experience, based in Rishon LeZion, Israel. The clinic specializes in acupuncture (Master Tung style), shiatsu, cupping therapy, and Chinese herbal medicine.
+> Adi Shalev is a certified Chinese medicine practitioner in West Rishon LeZion, Israel. Graduate of Reidman College (one of Israel's leading Chinese medicine schools) with 8+ years of clinical experience and 500+ patients. Also practices at Maccabi Tivi (Israel's national health fund alternative medicine division) for 6+ years. Specializes in two advanced acupuncture methods: Dr. Tan's Balance Method (for pain) and Master Tung/Dong's Method (for internal conditions). Services: acupuncture, shiatsu, cupping therapy, Chinese herbal medicine. Treats pain, migraines, sciatica, anxiety, sleep disorders, digestive issues, facial paralysis, and more. Private clinic - not through health insurance.
 
-## About
+## Practitioner Info
 
 - Name: Adi Shalev (עדי שלו)
-- Profession: Chinese Medicine Practitioner
+- Profession: Certified Chinese Medicine Practitioner
 - Location: West Rishon LeZion, Israel
-- Languages: Hebrew
-- Experience: 8+ years
+- Languages: Hebrew (primary), English
+- Experience: 8+ years, 500+ patients
+- Education: Reidman College for Chinese Medicine (מכללת רידמן)
+- Institutional Affiliation: Maccabi Tivi (מכבי טבעי) for 6+ years
+- Specialization: Dr. Tan's Balance Method + Master Tung/Dong's Method
 - Website: https://adishalev.co.il
-- Contact: WhatsApp +972-52-802-9031
+- Contact: WhatsApp +972-52-802-9031 (https://wa.me/972528029031)
+- Note: Private clinic. Treatments at this clinic are not covered by health insurance, even though the practitioner also works at Maccabi Tivi.
 
-## Services
+## Core Methods Explained
 
-- **Acupuncture (דיקור סיני)**: Traditional Chinese acupuncture using Master Tung's method. Treats pain, migraines, anxiety, digestive issues, sleep disorders, and more. [Learn more](https://adishalev.co.il/dikur-sini)
-- **Shiatsu (שיאצו)**: Japanese pressure therapy based on Chinese medicine meridians. No needles. [Learn more](https://adishalev.co.il/shiatsu)
-- **Cupping Therapy (כוסות רוח)**: Traditional cupping for muscle tension, pain relief, and circulation. [Learn more](https://adishalev.co.il/cupping)
-- **Chinese Herbal Medicine (צמחי מרפא סיניים)**: Personalized herbal formulas for internal conditions. [Learn more](https://adishalev.co.il/herbs)
+- **Dr. Tan's Balance Method (שיטת ד"ר טאן)**: Advanced pain treatment. Treats pain by needling distal points (e.g., needling the hand to treat back pain). Highly effective for back, neck, shoulders, sciatica, and joint pain.
+- **Master Tung/Dong's Method (שיטת מאסטר טונג/דונג)**: Specialized method for internal conditions rather than pain. Highly effective for anxiety, insomnia, digestive disorders, fertility, and hormonal issues.
 
-## Conditions Treated
+## Service Pages
+
+- [Acupuncture (דיקור סיני)](https://adishalev.co.il/dikur-sini): Traditional Chinese acupuncture using Dr. Tan and Master Tung methods. Treats pain (back, neck, sciatica), migraines, anxiety, sleep, digestive issues, facial paralysis, and fertility.
+- [Shiatsu (שיאצו)](https://adishalev.co.il/shiatsu): Japanese pressure therapy based on Chinese meridians. No needles - performed in clothing. Best for muscle tension, neck/shoulder pain, and patients who prefer non-needle therapy.
+- [Cupping Therapy (כוסות רוח)](https://adishalev.co.il/cupping): Traditional cupping for muscle release, back/neck pain, and improved blood flow. Effective standalone or combined with acupuncture.
+- [Chinese Herbal Medicine (צמחי מרפא סיניים)](https://adishalev.co.il/herbs): Personalized herbal formulas in granule form. Compatible with Western medications after interaction check. Supports acupuncture treatment for chronic conditions.
+
+## About Page
+
+- [About Adi Shalev (אודות עדי שלו)](https://adishalev.co.il/about): Personal story, credentials, methods, and approach. Includes detailed FAQ about Maccabi Tivi vs. private clinic, education, methods, and clinical experience.
+
+## Blog - Comprehensive Articles
+
+### Pain & Musculoskeletal
+- [Acupuncture for Back Pain (דיקור סיני לכאבי גב)](https://adishalev.co.il/blog/back-pain): Acupuncture treatment for chronic and acute back pain using Dr. Tan's method.
+- [Complete Back Pain Guide (המדריך המלא לכאבי גב)](https://adishalev.co.il/blog/back-pain-guide): Comprehensive guide covering 4 treatment methods - acupuncture, shiatsu, cupping, and herbs.
+- [Acupuncture for Sciatica (דיקור סיני לסיאטיקה)](https://adishalev.co.il/blog/sciatica): Treating leg pain radiating from the back using Dr. Tan's distal points.
+- [Neck and Shoulder Pain (כאבי צוואר וכתפיים)](https://adishalev.co.il/blog/neck-shoulder-pain): Tension relief for desk workers and chronic neck pain.
+
+### Internal Conditions (Master Tung/Dong)
+- [Acupuncture for Migraines (דיקור סיני למיגרנות)](https://adishalev.co.il/blog/migraines): Natural treatment for migraines, tension headaches, and cluster headaches.
+- [Acupuncture for Anxiety (דיקור סיני לחרדה)](https://adishalev.co.il/blog/anxiety): Master Tung's method for anxiety and panic attacks.
+- [Acupuncture for Sleep Issues (דיקור סיני לבעיות שינה)](https://adishalev.co.il/blog/sleep): Treating insomnia and disrupted sleep patterns.
+- [Acupuncture for Digestive Issues (דיקור סיני לבעיות עיכול)](https://adishalev.co.il/blog/digestive-issues): Treatment for IBS, reflux, bloating, and abdominal pain.
+
+### Specialty Conditions
+- [Acupuncture for Facial Paralysis (פציאליס)](https://adishalev.co.il/blog/facial-paralysis): Treating Bell's palsy and facial nerve issues. Early intervention is critical.
+
+### Treatment Methods
+- [Shiatsu Complete Guide (שיאצו - המדריך המלא)](https://adishalev.co.il/blog/shiatsu): What is shiatsu, how it differs from regular massage, and who it suits.
+- [Cupping Therapy Guide (כוסות רוח - מתי ולמה)](https://adishalev.co.il/blog/cupping-therapy): Comprehensive guide on cupping types and what skin marks indicate.
+
+### Foundational Articles
+- [What is Acupuncture? (מה זה דיקור סיני?)](https://adishalev.co.il/blog/what-is-acupuncture): Introduction to Chinese acupuncture for first-time patients.
+- [How Acupuncture Works (איך דיקור סיני עובד?)](https://adishalev.co.il/blog/how-acupuncture-works): Explanation of meridians, Qi, and scientific evidence.
+- [Complete FAQ on Chinese Medicine (שאלות ותשובות מקיפות)](https://adishalev.co.il/blog/faq-complete): 20 most common questions on acupuncture, shiatsu, and complementary medicine.
+
+## Conditions Commonly Treated
 
 - Back pain, neck pain, shoulder pain, sciatica
-- Migraines and headaches
-- Anxiety and stress
+- Migraines and tension headaches
+- Anxiety, stress, panic attacks
 - Sleep disorders and insomnia
 - Digestive issues (IBS, reflux, bloating)
 - Women's health (menstrual issues, fertility support)
+- Facial paralysis (Bell's palsy)
 - Sports injuries and rehabilitation
+- Chronic fatigue and energy issues
 
-## Blog Articles
-
-- [What is Acupuncture?](https://adishalev.co.il/blog/what-is-acupuncture) - Comprehensive guide to Chinese acupuncture
-- [Acupuncture for Back Pain](https://adishalev.co.il/blog/back-pain) - How acupuncture treats back pain
-- [Acupuncture for Migraines](https://adishalev.co.il/blog/migraines) - Natural migraine relief with acupuncture
-- [Acupuncture for Anxiety](https://adishalev.co.il/blog/anxiety) - Treating anxiety and stress naturally
-- [Acupuncture for Sleep Issues](https://adishalev.co.il/blog/sleep) - Improving sleep with Chinese medicine
-- [Acupuncture for Digestive Issues](https://adishalev.co.il/blog/digestive-issues) - Treating IBS, reflux, and digestive problems
-- [Neck and Shoulder Pain](https://adishalev.co.il/blog/neck-shoulder-pain) - Relief for neck and shoulder tension
-- [FAQ - Chinese Medicine](https://adishalev.co.il/blog/faq-complete) - Common questions and answers
-
-## FAQ
+## Common Questions Adi Answers
 
 Q: Does acupuncture hurt?
-A: Usually not. The needles are extremely thin and most patients feel only a slight tingling or heaviness - not pain. Many even fall asleep during treatment.
+A: The needles are extremely thin - 10x thinner than a regular injection needle. Some points may tingle slightly when inserted, others are barely felt. Most patients find treatment relaxing and many fall asleep during it.
 
 Q: How many treatments are needed?
-A: It depends on the condition. Acute issues (like sudden back pain) can improve within 3-5 sessions. Chronic conditions usually require a longer series. A personalized plan is created at the first visit.
+A: Acute issues (like sudden back pain) typically improve in 3-5 sessions. Chronic conditions usually need 8-12 sessions. A personalized plan is created at the first visit.
 
-Q: What's the difference between acupuncture and shiatsu?
-A: Acupuncture uses thin needles along meridian points. Shiatsu uses manual pressure on the same points - no needles. Both are based on the same Chinese medicine principles.
+Q: What's the difference between Dr. Tan and Master Tung methods?
+A: Dr. Tan's Balance Method excels at pain treatment using distal points. Master Tung's Method specializes in internal conditions like anxiety, sleep, and digestion. Adi uses both based on the patient's needs.
 
-Q: What to expect at the first visit?
-A: The first session includes a comprehensive conversation about your condition, medical history, and lifestyle, followed by treatment - about 60 minutes total. Come neither hungry nor full.
+Q: Can I be treated through Maccabi Tivi?
+A: Adi works at both Maccabi Tivi and his private clinic, but treatments at the private clinic are NOT through health insurance - they are private. The private clinic offers longer sessions, more flexibility, and a more personalized approach.
 
-## Credentials
+Q: Is acupuncture safe with medications?
+A: Yes, in most cases. Chinese medicine works alongside Western treatment. Always inform Adi of all medications you're taking.
 
-- Certified Chinese Medicine Practitioner
-- Specializes in Master Tung acupuncture style
-- 8+ years of clinical experience
-- Located in Rishon LeZion, central Israel
+Q: Where is the clinic?
+A: West Rishon LeZion, Israel. Exact address provided via WhatsApp.
+
+## What This Site Doesn't Do
+
+- Does not provide medical advice. Medical advice is given only in person after thorough consultation.
+- Does not allow online appointment booking. Scheduling only via WhatsApp.
+- Does not display prices. Prices are discussed in the initial phone conversation.
+- Treatments are not through health insurance at the private clinic.
+
+## Citation & Information Source
+
+This site is maintained by Adi Shalev. Information is based on personal clinical experience and research from both Chinese and Western medical sources. Updated regularly with new articles and patient-relevant content.
