@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import Script from "next/script";
-import { LocalBusinessSchema, FAQPageSchema, WebSiteSchema } from "@/components/SchemaMarkup";
+import { LocalBusinessSchema, WebSiteSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   metadataBase: new URL("https://adishalev.co.il"),
@@ -67,7 +67,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </head>
       <body>
         <LocalBusinessSchema />
-        <FAQPageSchema />
         <WebSiteSchema />
         <noscript>
           <iframe

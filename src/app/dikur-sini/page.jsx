@@ -4,7 +4,14 @@ import ServiceFAQ from "@/components/ServiceFAQ";
 import MagnifyImage from "@/components/MagnifyImage";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
-import { MedicalServiceSchema, BreadcrumbSchema, HowToSchema } from "@/components/SchemaMarkup";
+import { MedicalServiceSchema, BreadcrumbSchema, HowToSchema, FAQPageSchema } from "@/components/SchemaMarkup";
+
+const FAQ_ITEMS = [
+  { q: "האם דיקור סיני כואב?", a: "המחטים דקיקות מאוד - דקות פי 10 ממחט הזרקה רגילה. נקודות מסוימות יכולות לעקצץ בהתחלה כשמכניסים את המחט, וחלק מהנקודות כמעט לא יורגשו. התחושה חולפת מהר ורוב המטופלים מרגישים הרגעה עמוקה במהלך הטיפול." },
+  { q: "כמה טיפולי דיקור צריך?", a: "מצבים חריפים כמו כאב גב חד יכולים להשתפר תוך 3-5 טיפולים. מצבים כרוניים דורשים בדרך כלל 8-12 טיפולים. בטיפול הראשון נקבע יחד תוכנית מותאמת." },
+  { q: "האם דיקור סיני מוכר על ידי קופות החולים?", a: "חלק מקופות החולים מציעות השתתפות ברפואה משלימה במסגרת ביטוחים משלימים. מומלץ לבדוק עם הקופה שלכם." },
+  { q: "האם יש תופעות לוואי?", a: "דיקור סיני נחשב לטיפול בטוח מאוד כשמבוצע על ידי מטפל מוסמך. לעיתים נדירות עשוי להופיע סימן קל במקום הדקירה, שנעלם תוך ימים." },
+];
 
 export const metadata = {
   title: "דיקור סיני בראשון לציון - טיפול מותאם אישית | עדי שלו",
@@ -61,6 +68,7 @@ export default function AcupuncturePage() {
         { name: "דף הבית", url: "https://adishalev.co.il" },
         { name: "דיקור סיני", url: "https://adishalev.co.il/dikur-sini" },
       ]} />
+      <FAQPageSchema items={FAQ_ITEMS} />
     <ServiceLayout otherServices={OTHER_SERVICES}>
       {/* Hero */}
       <section style={{
@@ -220,12 +228,7 @@ export default function AcupuncturePage() {
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: "0 0 24px" }}>
             שאלות נפוצות על דיקור סיני
           </h2>
-          <ServiceFAQ items={[
-            { q: "האם דיקור סיני כואב?", a: "המחטים דקיקות מאוד - דקות פי 10 ממחט הזרקה רגילה. נקודות מסוימות יכולות לעקצץ בהתחלה כשמכניסים את המחט, וחלק מהנקודות כמעט לא יורגשו. התחושה חולפת מהר ורוב המטופלים מרגישים הרגעה עמוקה במהלך הטיפול." },
-            { q: "כמה טיפולי דיקור צריך?", a: "מצבים חריפים כמו כאב גב חד יכולים להשתפר תוך 3-5 טיפולים. מצבים כרוניים דורשים בדרך כלל 8-12 טיפולים. בטיפול הראשון נקבע יחד תוכנית מותאמת." },
-            { q: "האם דיקור סיני מוכר על ידי קופות החולים?", a: "חלק מקופות החולים מציעות השתתפות ברפואה משלימה במסגרת ביטוחים משלימים. מומלץ לבדוק עם הקופה שלכם." },
-            { q: "האם יש תופעות לוואי?", a: "דיקור סיני נחשב לטיפול בטוח מאוד כשמבוצע על ידי מטפל מוסמך. לעיתים נדירות עשוי להופיע סימן קל במקום הדקירה, שנעלם תוך ימים." },
-          ]} />
+          <ServiceFAQ items={FAQ_ITEMS} />
         </div>
       </Section>
 
