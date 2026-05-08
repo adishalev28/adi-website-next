@@ -143,7 +143,7 @@ export default function Reviews() {
             <GoogleSvg />
             <span style={{ fontSize: "22px", fontWeight: 900, color: C.bark }}>5.0</span>
             <Stars />
-            <span style={{ fontSize: "13px", color: C.barkLight, fontWeight: 500 }}>מבוסס על 32 ביקורות</span>
+            <span style={{ fontSize: "13px", color: C.barkLight, fontWeight: 500 }}>מבוסס על 33 ביקורות</span>
           </a>
         </div>
       </div>
