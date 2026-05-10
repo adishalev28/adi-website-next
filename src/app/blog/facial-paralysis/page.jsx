@@ -1,7 +1,14 @@
 import ArticleLayout from "@/components/ArticleLayout";
 import BlogMidCTA from "@/components/BlogMidCTA";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
 import { WA_URL } from "@/lib/constants";
+
+const FAQ_ITEMS = [
+  { q: "האם דיקור סיני לשיתוק פנים כואב?", a: "הדיקור באזור הפנים עדין במיוחד. המחטים דקות מאוד ורוב המטופלים מדווחים על תחושה קלה ולא מכאיבה." },
+  { q: "האם אפשר לשלב דיקור סיני עם טיפול רפואי לשיתוק פנים?", a: "בהחלט. דיקור סיני משלים טיפול תרופתי (כמו סטרואידים או אנטי-ויראליים) ולא מפריע לו. השילוב נחקר ונמצא יעיל יותר מכל טיפול בנפרד." },
+  { q: "מתי כדאי להתחיל טיפול דיקור סיני בשיתוק פנים?", a: "ככל שמוקדם יותר - כך עדיף. אידיאלית תוך השבוע הראשון מתחילת הסימפטומים. גם אם עבר יותר זמן, עדיין שווה לנסות - דיקור סיני יכול לעזור גם במקרים כרוניים." },
+  { q: "כמה זמן לוקח להחלים מפציאליס עם דיקור סיני?", a: "במקרים חריפים, שיפור ראשוני יכול להופיע תוך 2-4 שבועות. החלמה מלאה לרוב לוקחת 2-4 חודשים. במקרים כרוניים נדרש זמן ארוך יותר ושילוב של תרגול בבית." },
+];
 
 export const metadata = {
   title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy) -טיפול ותוצאות | עדי שלו",
@@ -49,6 +56,7 @@ export default function FacialParalysisPage() {
           },
         ]}
       />
+      <FAQPageSchema items={FAQ_ITEMS} />
       <ArticleLayout
         title="דיקור סיני לשיתוק פנים (פציאליס)"
         subtitle="מה זה שיתוק פנים, למה דיקור סיני עוזר, ואיך הטיפול עובד בפועל. כולל מידע מקצועי וניסיון קליני."
