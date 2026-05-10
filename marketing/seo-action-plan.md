@@ -62,7 +62,7 @@
 
 | # | פעולה | סטטוס | תאריך | תיאור | זמן |
 |---|-------|--------|-------|-------|-----|
-| 4.1 | אימות Schema (Schema.org Validator + Rich Results) על 3-5 דפים מייצגים אחרי כל השינויים | ⏳ | - | קריטי - אם יש שגיאה Google מתעלם | 15-20 דק |
+| 4.1 | אימות Schema (Schema.org Validator + Rich Results) על 3-5 דפים מייצגים אחרי כל השינויים | ✅ | 10.5.2026 | קומיט 94af0b7 - תיקון publisher.logo ב-ArticleSchema | 15-20 דק |
 | 4.2 | בדיקת AI Search baseline - לחפש "מטפל דיקור סיני בראשון לציון" ב-ChatGPT/Perplexity | ⏳ | - | מדידה לפני שה-llms.txt יותקף | 10-15 דק |
 | 4.3 | ביקורת Alt Texts לתמונות - לוודא שכל תמונה עם alt בעברית מתאים | ⏳ | - | SEO לתמונות + נגישות | 20-30 דק |
 | 4.4 | בדיקת Sitemap.xml - מעודכן עם 26 דפים, הוגש ב-GSC | ⏳ | - | דפים חסרים = לא יתגלו | 5-10 דק |
@@ -72,6 +72,16 @@
 ---
 
 ## ✅ פעולות שבוצעו (היסטוריה)
+
+### 10.5.2026 (יום ב', לילה מאוחר) - אימות Schema יריד 4.1 (קומיט 94af0b7)
+- ✅ הורדה ובדיקה של 5 דפים מייצגים: home, /dikur-sini, /shiatsu, /blog/back-pain, /blog/shiatsu
+- ✅ זוהו 25 בלוקי JSON-LD בסה"כ (3 בדף הבית, 6 בדפי שירות, 5 במאמרי בלוג)
+- ✅ כל ה-25 עוברים JSON parse תקין (אפס שגיאות תחביר)
+- ✅ ולידציה לפי Schema.org + Google Rich Results: 0 שגיאות בשדות חובה
+- ⚠️ אזהרה אחת: ArticleSchema חסר publisher.logo - חובה ל-Article rich results
+- ✅ תיקון: הוספת ImageObject ל-publisher.logo (LOGO1.png)
+- ✅ אומת ב-build output: כל 16 מאמרי הבלוג כיום מכילים את התיקון
+- **תוצאה צפויה:** Article rich results בגוגל יוצגו כראוי. eligibility מלא ל-FAQ + HowTo + LocalBusiness rich results.
 
 ### 10.5.2026 (לילה) - אינדקסציה ידנית + סיפור הצלחה (קומיט b43ba0d)
 - ✅ סיפור הצלחה לדף /cupping: ע' ספורטאי שחקן כדורגל, טיפול תחזוקה
