@@ -333,6 +333,127 @@ export default function CuppingPage() {
         </div>
       </Section>
 
+      {/* סיפור הצלחה - מקרה מהקליניקה */}
+      <Section bg={C.cream}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "40px" }}>
+            <div style={{
+              color: C.gold,
+              fontSize: "12px",
+              fontWeight: 700,
+              letterSpacing: "3px",
+              marginBottom: "12px",
+              textTransform: "uppercase",
+            }}>
+              ✦ מקרה מהקליניקה ✦
+            </div>
+            <h2 style={{
+              fontSize: "32px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 12px",
+              lineHeight: 1.3,
+            }}>
+              סיפור אמיתי מהקליניקה
+            </h2>
+            <p style={{ fontSize: "15px", color: C.barkLight, margin: 0, fontStyle: "italic" }}>
+              שמות וזיהוי שונו לשמירה על פרטיות
+            </p>
+          </div>
+
+          <article style={{
+            background: "white",
+            borderRadius: "20px",
+            padding: "40px 36px",
+            boxShadow: "0 6px 32px rgba(44,42,38,0.08)",
+            border: `1px solid ${C.sage}20`,
+          }}>
+            <div style={{
+              display: "inline-block",
+              background: `${C.sage}15`,
+              color: C.sageDark,
+              fontSize: "13px",
+              fontWeight: 700,
+              padding: "6px 14px",
+              borderRadius: "20px",
+              marginBottom: "16px",
+            }}>
+              ע&apos; - ספורטאי בן 30, שחקן כדורגל
+            </div>
+
+            <h3 style={{
+              fontSize: "22px",
+              fontWeight: 800,
+              color: C.bark,
+              margin: "0 0 16px",
+              lineHeight: 1.4,
+            }}>
+              הגב שמתעייף לפני שהאימון נגמר
+            </h3>
+
+            <div style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9 }}>
+              <p style={{ margin: "0 0 16px" }}>
+                ע&apos; הוא ספורטאי בן 30 שמתאמן באופן קבוע ומשחק כדורגל. הגוף שלו עובד הרבה - ריצות, ספרינטים, שינויי כיוון, התמודדויות פיזיות. בסוף אימונים הוא תיאר תחושה ספציפית מאוד: &quot;הגב מתחיל להיות עמוס עוד באמצע, ובסוף האימון אני מרגיש שהשרירים פשוט סגורים. אני לא יכול לתת מאה אחוז&quot;.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                זה לא כאב חריף, זה לא פציעה. זה משהו אחר - עומס מצטבר. שכמות תפוסות, שרירים סביב הגב התחתון שלא משחררים, תחושה כללית של &quot;קופסה&quot;. ספורטאים מכירים את זה היטב.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+                lineHeight: 1.4,
+              }}>
+                מה באמת קורה לשרירים של ספורטאי
+              </h4>
+
+              <p style={{ margin: "0 0 16px" }}>
+                כשהגוף עובד הרבה, השרירים מצטברים מיקרו-טראומות, חומצת חלב, מתחים מצטברים. הגוף מנסה להתמודד אבל לא תמיד מספיק. ברפואה הסינית קוראים לזה <strong>סטגנציה של דם</strong> - זרימת הדם באזור נחלשת, השרירים נשארים &quot;לחוצים&quot;, וההתאוששות איטית מדי.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                כאן בדיוק כוסות רוח עושות את העבודה: השאיבה העדינה <strong>מושכת דם טרי לאזור</strong>, פותחת את הזרימה, ומשחררת את ההידבקויות בין שכבות הרקמה. בעצם, מאלצת את הגוף לעשות &quot;ניקוי&quot; ממוקד באזורים שעבדו הכי קשה.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                הטיפול
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                בכל מפגש, הנחתי מספר רב של כוסות לאורך הגב והשכמות - האזורים העיקריים שעובדים אצל שחקני כדורגל. הכוסות נשארות 10-15 דקות, יוצרות שאיבה עדינה, ומגבירות זרימת דם בכל המסלול. בסוף הטיפול הסימנים העגולים מעידים בדיוק על מה שעבד הכי קשה - איפה הסטגנציה הייתה הכי חזקה.
+              </p>
+
+              <h4 style={{
+                fontSize: "18px",
+                fontWeight: 800,
+                color: C.bark,
+                margin: "28px 0 12px",
+              }}>
+                התוצאות
+              </h4>
+              <p style={{ margin: "0 0 16px" }}>
+                כבר אחרי הטיפול הראשון ע&apos; דיווח שהוא חוזר לאימון ומרגיש את הגב פתוח, נושם, עובד אחרת. השרירים מגיבים מהר יותר, ההתאוששות בין הספרינטים טובה יותר, והוא מסיים אימונים בלי התחושה שהגב &quot;נסגר&quot;.
+              </p>
+
+              <p style={{ margin: "0 0 16px" }}>
+                ע&apos; ממשיך להגיע אליי <strong>אחת לשלושה שבועות עד חודש</strong> - לא כי משהו כואב, אלא כדי לשמר את המצב. אצל ספורטאים זה הגיוני: לא לחכות שהשרירים יגיעו לעומס שמגביל את האימונים, אלא לטפל בעומס לפני שהוא הופך לבעיה. לרוב המטופלים המגיעים על בסיס תחזוקה זה משלים מצוין את האימון, את הסטרצ&apos;ינג, ואת ההתאוששות.
+              </p>
+
+              <p style={{ margin: "0", fontStyle: "italic" }}>
+                אצל ספורטאים, כוסות רוח הן כלי מצוין לתחזוקה - לא רק לטיפול בכאב, אלא לשמירה על גוף שעובד באופן קבוע ברמה גבוהה.
+              </p>
+            </div>
+          </article>
+        </div>
+      </Section>
+
       {/* שאלות נפוצות */}
       <Section bg={C.cream}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
