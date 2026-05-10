@@ -29,12 +29,14 @@
 
 | # | פעולה | סטטוס | תאריך ביצוע | קומיט | תוצאה צפויה |
 |---|-------|--------|-------------|-------|-------------|
-| 1.1 | שיפור snippet של דף הבית | ⏳ | - | - | +CTR ל"מטפלים בראשון לציון" |
-| 1.2 | שיפור snippet של /dikur-sini | ⏳ | - | - | +CTR ל"דיקור סיני" |
-| 1.3 | שיפור snippet של /shiatsu | ⏳ | - | - | +CTR ל"שיאצו" |
-| 1.4 | הרחבת מאמר /blog/shiatsu | ⏳ | - | - | מיקום 25→10 |
-| 1.5 | FAQ Schema במאמרים שחסר | ⏳ | - | - | featured snippets |
-| 1.6 | עדכון llms.txt | ⏳ | - | - | AI Search visibility |
+| 1.1 | שיפור snippet של דף הבית | ✅ | 10.5.2026 | 83300b1 | +CTR ל"מטפלים בראשון לציון" |
+| 1.2 | שיפור snippet של /dikur-sini | ✅ | 10.5.2026 | 83300b1 | +CTR ל"דיקור סיני" |
+| 1.3 | שיפור snippet של /shiatsu | ✅ | 10.5.2026 | 83300b1 | +CTR ל"שיאצו" |
+| 1.4 | הרחבת מאמר /blog/shiatsu (מחקרים מדעיים) | ✅ | 10.5.2026 | 83300b1 | מיקום 25→10 |
+| 1.5 | FAQ Schema: shiatsu + facial-paralysis + back-pain-guide | ✅ | 10.5.2026 | 83300b1 | featured snippets |
+| 1.6 | עדכון llms.txt (33 ביקורות + עדכונים אחרונים) | ✅ | 10.5.2026 | 83300b1 | AI Search visibility |
+| 1.7 | בקשת אינדקסציה ב-GSC לדפים מעודכנים | ✅ | 10.5.2026 | - | 10 URLs, מהם 4 חדשים לאינדקס |
+| 1.8 | סיפור הצלחה לדף /cupping (ספורטאי) | ✅ | 10.5.2026 | b43ba0d | חיזוק E-E-A-T |
 
 ### יריד 2: Backlinks - בינוני טווח (החודש)
 
@@ -59,6 +61,35 @@
 ---
 
 ## ✅ פעולות שבוצעו (היסטוריה)
+
+### 10.5.2026 (לילה) - אינדקסציה ידנית + סיפור הצלחה (קומיט b43ba0d)
+- ✅ סיפור הצלחה לדף /cupping: ע' ספורטאי שחקן כדורגל, טיפול תחזוקה
+- ✅ 10 URLs נשלחו לאינדקסציה ב-GSC:
+  - / (homepage), /dikur-sini, /shiatsu, /cupping, /herbs
+  - /blog/shiatsu, /blog/anxiety, /blog/back-pain, /blog/migraines, /blog/sleep
+- ✅ גילוי חשוב: anxiety, back-pain, migraines, sleep לא היו ב-Google בכלל - עכשיו בתור
+- **תוצאה צפויה:** מדידה ב-17.5.2026 - שיפור CTR ומיקומים אחרי FAQ Schema + Snippets
+
+### 10.5.2026 (ערב) - Service Schema מורחב (קומיט 8a4f6d8)
+- ✅ MedicalServiceSchema (קומפוננטה): areaServed (6 ערים), provider מורחב, MedicalBusiness type
+- ✅ HowToSchema נוסף ל-3 דפי שירות: /shiatsu, /cupping, /herbs (4 שלבים כל אחד)
+- ✅ כל 4 דפי השירות עכשיו עם: MedicalServiceSchema + HowToSchema + FAQPageSchema + BreadcrumbSchema
+- **תוצאה צפויה:** rich results בגוגל לשאלות "איך מתבצע טיפול X", תמיכה ב-Local SEO
+
+### 10.5.2026 (אחה"צ) - FAQ Schema על כל הבלוג (קומיט 240341f)
+- ✅ FAQ Schema נוסף ל-9 מאמרים: anxiety, back-pain, cupping-therapy, digestive-issues, faq-complete, migraines, neck-shoulder-pain, sleep, what-is-acupuncture
+- ✅ סה"כ 62 שאלות במבנה Schema.org
+- ✅ כל 16 המאמרים בבלוג כיום עם FAQPageSchema
+- **תוצאה צפויה:** מקסום סיכוי ל-Featured Snippet, חיזוק AI Search
+
+### 10.5.2026 (בוקר) - יום SEO ממוקד (קומיט 83300b1)
+- ✅ Title+Description משופרים: דף הבית, /dikur-sini, /shiatsu
+- ✅ FAQ Schema נוספו: blog/shiatsu, blog/facial-paralysis, blog/back-pain-guide
+- ✅ הרחבת blog/shiatsu עם סקציית מחקרים מדעיים (~52 שורות)
+- ✅ llms.txt - הוספת trust signals (33 ביקורות, פוסט GBP, סיפורי הצלחה)
+- ✅ marketing/seo-action-plan.md - תשתית מעקב לטווח ארוך
+- ✅ marketing/backlinks-targets.md - 10 יעדי backlinks
+- **תוצאה צפויה:** מדידה חוזרת ב-17.5.2026 (+1 שבוע)
 
 ### 7.5.2026
 - ✅ HomepageCTA + BlogMidCTA + Author byline ב-14 מאמרים
