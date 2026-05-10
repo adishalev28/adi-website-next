@@ -248,6 +248,10 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
       "@type": "Organization",
       name: "עדי שלו - רפואה סינית",
       url: "https://adishalev.co.il",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://adishalev.co.il/LOGO1.png",
+      },
     },
     inLanguage: "he",
     mainEntityOfPage: {
