@@ -273,10 +273,27 @@ export function MedicalServiceSchema({ name, alternateName, description, url }) 
     description: description,
     url: url,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": ["LocalBusiness", "MedicalBusiness"],
+      "@id": "https://adishalev.co.il/#business",
       name: "עדי שלו - רפואה סינית",
       url: "https://adishalev.co.il",
+      telephone: "+972-52-802-9031",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "ראשון לציון",
+        addressRegion: "מחוז המרכז",
+        addressCountry: "IL",
+      },
     },
+    areaServed: [
+      { "@type": "City", name: "ראשון לציון" },
+      { "@type": "City", name: "חולון" },
+      { "@type": "City", name: "בת ים" },
+      { "@type": "City", name: "נס ציונה" },
+      { "@type": "City", name: "רחובות" },
+      { "@type": "City", name: "באר יעקב" },
+    ],
+    availableLanguage: ["he", "en"],
   };
 
   return (

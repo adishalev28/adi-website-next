@@ -3,7 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
-import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
+import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema, HowToSchema } from "@/components/SchemaMarkup";
 
 const FAQ_ITEMS = [
   { q: "האם שיאצו כואב?", a: "שיאצו לא אמור לכאוב. הלחיצות עמוקות אבל מותאמות לרגישות שלכם. ייתכן רגע של אי-נוחות כשמשחררים נקודת מתח, אבל בסך הכל הטיפול נעים ומרגיע. אם יש לחיצה חזקה מדי - תגידו ונתאים." },
@@ -54,6 +54,17 @@ export default function ShiatsuPage() {
         alternateName="Shiatsu"
         description="עיסוי שיאצו מקצועי בראשון לציון. שחרור מתח, הקלה בכאבים ושיפור איכות החיים. טיפול מותאם אישית."
         url="https://adishalev.co.il/shiatsu"
+      />
+      <HowToSchema
+        name="מה קורה בטיפול שיאצו?"
+        description="תהליך טיפול שיאצו מהשלב הראשון ועד הסיום - מה לצפות בביקור בקליניקה של עדי שלו בראשון לציון."
+        totalTime="PT60M"
+        steps={[
+          { name: "אבחון ושיחה", text: "שיחה על התלונה, ההיסטוריה הרפואית, אורח החיים, ואזורי המתח. הבנת המטרה של הטיפול." },
+          { name: "התמקמות", text: "המטופל שוכב על מזרן או מיטת טיפול בלבוש נוח ורפוי. ללא שמנים." },
+          { name: "טיפול שיאצו", text: "לחיצות עמוקות ומתיחות לאורך מרידיאנים (ערוצי אנרגיה) - איזון, שחרור מתח שרירי, גירוי נקודות ספציפיות לפי הצורך." },
+          { name: "סיכום והמלצות", text: "סיכום הטיפול, המלצות לתרגילים, מתיחות ושמירה על התוצאות בין הטיפולים." },
+        ]}
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

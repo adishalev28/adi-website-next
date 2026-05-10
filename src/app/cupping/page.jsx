@@ -3,7 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
-import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
+import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema, HowToSchema } from "@/components/SchemaMarkup";
 
 const FAQ_ITEMS = [
   { q: "האם כוסות רוח כואבות?", a: "לא. רוב האנשים מרגישים תחושת משיכה קלה ונעימה. הטיפול מרגיע ולא כואב. אם יש אי-נוחות - המטפל מתאים את עוצמת הוואקום." },
@@ -48,6 +48,17 @@ export default function CuppingPage() {
         alternateName="Cupping Therapy"
         description="טיפול כוסות רוח מקצועי בראשון לציון. שיפור זרימת הדם, הקלה בכאבים ושחרור שרירים."
         url="https://adishalev.co.il/cupping"
+      />
+      <HowToSchema
+        name="מה קורה בטיפול כוסות רוח?"
+        description="תהליך טיפול כוסות רוח מהאבחון ועד הסיום - בקליניקה של עדי שלו בראשון לציון."
+        totalTime="PT30M"
+        steps={[
+          { name: "אבחון", text: "בדיקת אזור הכאב, מישוש שרירים תפוסים, הבנת התלונה וההיסטוריה." },
+          { name: "הכנת העור", text: "מריחת שמן לעור (במקרה של כוסות מחליקות) או הכנה לכוסות סטטיות." },
+          { name: "הנחת הכוסות", text: "6-10 כוסות זכוכית מונחות בנקודות ספציפיות, יוצרות שאיבה עדינה. נשארות 10-15 דקות." },
+          { name: "הסרה ובדיקה", text: "הסרת הכוסות, בדיקת צבע הסימנים שמעיד על מצב הזרימה באזור, סיכום הטיפול והמלצות." },
+        ]}
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

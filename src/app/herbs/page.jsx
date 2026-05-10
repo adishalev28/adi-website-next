@@ -3,7 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, WA_URL } from "@/lib/constants";
-import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
+import { MedicalServiceSchema, BreadcrumbSchema, FAQPageSchema, HowToSchema } from "@/components/SchemaMarkup";
 
 const FAQ_ITEMS = [
   { q: "האם צמחי מרפא בטוחים?", a: "כן. צמחי המרפא הסיניים בשימוש קליני כבר אלפי שנים. אני בוחר צמחים בטוחים ומתאים מינונים בקפידה. חשוב לציין תרופות שאתם לוקחים כדי למנוע אינטראקציות." },
@@ -47,6 +47,17 @@ export default function HerbsPage() {
         alternateName="Chinese Herbal Medicine"
         description="פורמולות צמחי מרפא סיניים מותאמות אישית בראשון לציון. טיפול בשורש הבעיה ולא רק בתסמינים."
         url="https://adishalev.co.il/herbs"
+      />
+      <HowToSchema
+        name="איך מתבצע טיפול בצמחי מרפא סיניים?"
+        description="תהליך מרשם פורמולת צמחי מרפא מותאמת אישית בקליניקה של עדי שלו בראשון לציון."
+        totalTime="PT45M"
+        steps={[
+          { name: "אבחון מקיף", text: "שיחה על התלונה, ההיסטוריה הרפואית, אורח החיים, התזונה ודפוסי השינה. בדיקת דופק ולשון לפי שיטות הרפואה הסינית." },
+          { name: "ניסוח פורמולה אישית", text: "הרכבת פורמולה ייחודית מ-6-15 צמחים לפי הצורך. כל צמח נבחר לפי הפעולה הרצויה ולפי האיזון בין הצמחים בפורמולה." },
+          { name: "הסבר על השימוש", text: "הסבר מפורט איך לקחת את הצמחים (בצורת גרנולות עם מים חמים), באיזו תדירות, ולמה לצפות." },
+          { name: "מעקב והתאמה", text: "מעקב אחרי שבועיים-שלושה לבדיקת התגובה. במידת הצורך, התאמת הפורמולה לפי השיפור והתפתחות הטיפול." },
+        ]}
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },
