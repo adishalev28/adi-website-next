@@ -1,7 +1,7 @@
 import ArticleLayout from "@/components/ArticleLayout";
 import BlogMidCTA from "@/components/BlogMidCTA";
 import FaqAccordion from "@/components/FaqAccordion";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
+import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/SchemaMarkup";
 
 export const metadata = {
   title: "שאלות ותשובות על רפואה סינית | עדי שלו - ראשון לציון",
@@ -133,6 +133,7 @@ export default function FaqCompletePage() {
         { name: "בלוג", url: "https://adishalev.co.il/blog" },
         { name: "שאלות ותשובות", url: "https://adishalev.co.il/blog/faq-complete" },
       ]} />
+      <FAQPageSchema items={FAQS.flatMap((cat) => cat.items)} />
       <ArticleLayout
         title="שאלות ותשובות על רפואה סינית "
       subtitle="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה."
