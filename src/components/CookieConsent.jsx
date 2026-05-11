@@ -37,7 +37,7 @@ export default function CookieConsent() {
         </a>
       </p>
       <button onClick={accept} className="cookie-accept-btn" style={{
-        background: C.sage, color: "white", border: "none",
+        background: C.sageDark, color: "white", border: "none",
         padding: "8px 28px", borderRadius: "50px",
         fontSize: "14px", fontWeight: 700, cursor: "pointer",
       }}>
