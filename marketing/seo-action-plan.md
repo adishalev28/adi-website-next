@@ -66,12 +66,28 @@
 | 4.2 | בדיקת AI Search baseline - לחפש "מטפל דיקור סיני בראשון לציון" ב-ChatGPT/Perplexity | ⏳ | - | מדידה לפני שה-llms.txt יותקף | 10-15 דק |
 | 4.3 | ביקורת Alt Texts לתמונות - לוודא שכל תמונה עם alt בעברית מתאים | ✅ | 11.5.2026 | 12/12 תמונות תקינות - אין צורך בתיקון | 20-30 דק |
 | 4.4 | בדיקת Sitemap.xml - מעודכן עם 26 דפים, הוגש ב-GSC | ✅ | 11.5.2026 | 23 URLs, כולם 200, robots.txt מצביע על sitemap | 5-10 דק |
-| 4.5 | הרצת `/audit` (PageSpeed + Core Web Vitals + Lighthouse) | ⏳ | - | זיהוי בעיות אחרי השינויים | 10-15 דק |
+| 4.5 | הרצת `/audit` (PageSpeed + Core Web Vitals + Lighthouse) | ✅ | 11.5.2026 | קומיטים 5b5b52d + fcac2f7 - 3 בעיות תוקנו | 10-15 דק |
 | 4.6 | סיפור הצלחה ל-/herbs (האחרון בלי סיפור) | ⏳ | - | דורש ממשתמש סיפור מטופל אמיתי | 5+15 דק |
 
 ---
 
 ## ✅ פעולות שבוצעו (היסטוריה)
+
+### 11.5.2026 - Lighthouse audit + תיקונים יריד 4.5 (קומיטים 5b5b52d + fcac2f7)
+- ✅ הורץ Lighthouse mobile על דף הבית: Performance 47, A11Y 94, BP 96, SEO 100
+- ✅ הורץ Lighthouse mobile על /dikur-sini: Performance 64, A11Y 94, BP 96, SEO 100
+- ✅ זוהו 3 בעיות לתיקון:
+  - **favicon.ico 404** - לא היה קיים ב-public, גרר שגיאת קונסול
+  - **landmark-one-main** - אין `<main>` semantic tag (פוגע בנגישות)
+  - **color-contrast** - 4 אלמנטים: footer-legal-link, footer body, service links, cookie-accept-btn
+- ✅ תיקונים:
+  - יצירת `public/favicon.ico` מ-icon-192.png
+  - עטיפת `{children}` ב-`<main>` ב-layout.jsx
+  - עדכון Footer: opacity 0.35/0.4/0.5 → 0.75/0.8 (WCAG AA)
+  - עדכון Cookie button: `C.sage` (#7A8B6A, contrast 3.66) → `C.sageDark` (#5B6B4A, contrast 6.5+)
+- ✅ Lighthouse פוסט-תיקון: **Performance 55 (+8), A11Y 100 ⭐, BP 100 ⭐, SEO 100 ⭐**
+- ✅ כל 3 הבעיות עברו PASS (errors-in-console, landmark-one-main, color-contrast = 0 issues)
+- **תוצאה:** 3 קטגוריות במלאות 100. נשארה אופטימיזציית Performance - LCP 5.6s, TBT 820ms - לטווח ארוך (lazy loading תמונות, code splitting).
 
 ### 11.5.2026 - ביקורת Alt Texts יריד 4.3
 - ✅ נסרקו 57 קבצי קוד תחת `src/` - נמצאו 12 שימושי תגית `<img>` או `<Image>`
