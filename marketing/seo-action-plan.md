@@ -65,13 +65,21 @@
 | 4.1 | אימות Schema (Schema.org Validator + Rich Results) על 3-5 דפים מייצגים אחרי כל השינויים | ✅ | 10.5.2026 | קומיט 94af0b7 - תיקון publisher.logo ב-ArticleSchema | 15-20 דק |
 | 4.2 | בדיקת AI Search baseline - לחפש "מטפל דיקור סיני בראשון לציון" ב-ChatGPT/Perplexity | ⏳ | - | מדידה לפני שה-llms.txt יותקף | 10-15 דק |
 | 4.3 | ביקורת Alt Texts לתמונות - לוודא שכל תמונה עם alt בעברית מתאים | ⏳ | - | SEO לתמונות + נגישות | 20-30 דק |
-| 4.4 | בדיקת Sitemap.xml - מעודכן עם 26 דפים, הוגש ב-GSC | ⏳ | - | דפים חסרים = לא יתגלו | 5-10 דק |
+| 4.4 | בדיקת Sitemap.xml - מעודכן עם 26 דפים, הוגש ב-GSC | ✅ | 11.5.2026 | 23 URLs, כולם 200, robots.txt מצביע על sitemap | 5-10 דק |
 | 4.5 | הרצת `/audit` (PageSpeed + Core Web Vitals + Lighthouse) | ⏳ | - | זיהוי בעיות אחרי השינויים | 10-15 דק |
 | 4.6 | סיפור הצלחה ל-/herbs (האחרון בלי סיפור) | ⏳ | - | דורש ממשתמש סיפור מטופל אמיתי | 5+15 דק |
 
 ---
 
 ## ✅ פעולות שבוצעו (היסטוריה)
+
+### 11.5.2026 - בדיקת Sitemap יריד 4.4
+- ✅ Sitemap מכיל 23 URLs (כל הדפים הציבוריים מה-build, לא כולל _not-found ו-sitemap עצמו)
+- ✅ כל 23 ה-URLs מחזירים HTTP 200 - אפס שגיאות 404 או redirect
+- ✅ כולם עם lastmod (10.5.2026) ו-priority (1.0 לדף הבית, 0.9-0.3 לאחרים)
+- ✅ robots.txt תקין ומצביע על Sitemap (`Sitemap: https://adishalev.co.il/sitemap.xml`)
+- ✅ AI crawlers (GPTBot, ChatGPT-User, ClaudeBot, Claude-Web, PerplexityBot, Amazonbot) מותרים במפורש
+- **תוצאה:** Sitemap תקין לחלוטין. גוגל תמצא אותו דרך robots.txt גם בלי הגשה ידנית ב-GSC. הגשה ידנית ב-GSC מומלצת לזירוז.
 
 ### 10.5.2026 (יום ב', לילה מאוחר) - אימות Schema יריד 4.1 (קומיט 94af0b7)
 - ✅ הורדה ובדיקה של 5 דפים מייצגים: home, /dikur-sini, /shiatsu, /blog/back-pain, /blog/shiatsu
