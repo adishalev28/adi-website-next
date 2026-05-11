@@ -3,7 +3,7 @@ import { C } from "@/lib/constants";
 export default function Footer() {
   return (
     <footer style={{
-      background: "#1a1917", color: "rgba(255,255,255,0.35)",
+      background: "#1a1917", color: "rgba(255,255,255,0.75)",
       padding: "32px 24px 24px", textAlign: "center", fontSize: "12px",
       letterSpacing: "0.5px",
     }}>
@@ -19,7 +19,7 @@ export default function Footer() {
           { label: "מאמרים", href: "/blog/" },
         ].map(l => (
           <a key={l.href} href={l.href} className="footer-service-link" style={{
-            color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "13px",
+            color: "rgba(255,255,255,0.8)", textDecoration: "none", fontSize: "13px",
           }}>{l.label}</a>
         ))}
       </nav>
@@ -29,11 +29,11 @@ export default function Footer() {
         paddingTop: "12px", borderTop: "1px solid rgba(255,255,255,0.08)",
       }}>
         <a href="/accessibility/" className="footer-legal-link" style={{
-          color: "rgba(255,255,255,0.4)", textDecoration: "none", fontSize: "12px",
+          color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: "12px",
         }}>הצהרת נגישות</a>
         <span style={{ color: "rgba(255,255,255,0.15)" }}>|</span>
         <a href="/privacy/" className="footer-legal-link" style={{
-          color: "rgba(255,255,255,0.4)", textDecoration: "none", fontSize: "12px",
+          color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: "12px",
         }}>מדיניות פרטיות</a>
       </nav>
       <div>© {new Date().getFullYear()} עדי שלו - רפואה סינית · ראשון לציון</div>

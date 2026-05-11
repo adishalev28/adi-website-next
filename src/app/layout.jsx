@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        {children}
+        <main>{children}</main>
         <script
           dangerouslySetInnerHTML={{
             __html: `if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js")}`,
