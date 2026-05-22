@@ -26,7 +26,7 @@ export default function ClinicVideo() {
   }, []);
 
   const videoSrc = isMobile ? "/clinic-vertical-30s.mp4" : "/clinic-horizontal.mp4";
-  const poster = isMobile ? "/hero-mobile.jpg" : "/clinic-room.jpg";
+  const poster = isMobile ? "/clinic-poster-vertical.jpg" : "/clinic-poster-horizontal.jpg";
 
   const handlePlay = () => {
     if (videoRef.current) {
