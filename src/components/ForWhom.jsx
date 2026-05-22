@@ -17,7 +17,7 @@ export default function ForWhom() {
         <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>למי זה מתאים</div>
         <h2 className="section-title" style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: "0 0 16px" }}>במה רפואה סינית יכולה לעזור?</h2>
         <p style={{ fontSize: "16px", color: C.barkLight, margin: "0 0 48px", lineHeight: 1.7, maxWidth: "560px", marginInline: "auto" }}>
-          רפואה סינית מטפלת במגוון רחב של מצבים - הנה חלק מהנפוצים. לא מצאתם את מה שאתם מחפשים? צרו קשר ונבדוק יחד
+          רפואה סינית מטפלת במגוון רחב של מצבים. הנה חלק מהנפוצים:
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", justifyContent: "center" }}>
           {CONDITIONS.map(c => (
@@ -28,6 +28,53 @@ export default function ForWhom() {
               boxShadow: "0 2px 8px rgba(44,42,38,0.04)",
             }}>{c}</span>
           ))}
+        </div>
+
+        {/* "ועוד" reassurance block - calms visitors whose condition isn't listed */}
+        <div style={{
+          marginTop: "44px",
+          padding: "28px 32px",
+          background: "white",
+          border: `1.5px dashed ${C.sage}55`,
+          borderRadius: "20px",
+          maxWidth: "600px",
+          marginInline: "auto",
+          boxShadow: "0 4px 16px rgba(44,42,38,0.04)",
+        }}>
+          <div style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            marginBottom: "10px",
+          }}>
+            <span style={{
+              fontSize: "20px",
+              color: C.sage,
+              lineHeight: 1,
+            }}>✦</span>
+            <span style={{
+              fontSize: "19px",
+              fontWeight: 800,
+              color: C.bark,
+              letterSpacing: "0.5px",
+            }}>
+              ועוד מצבים רבים נוספים
+            </span>
+            <span style={{
+              fontSize: "20px",
+              color: C.sage,
+              lineHeight: 1,
+            }}>✦</span>
+          </div>
+          <p style={{
+            fontSize: "15px",
+            color: C.barkLight,
+            lineHeight: 1.75,
+            margin: 0,
+          }}>
+            המצב שלכם לא מופיע ברשימה? זה לא אומר שאי אפשר לטפל בו.<br />
+            אשמח לשמוע ולבדוק יחד אם רפואה סינית מתאימה גם לכם.
+          </p>
         </div>
       </div>
     </Section>
