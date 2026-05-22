@@ -30,51 +30,17 @@ export default function ForWhom() {
           ))}
         </div>
 
-        {/* "ועוד" reassurance block - calms visitors whose condition isn't listed */}
+        {/* Subtle "ועוד" indicator after the pills */}
         <div style={{
-          marginTop: "44px",
-          padding: "28px 32px",
-          background: "white",
-          border: `1.5px dashed ${C.sage}55`,
-          borderRadius: "20px",
-          maxWidth: "600px",
-          marginInline: "auto",
-          boxShadow: "0 4px 16px rgba(44,42,38,0.04)",
+          marginTop: "36px",
+          fontSize: "16px",
+          fontWeight: 700,
+          color: C.bark,
+          letterSpacing: "0.5px",
         }}>
-          <div style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: "10px",
-            marginBottom: "10px",
-          }}>
-            <span style={{
-              fontSize: "20px",
-              color: C.sage,
-              lineHeight: 1,
-            }}>✦</span>
-            <span style={{
-              fontSize: "19px",
-              fontWeight: 800,
-              color: C.bark,
-              letterSpacing: "0.5px",
-            }}>
-              ועוד מצבים רבים נוספים
-            </span>
-            <span style={{
-              fontSize: "20px",
-              color: C.sage,
-              lineHeight: 1,
-            }}>✦</span>
-          </div>
-          <p style={{
-            fontSize: "15px",
-            color: C.barkLight,
-            lineHeight: 1.75,
-            margin: 0,
-          }}>
-            המצב שלכם לא מופיע ברשימה? זה לא אומר שאי אפשר לטפל בו.<br />
-            אשמח לשמוע ולבדוק יחד אם רפואה סינית מתאימה גם לכם.
-          </p>
+          <span style={{ color: C.sage, marginInline: "10px" }}>✦</span>
+          ועוד מצבים רבים נוספים
+          <span style={{ color: C.sage, marginInline: "10px" }}>✦</span>
         </div>
       </div>
     </Section>
