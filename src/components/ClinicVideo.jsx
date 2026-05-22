@@ -25,7 +25,7 @@ export default function ClinicVideo() {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const videoSrc = isMobile ? "/clinic-vertical-30s.mp4" : "/clinic-horizontal.mp4";
+  const videoSrc = isMobile ? "/clinic-vertical-master.mp4" : "/clinic-horizontal.mp4";
   const poster = isMobile ? "/clinic-poster-vertical.jpg" : "/clinic-poster-horizontal.jpg";
 
   const handlePlay = () => {
@@ -66,6 +66,7 @@ export default function ClinicVideo() {
             uploadDate: "2026-05-22",
             contentUrl: "https://adishalev.co.il/clinic-horizontal.mp4",
             duration: "PT1M14S",
+            embedUrl: "https://adishalev.co.il/clinic-vertical-master.mp4",
             publisher: {
               "@type": "Organization",
               name: "עדי שלו - רפואה סינית מסורתית",
