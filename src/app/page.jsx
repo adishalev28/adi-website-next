@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
+import ClinicVideo from "@/components/ClinicVideo";
 import Reviews from "@/components/Reviews";
 import ClinicPhotos from "@/components/ClinicPhotos";
 import Services from "@/components/Services";
@@ -32,6 +33,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Stats />
+      <ClinicVideo />
       <Reviews />
       <ClinicPhotos />
       <Services />
