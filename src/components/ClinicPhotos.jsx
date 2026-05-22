@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 import { C } from "@/lib/constants";
 import PhotoLightbox from "./PhotoLightbox";
 
@@ -12,111 +12,90 @@ const ALL_PHOTOS = [
   { src: "/adi-shiatsu.jpg", alt: "טיפול שיאצו - עיסוי יפני מקצועי בקליניקת עדי שלו" },
 ];
 
-function useAutoScroll(ref, touched, interval) {
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    let startX = 0, startY = 0;
-    const onDown = (e) => { startX = e.clientX || e.touches?.[0]?.clientX || 0; startY = e.clientY || e.touches?.[0]?.clientY || 0; };
-    const onMove = (e) => {
-      if (touched.current) return;
-      const cx = e.clientX || e.touches?.[0]?.clientX || 0;
-      const cy = e.clientY || e.touches?.[0]?.clientY || 0;
-      const dx = Math.abs(cx - startX), dy = Math.abs(cy - startY);
-      if (dx > 15 && dx > dy) touched.current = true;
-    };
-    el.addEventListener("pointerdown", onDown);
-    el.addEventListener("pointermove", onMove);
-
-    let iv = null;
-    const startScroll = () => {
-      if (iv) return;
-      iv = setInterval(() => {
-        if (touched.current) return;
-        const card = el.querySelector(".clinic-photo-l, .clinic-photo-p");
-        if (!card) return;
-        const step = card.offsetWidth + 16;
-        const maxScroll = el.scrollWidth - el.clientWidth;
-        if (el.scrollLeft <= -maxScroll + 10) el.scrollTo({ left: 0, behavior: "smooth" });
-        else el.scrollBy({ left: -step, behavior: "smooth" });
-      }, interval);
-    };
-    const stopScroll = () => { clearInterval(iv); iv = null; };
-
-    const obs = new IntersectionObserver(
-      ([e]) => { if (e.isIntersecting) startScroll(); else stopScroll(); },
-      { threshold: 0.3 }
-    );
-    obs.observe(el);
-
-    return () => { stopScroll(); obs.disconnect(); el.removeEventListener("pointerdown", onDown); el.removeEventListener("pointermove", onMove); };
-  }, [ref, touched, interval]);
-}
+// Portrait photos (indexes 3,4,5) focus on top so faces/hands stay visible after square crop
+const portraitIndexes = new Set([3, 4, 5]);
 
 export default function ClinicPhotos() {
-  const landscape = ALL_PHOTOS.filter((_, i) => [0, 1, 2].includes(i));
-  const portrait  = ALL_PHOTOS.filter((_, i) => [3, 4, 5].includes(i));
-
-  const scrollRefL = useRef(null);
-  const scrollRefP = useRef(null);
-  const userTouchedL = useRef(false);
-  const userTouchedP = useRef(false);
   const [lbIndex, setLbIndex] = useState(null);
-
-  useAutoScroll(scrollRefL, userTouchedL, 2500);
-  useAutoScroll(scrollRefP, userTouchedP, 3000);
 
   return (
     <>
-      <div style={{ background: C.cream, padding: "40px 0 0" }}>
-        {/* Landscape carousel */}
-        <div ref={scrollRefL} className="clinic-carousel" style={{
-          display: "flex", gap: "16px", overflowX: "auto",
-          padding: "0 24px 20px",
-          scrollSnapType: "x mandatory",
-          WebkitOverflowScrolling: "touch",
-        }}>
-          {landscape.map((p) => {
-            const allIdx = ALL_PHOTOS.findIndex(a => a.src === p.src);
+      <section
+        style={{
+          background: C.cream,
+          padding: "60px 20px",
+        }}
+        aria-label="גלריית תמונות מהקליניקה"
+      >
+        <div
+          className="clinic-photos-grid"
+          style={{
+            maxWidth: "1100px",
+            margin: "0 auto",
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)",
+            gap: "16px",
+          }}
+        >
+          {ALL_PHOTOS.map((p, i) => {
+            const objectPosition = portraitIndexes.has(i) ? "center top" : "center center";
             return (
-              <div key={p.src} className="clinic-photo-l" onClick={() => setLbIndex(allIdx)} style={{
-                flexShrink: 0, scrollSnapAlign: "start",
-                borderRadius: "12px", overflow: "hidden",
-                width: "420px", height: "280px", cursor: "pointer",
-              }}>
-                <img src={p.src} alt={p.alt} loading="lazy" style={{
-                  width: "100%", height: "100%",
-                  display: "block", objectFit: "cover",
-                }} />
-              </div>
+              <button
+                key={p.src}
+                onClick={() => setLbIndex(i)}
+                className="clinic-photo-tile"
+                aria-label={`הצג תמונה גדולה: ${p.alt}`}
+                style={{
+                  position: "relative",
+                  aspectRatio: "1 / 1",
+                  borderRadius: "14px",
+                  overflow: "hidden",
+                  cursor: "pointer",
+                  border: "none",
+                  padding: 0,
+                  background: "none",
+                  boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
+                  transition: "transform 0.35s cubic-bezier(0.4,0,0.2,1), box-shadow 0.35s ease",
+                  display: "block",
+                }}
+              >
+                <img
+                  src={p.src}
+                  alt={p.alt}
+                  loading="lazy"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    display: "block",
+                    objectFit: "cover",
+                    objectPosition,
+                  }}
+                />
+              </button>
             );
           })}
         </div>
+      </section>
 
-        {/* Portrait carousel */}
-        <div ref={scrollRefP} className="clinic-carousel" style={{
-          display: "flex", gap: "16px", overflowX: "auto",
-          padding: "0 24px 40px",
-          scrollSnapType: "x mandatory",
-          WebkitOverflowScrolling: "touch",
-        }}>
-          {portrait.map((p) => {
-            const allIdx = ALL_PHOTOS.findIndex(a => a.src === p.src);
-            return (
-              <div key={p.src} className="clinic-photo-p" onClick={() => setLbIndex(allIdx)} style={{
-                flexShrink: 0, scrollSnapAlign: "start",
-                borderRadius: "12px", overflow: "hidden",
-                width: "240px", height: "340px", cursor: "pointer",
-              }}>
-                <img src={p.src} alt={p.alt} loading="lazy" style={{
-                  width: "100%", height: "100%",
-                  display: "block", objectFit: "cover", objectPosition: "top",
-                }} />
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      <style jsx>{`
+        .clinic-photo-tile:hover {
+          transform: translateY(-4px) scale(1.015);
+          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+        }
+        .clinic-photo-tile:focus-visible {
+          outline: 3px solid ${C.gold};
+          outline-offset: 3px;
+        }
+        @media (max-width: 768px) {
+          .clinic-photos-grid {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 12px !important;
+          }
+          .clinic-photo-tile {
+            border-radius: 10px !important;
+          }
+        }
+      `}</style>
 
       {lbIndex !== null && (
         <PhotoLightbox photos={ALL_PHOTOS} startIndex={lbIndex} onClose={() => setLbIndex(null)} />
