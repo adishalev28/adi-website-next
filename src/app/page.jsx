@@ -33,8 +33,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Stats />
-      <ClinicVideo />
       <Reviews />
+      <ClinicVideo />
       <ClinicPhotos />
       <Services />
       <About />
