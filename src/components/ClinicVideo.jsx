@@ -63,7 +63,7 @@ export default function ClinicVideo() {
             description:
               "סרטון תדמית של קליניקת עדי שלו לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח ומוקסה.",
             thumbnailUrl: "https://adishalev.co.il/clinic-room.jpg",
-            uploadDate: "2026-05-22",
+            uploadDate: "2026-05-22T10:00:00+03:00",
             contentUrl: "https://adishalev.co.il/clinic-horizontal.mp4",
             duration: "PT1M14S",
             embedUrl: "https://adishalev.co.il/clinic-vertical-master.mp4",
