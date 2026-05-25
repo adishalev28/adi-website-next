@@ -7,6 +7,20 @@ export default function sitemap() {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
+      videos: [
+        {
+          title: "עדי שלו - רפואה סינית מסורתית, קליניקה בראשון לציון",
+          thumbnail_loc: `${baseUrl}/clinic-poster-horizontal.jpg`,
+          description:
+            "סרטון תדמית של קליניקת עדי שלו לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח ומוקסה.",
+          content_loc: `${baseUrl}/clinic-horizontal.mp4`,
+          duration: 74,
+          publication_date: "2026-05-22T10:00:00+03:00",
+          family_friendly: "yes",
+          live: "no",
+          tag: ["דיקור סיני", "שיאצו", "רפואה סינית", "ראשון לציון", "כוסות רוח"],
+        },
+      ],
     },
     {
       url: `${baseUrl}/about`,

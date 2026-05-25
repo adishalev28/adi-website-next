@@ -40,6 +40,10 @@ const nextConfig = {
       { source: "/category/:slug*", destination: "/blog", permanent: true },
       { source: "/tag/:slug*", destination: "/blog", permanent: true },
       { source: "/author/:slug*", destination: "/", permanent: true },
+      // WordPress uploads - תמונות ישנות ב-Google index, מפנים לדף הבית
+      { source: "/wp-content/:slug*", destination: "/", permanent: true },
+      { source: "/wp-includes/:slug*", destination: "/", permanent: true },
+      { source: "/wp-admin/:slug*", destination: "/", permanent: true },
       { source: "/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA", destination: "/accessibility", permanent: true },
       { source: "/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%A0%D7%92%D7%99%D7%A9%D7%95%D7%AA/", destination: "/accessibility", permanent: true },
       // מאמר שיאצו או עיסוי - הוסר 7.5.2026 (לא תאם את הגישה הקלינית של עדי)
