@@ -5,8 +5,8 @@ import { C } from "@/lib/constants";
 /**
  * ClinicVideo - Responsive promo video component.
  *
- * Mobile (<768px):  Vertical 30s version (9:16) - optimized for phone viewing.
- * Desktop (>=768px): Horizontal 74s version (16:9) - full-length cinematic cut.
+ * Mobile (<768px):  Vertical version (9:16) - optimized for phone viewing.
+ * Desktop (>=768px): Horizontal version (16:9) - full-length cinematic cut.
  *
  * Click-to-play (not autoplay) for performance / Core Web Vitals.
  * Poster image shows before play to avoid bandwidth use.
@@ -63,9 +63,9 @@ export default function ClinicVideo() {
             description:
               "סרטון תדמית של קליניקת עדי שלו לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח ומוקסה.",
             thumbnailUrl: "https://adishalev.co.il/clinic-room.jpg",
-            uploadDate: "2026-05-22T10:00:00+03:00",
+            uploadDate: "2026-06-01T18:00:00+03:00",
             contentUrl: "https://adishalev.co.il/clinic-horizontal.mp4",
-            duration: "PT1M14S",
+            duration: "PT1M2S",
             embedUrl: "https://adishalev.co.il/clinic-vertical-master.mp4",
             publisher: {
               "@type": "Organization",
