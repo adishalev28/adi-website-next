@@ -39,6 +39,7 @@
 | 1.8 | סיפור הצלחה לדף /cupping (ספורטאי) | ✅ | 10.5.2026 | b43ba0d | חיזוק E-E-A-T |
 | 1.9 | שיפור snippet של /about ו-/cupping (CTR boost) | ✅ | 17.5.2026 | 79a52aa | מיקום 7.1 ו-10.5 עם 0 קליקים → CTR מצופה לעלות |
 | 1.10 | הוספת 6 redirects ל-WordPress legacy paths (/feed, /sample-page, /category/*, /tag/*, /author/*) | ✅ | 17.5.2026 | 3f170e1 | 3 דפי 404 ב-GSC ייצאו מהדוח. אימות התיקון הופעל ב-GSC. |
+| 1.11 | אופטימיזציית CTR ל-/blog/shiatsu (title + meta) - הדף עם 145 הופעות/0 קליקים | ✅ | 3.6.2026 | TBD | title עונה ל"שיאצו מה זה", description בנוסחת PAS. מדידה: בדיקה הבאה |
 
 ### יריד 2: Backlinks - בינוני טווח (החודש)
 
