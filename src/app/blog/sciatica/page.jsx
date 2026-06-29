@@ -95,7 +95,7 @@ export default function SciaticaPage() {
         {/* Answer Block */}
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
           <strong>בקצרה:</strong> סיאטיקה היא כאב שמקרין מהגב התחתון דרך הישבן ולאורך הרגל.
-          דיקור סיני בשיטת מאסטר טונג מוכח מחקרית כטיפול יעיל שמפחית דלקת, משחרר לחץ על העצב ומחזיר תנועה חופשית.
+          <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 600 }}>דיקור סיני</a> בשיטת מאסטר טונג מוכח מחקרית כטיפול יעיל שמפחית דלקת, משחרר לחץ על העצב ומחזיר תנועה חופשית.
           בקליניקה שלי במערב ראשון לציון, רוב המטופלים מרגישים שיפור ניכר כבר לאחר 3-5 טיפולים.
         </p>
 
