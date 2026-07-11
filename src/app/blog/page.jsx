@@ -36,7 +36,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "יולי 2026",
     readTime: "11",
-    image: "/acupuncture-treatment.jpg",
+    image: "/blog-frozen-shoulder.jpg",
     imageAlt: "דיקור סיני לכתף קפואה - שחזור טווח תנועה בקליניקה בראשון לציון",
   },
   {
