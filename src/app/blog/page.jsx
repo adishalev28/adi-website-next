@@ -36,7 +36,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "יולי 2026",
     readTime: "11",
-    image: "/adi-treatment.jpg",
+    image: "/blog-menopause.jpg",
     imageAlt: "דיקור סיני לגיל המעבר וגלי חום - טיפול טבעי בקליניקה בראשון לציון",
   },
   {
