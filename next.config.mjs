@@ -51,6 +51,26 @@ const nextConfig = {
       { source: "/blog/shiatsu-vs-massage/", destination: "/blog/shiatsu", permanent: true },
     ];
   },
+
+  // כותרות אבטחה - הכותרות ה"בטוחות" בלבד (לא שוברות inline styles/סקריפטים).
+  // CSP במכוון לא נכלל כדי לא לסכן את התצוגה. HSTS כבר מוגדר ב-Vercel.
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          // מונע מהדפדפן לנחש סוגי קבצים (הגנה מ-MIME sniffing)
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          // מונע הטמעת האתר ב-iframe זר (הגנה מ-clickjacking)
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          // לא מדליף כתובות מלאות לאתרים חיצוניים
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          // חוסם גישה ליכולות שהאתר לא משתמש בהן
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;
