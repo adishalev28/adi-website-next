@@ -67,6 +67,12 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/frozen-shoulder`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/what-is-acupuncture`,
       lastModified: new Date(),
       changeFrequency: "monthly",
