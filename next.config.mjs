@@ -67,6 +67,24 @@ const nextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           // חוסם גישה ליכולות שהאתר לא משתמש בהן
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
+          // CSP במצב האזנה בלבד (Report-Only) - לא חוסם, רק מדווח לקונסול על מקורות שהיו נחסמים.
+          // שלב מעבר לקראת CSP חוסם מלא. לאסוף חריגות כמה ימים, ואז להפוך ל-Content-Security-Policy.
+          {
+            key: "Content-Security-Policy-Report-Only",
+            value: [
+              "default-src 'self'",
+              "base-uri 'self'",
+              "object-src 'none'",
+              "frame-ancestors 'self'",
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com",
+              "style-src 'self' 'unsafe-inline'",
+              "img-src 'self' data: blob: https:",
+              "font-src 'self' data:",
+              "media-src 'self'",
+              "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.supabase.co",
+              "frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com",
+            ].join("; "),
+          },
         ],
       },
     ];
