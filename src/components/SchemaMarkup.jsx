@@ -130,8 +130,8 @@ export function LocalBusinessSchema() {
       "@type": "AggregateRating",
       ratingValue: "5",
       bestRating: "5",
-      ratingCount: "35",
-      reviewCount: "35",
+      ratingCount: "36",
+      reviewCount: "36",
     },
     sameAs: [
       "https://wa.me/972528029031",

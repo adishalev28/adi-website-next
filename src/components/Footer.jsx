@@ -16,6 +16,7 @@ export default function Footer() {
           { label: "שיאצו", href: "/shiatsu" },
           { label: "כוסות רוח", href: "/cupping" },
           { label: "צמחי מרפא", href: "/herbs" },
+          { label: "המלצות מטופלים", href: "/reviews" },
           { label: "מאמרים", href: "/blog" },
         ].map(l => (
           <a key={l.href} href={l.href} className="footer-service-link" style={{
