@@ -38,9 +38,9 @@ export const metadata = {
 };
 
 const OTHER_SERVICES = [
-  { label: "שיאצו", href: "/shiatsu/" },
-  { label: "כוסות רוח", href: "/cupping/" },
-  { label: "צמחי מרפא סיניים", href: "/herbs/" },
+  { label: "שיאצו", href: "/shiatsu" },
+  { label: "כוסות רוח", href: "/cupping" },
+  { label: "צמחי מרפא סיניים", href: "/herbs" },
 ];
 
 export default function AcupuncturePage() {

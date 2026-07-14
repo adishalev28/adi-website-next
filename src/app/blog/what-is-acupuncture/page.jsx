@@ -18,9 +18,9 @@ export const metadata = {
 };
 
 const RELATED = [
-  { href: "/blog/back-pain/", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
-  { href: "/blog/faq-complete/", title: "שאלות ותשובות על רפואה סינית", tag: "שאלות ותשובות" },
-  { href: "/dikur-sini/", title: "דיקור סיני  - דף השירות", tag: "שירותים" },
+  { href: "/blog/back-pain", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
+  { href: "/blog/faq-complete", title: "שאלות ותשובות על רפואה סינית", tag: "שאלות ותשובות" },
+  { href: "/dikur-sini", title: "דיקור סיני  - דף השירות", tag: "שירותים" },
 ];
 
 export default function WhatIsAcupuncturePage() {
@@ -131,13 +131,13 @@ export default function WhatIsAcupuncturePage() {
         בקליניקה שלי בראשון לציון, הטיפול מותאם אישית לכל מטופל.
         עם ניסיון של שנים ומאות מטופלים מרוצים, אני מציע טיפול מקצועי
         ואישי בסביבה נעימה ושקטה. פרטים מלאים על הטיפול בדף{" "}
-        <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
+        <a href="/dikur-sini" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
       </p>
       <p>
         רוצים לקרוא עוד? כתבתי מדריכים מפורטים על{" "}
-        <a href="/blog/back-pain/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לכאבי גב</a>
+        <a href="/blog/back-pain" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לכאבי גב</a>
         {" "}ועל{" "}
-        <a href="/blog/anxiety/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה</a>
+        <a href="/blog/anxiety" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה</a>
         {" "}- שתי הסיבות הנפוצות ביותר שמגיעים אליי.
       </p>
       <p>

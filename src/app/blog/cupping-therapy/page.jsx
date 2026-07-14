@@ -21,17 +21,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/back-pain-guide/",
+    href: "/blog/back-pain-guide",
     title: "כאבי גב -המדריך המלא",
     tag: "כאבי גב",
   },
   {
-    href: "/blog/sciatica/",
+    href: "/blog/sciatica",
     title: "דיקור סיני לסיאטיקה",
     tag: "סיאטיקה",
   },
   {
-    href: "/cupping/",
+    href: "/cupping",
     title: "כוסות רוח -דף השירות",
     tag: "שירותים",
   },
@@ -71,7 +71,7 @@ export default function CuppingTherapyPage() {
           משחררת מתח שרירי ומפחיתה דלקת. הטיפול מתאים במיוחד לכאבי גב, צוואר תפוס ומתח כללי.
           בקליניקה שלי בראשון לציון אני משלב כוסות רוח עם דיקור סיני לתוצאות טובות יותר.
           המאמר הזה מסביר את כל מה שכדאי לדעת לפני הטיפול. רוצים לקבוע תור? כל הפרטים בדף{" "}
-          <a href="/cupping/" style={{ color: '#6B7A5A', fontWeight: 700 }}>טיפול בכוסות רוח בראשון לציון</a>.
+          <a href="/cupping" style={{ color: '#6B7A5A', fontWeight: 700 }}>טיפול בכוסות רוח בראשון לציון</a>.
         </p>
 
         <h2 id="what">מה זה כוסות רוח?</h2>
@@ -113,7 +113,7 @@ export default function CuppingTherapyPage() {
         </ul>
         <p>
           סובלים מכאבי גב באופן קבוע? כתבתי גם{" "}
-          <a href="/blog/back-pain/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך מלא לדיקור סיני לכאבי גב</a>
+          <a href="/blog/back-pain" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך מלא לדיקור סיני לכאבי גב</a>
           {" "}- שם אני מסביר איך השילוב של דיקור וכוסות עובד.
         </p>
 

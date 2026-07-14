@@ -9,9 +9,9 @@ export const metadata = {
 };
 
 const RELATED = [
-  { href: "/blog/what-is-acupuncture/", title: "מה זה דיקור סיני? המדריך למתחילים", tag: "דיקור סיני" },
-  { href: "/blog/back-pain/", title: "דיקור סיני לכאבי גב", tag: "כאבים" },
-  { href: "/dikur-sini/", title: "דיקור סיני - דף השירות", tag: "שירותים" },
+  { href: "/blog/what-is-acupuncture", title: "מה זה דיקור סיני? המדריך למתחילים", tag: "דיקור סיני" },
+  { href: "/blog/back-pain", title: "דיקור סיני לכאבי גב", tag: "כאבים" },
+  { href: "/dikur-sini", title: "דיקור סיני - דף השירות", tag: "שירותים" },
 ];
 
 export default function HowAcupunctureWorksPage() {

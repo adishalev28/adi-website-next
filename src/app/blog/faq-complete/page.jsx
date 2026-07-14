@@ -10,9 +10,9 @@ export const metadata = {
 };
 
 const RELATED = [
-  { href: "/blog/what-is-acupuncture/", title: "מה זה דיקור סיני?", tag: "דיקור סיני" },
-  { href: "/blog/back-pain/", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
-  { href: "/shiatsu/", title: "שיאצו  - דף השירות", tag: "שירותים" },
+  { href: "/blog/what-is-acupuncture", title: "מה זה דיקור סיני?", tag: "דיקור סיני" },
+  { href: "/blog/back-pain", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
+  { href: "/shiatsu", title: "שיאצו  - דף השירות", tag: "שירותים" },
 ];
 
 const FAQS = [
@@ -159,11 +159,11 @@ export default function FaqCompletePage() {
       <div style={{ marginTop: "32px" }}>
         <p>
           <strong>רוצים להעמיק?</strong> המדריכים המלאים שלי:{" "}
-          <a href="/blog/what-is-acupuncture/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה דיקור סיני</a>
+          <a href="/blog/what-is-acupuncture" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה דיקור סיני</a>
           {", "}
-          <a href="/blog/shiatsu/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה שיאצו</a>
+          <a href="/blog/shiatsu" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה שיאצו</a>
           {" "}ו
-          <a href="/blog/cupping-therapy/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך כוסות הרוח</a>.
+          <a href="/blog/cupping-therapy" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך כוסות הרוח</a>.
         </p>
         <p>
           <strong>לא מצאתם תשובה לשאלה שלכם?</strong> צרו קשר ונשמח לענות באופן אישי.

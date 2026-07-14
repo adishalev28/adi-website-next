@@ -21,17 +21,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/back-pain/",
+    href: "/blog/back-pain",
     title: "דיקור סיני לכאבי גב",
     tag: "דיקור סיני",
   },
   {
-    href: "/blog/neck-shoulder-pain/",
+    href: "/blog/neck-shoulder-pain",
     title: "כאבי צוואר וכתפיים",
     tag: "כאבי שרירים",
   },
   {
-    href: "/dikur-sini/",
+    href: "/dikur-sini",
     title: "דיקור סיני -דף השירות",
     tag: "שירותים",
   },
@@ -152,7 +152,7 @@ export default function BackPainGuidePage() {
           היתרון: שחרור מיידי יותר, ובזמן הטיפול אפשר לבדוק אם הכאב פחת.
         </p>
         <p>
-          <a href="/blog/back-pain/" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/blog/back-pain" style={{ color: '#6B7A5A', fontWeight: 600 }}>
             ← קראו עוד: דיקור סיני לכאבי גב -המאמר המלא
           </a>
         </p>
@@ -171,7 +171,7 @@ export default function BackPainGuidePage() {
           <li>שילוב עם דיקור לתוצאות טובות יותר</li>
         </ul>
         <p>
-          <a href="/shiatsu/" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/shiatsu" style={{ color: '#6B7A5A', fontWeight: 600 }}>
             ← קראו עוד: שיאצו -דף השירות
           </a>
         </p>
@@ -189,7 +189,7 @@ export default function BackPainGuidePage() {
           <li>שיפור טווח התנועה</li>
         </ul>
         <p>
-          <a href="/cupping/" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/cupping" style={{ color: '#6B7A5A', fontWeight: 600 }}>
             ← קראו עוד: כוסות רוח -דף השירות
           </a>
         </p>
@@ -207,7 +207,7 @@ export default function BackPainGuidePage() {
           <li><strong>דאנג גווי (Dang Gui)</strong> -מזין את הדם, משחרר עווית שרירים</li>
         </ul>
         <p>
-          <a href="/herbs/" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/herbs" style={{ color: '#6B7A5A', fontWeight: 600 }}>
             ← קראו עוד: צמחי מרפא סיניים -דף השירות
           </a>
         </p>

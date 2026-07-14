@@ -20,17 +20,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/neck-shoulder-pain/",
+    href: "/blog/neck-shoulder-pain",
     title: "דיקור סיני לכאבי צוואר וכתפיים",
     tag: "דיקור סיני",
   },
   {
-    href: "/blog/back-pain/",
+    href: "/blog/back-pain",
     title: "דיקור סיני לכאבי גב",
     tag: "דיקור סיני",
   },
   {
-    href: "/dikur-sini/",
+    href: "/dikur-sini",
     title: "דיקור סיני - דף השירות",
     tag: "שירותים",
   },
@@ -67,7 +67,7 @@ export default function FrozenShoulderPage() {
       >
         {/* Answer Block – GEO: תשובה ישירה שה-AI יכול לצטט */}
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
-          <strong>בקצרה:</strong> <a href="/dikur-sini/">דיקור סיני</a> מטפל בכתף קפואה על ידי הפחתת כאב ודלקת ושחרור הדרגתי של החסימה בקופסית המפרק. בקליניקה שלי בראשון לציון אני עובד בשיטת ד"ר טאן - נקודות מרוחקות שמאפשרות להזיז את הכתף כבר בזמן הטיפול ולראות שיפור בטווח התנועה על המיטה. רוב המטופלים מרגישים הקלה בכאב כבר אחרי הטיפולים הראשונים.
+          <strong>בקצרה:</strong> <a href="/dikur-sini">דיקור סיני</a> מטפל בכתף קפואה על ידי הפחתת כאב ודלקת ושחרור הדרגתי של החסימה בקופסית המפרק. בקליניקה שלי בראשון לציון אני עובד בשיטת ד"ר טאן - נקודות מרוחקות שמאפשרות להזיז את הכתף כבר בזמן הטיפול ולראות שיפור בטווח התנועה על המיטה. רוב המטופלים מרגישים הקלה בכאב כבר אחרי הטיפולים הראשונים.
         </p>
 
         <p>

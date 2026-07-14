@@ -21,17 +21,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/anxiety/",
+    href: "/blog/anxiety",
     title: "דיקור סיני לחרדה ולחץ נפשי",
     tag: "דיקור סיני",
   },
   {
-    href: "/blog/sleep/",
+    href: "/blog/sleep",
     title: "דיקור סיני לבעיות שינה",
     tag: "דיקור סיני",
   },
   {
-    href: "/blog/what-is-acupuncture/",
+    href: "/blog/what-is-acupuncture",
     title: "מה זה דיקור סיני?",
     tag: "דיקור סיני",
   },
@@ -163,7 +163,7 @@ export default function DigestiveIssuesPage() {
         <p>
           הרבה מטופלים שמגיעים עם בעיות עיכול מספרים שהתסמינים מחמירים
           בתקופות לחץ. זה לא מקרי - יש ציר תקשורת ישיר בין המוח למעי
-          (ציר מוח-מעי) שגורם ל<a href="/blog/anxiety/">לחץ נפשי</a> להשפיע ישירות על תפקוד מערכת העיכול.
+          (ציר מוח-מעי) שגורם ל<a href="/blog/anxiety">לחץ נפשי</a> להשפיע ישירות על תפקוד מערכת העיכול.
         </p>
         <p>
           דיקור סיני מטפל בשני הכיוונים בו זמנית - מרגיע את מערכת העצבים
@@ -271,9 +271,9 @@ export default function DigestiveIssuesPage() {
         <p>
           <strong>קריאה נוספת:</strong> בעיות עיכול הולכות לעיתים קרובות יד ביד עם מתח -
           במדריך{" "}
-          <a href="/blog/anxiety/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה ולחץ</a>
+          <a href="/blog/anxiety" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה ולחץ</a>
           {" "}אני מסביר את הקשר. ובקליניקה אני משלב לעיתים גם{" "}
-          <a href="/herbs/" style={{ color: '#6B7A5A', fontWeight: 700 }}>צמחי מרפא סיניים</a>
+          <a href="/herbs" style={{ color: '#6B7A5A', fontWeight: 700 }}>צמחי מרפא סיניים</a>
           {" "}לתמיכה במערכת העיכול.
         </p>
       </ArticleLayout>

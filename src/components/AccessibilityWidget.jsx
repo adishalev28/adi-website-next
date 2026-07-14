@@ -229,7 +229,7 @@ export default function AccessibilityWidget() {
           borderTop: `1px solid ${C.sage}20`,
           textAlign: "center",
         }}>
-          <a href="/accessibility/" style={{
+          <a href="/accessibility" style={{
             fontSize: "13px", color: C.sage, textDecoration: "underline",
           }}>
             הצהרת נגישות מלאה

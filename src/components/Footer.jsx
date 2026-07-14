@@ -12,11 +12,11 @@ export default function Footer() {
         justifyContent: "center", marginBottom: "16px",
       }}>
         {[
-          { label: "דיקור סיני", href: "/dikur-sini/" },
-          { label: "שיאצו", href: "/shiatsu/" },
-          { label: "כוסות רוח", href: "/cupping/" },
-          { label: "צמחי מרפא", href: "/herbs/" },
-          { label: "מאמרים", href: "/blog/" },
+          { label: "דיקור סיני", href: "/dikur-sini" },
+          { label: "שיאצו", href: "/shiatsu" },
+          { label: "כוסות רוח", href: "/cupping" },
+          { label: "צמחי מרפא", href: "/herbs" },
+          { label: "מאמרים", href: "/blog" },
         ].map(l => (
           <a key={l.href} href={l.href} className="footer-service-link" style={{
             color: "rgba(255,255,255,0.8)", textDecoration: "none", fontSize: "13px",
@@ -28,11 +28,11 @@ export default function Footer() {
         justifyContent: "center", marginBottom: "16px",
         paddingTop: "12px", borderTop: "1px solid rgba(255,255,255,0.08)",
       }}>
-        <a href="/accessibility/" className="footer-legal-link" style={{
+        <a href="/accessibility" className="footer-legal-link" style={{
           color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: "12px",
         }}>הצהרת נגישות</a>
         <span style={{ color: "rgba(255,255,255,0.15)" }}>|</span>
-        <a href="/privacy/" className="footer-legal-link" style={{
+        <a href="/privacy" className="footer-legal-link" style={{
           color: "rgba(255,255,255,0.75)", textDecoration: "none", fontSize: "12px",
         }}>מדיניות פרטיות</a>
       </nav>

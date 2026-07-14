@@ -13,17 +13,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/back-pain-guide/",
+    href: "/blog/back-pain-guide",
     title: "כאבי גב - המדריך המלא",
     tag: "כאבי גב",
   },
   {
-    href: "/blog/cupping-therapy/",
+    href: "/blog/cupping-therapy",
     title: "כוסות רוח - מתי ולמה",
     tag: "כוסות רוח",
   },
   {
-    href: "/dikur-sini/",
+    href: "/dikur-sini",
     title: "דיקור סיני - דף השירות",
     tag: "שירותים",
   },
@@ -95,7 +95,7 @@ export default function SciaticaPage() {
         {/* Answer Block */}
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
           <strong>בקצרה:</strong> סיאטיקה היא כאב שמקרין מהגב התחתון דרך הישבן ולאורך הרגל.
-          <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 600 }}>דיקור סיני</a> בשיטת מאסטר טונג מוכח מחקרית כטיפול יעיל שמפחית דלקת, משחרר לחץ על העצב ומחזיר תנועה חופשית.
+          <a href="/dikur-sini" style={{ color: '#6B7A5A', fontWeight: 600 }}>דיקור סיני</a> בשיטת מאסטר טונג מוכח מחקרית כטיפול יעיל שמפחית דלקת, משחרר לחץ על העצב ומחזיר תנועה חופשית.
           בקליניקה שלי במערב ראשון לציון, רוב המטופלים מרגישים שיפור ניכר כבר לאחר 3-5 טיפולים.
         </p>
 
@@ -375,9 +375,9 @@ export default function SciaticaPage() {
 
         <p style={{ marginTop: '24px' }}>
           <strong>קריאה נוספת:</strong> סיאטיקה מגיעה כמעט תמיד יחד עם כאבי גב - במדריך{" "}
-          <a href="/blog/back-pain-guide/" style={{ color: '#6B7A5A', fontWeight: 700 }}>כאבי גב - המדריך המלא</a>
+          <a href="/blog/back-pain-guide" style={{ color: '#6B7A5A', fontWeight: 700 }}>כאבי גב - המדריך המלא</a>
           {" "}אני מרחיב על הגישה שלי. ולפרטים על הטיפול עצמו - דף{" "}
-          <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
+          <a href="/dikur-sini" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
         </p>
 
       </ArticleLayout>

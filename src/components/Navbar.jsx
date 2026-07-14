@@ -22,7 +22,7 @@ export default function Navbar({ basePath = "" }) {
     { label: "שאלות נפוצות",   href: `${prefix}#faq`      },
     { label: "המלצות",          href: `${prefix}#reviews`  },
     { label: "צור קשר",         href: `${prefix}#contact`  },
-    { label: "מאמרים",          href: "/blog/"               },
+    { label: "מאמרים",          href: "/blog"               },
   ];
 
   const filled = scrolled || menuOpen;

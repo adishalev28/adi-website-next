@@ -41,9 +41,9 @@ export const metadata = {
 };
 
 const OTHER_SERVICES = [
-  { label: "דיקור סיני", href: "/dikur-sini/" },
-  { label: "כוסות רוח", href: "/cupping/" },
-  { label: "צמחי מרפא סיניים", href: "/herbs/" },
+  { label: "דיקור סיני", href: "/dikur-sini" },
+  { label: "כוסות רוח", href: "/cupping" },
+  { label: "צמחי מרפא סיניים", href: "/herbs" },
 ];
 
 export default function ShiatsuPage() {
@@ -162,7 +162,7 @@ export default function ShiatsuPage() {
             </p>
             <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0" }}>
               רוצים להעמיק? כתבתי מדריך מלא שעונה על השאלה{" "}
-              <a href="/blog/shiatsu/" style={{ color: C.sage, fontWeight: 700 }}>מה זה שיאצו</a>
+              <a href="/blog/shiatsu" style={{ color: C.sage, fontWeight: 700 }}>מה זה שיאצו</a>
               {" "}- כולל מה קורה בטיפול, למי הוא מתאים ומה אומר המחקר.
             </p>
           </div>

@@ -30,7 +30,7 @@ export default function CookieConsent() {
     }}>
       <p style={{ margin: 0, textAlign: "center" }}>
         אתר זה משתמש בעוגיות טכניות בלבד לצורך תפקוד תקין.{" "}
-        <a href="/privacy/" style={{
+        <a href="/privacy" style={{
           color: C.goldLight, textDecoration: "underline",
         }}>
           מדיניות פרטיות

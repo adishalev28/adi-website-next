@@ -21,17 +21,17 @@ export const metadata = {
 
 const RELATED = [
   {
-    href: "/blog/what-is-acupuncture/",
+    href: "/blog/what-is-acupuncture",
     title: "מה זה דיקור סיני?",
     tag: "דיקור סיני",
   },
   {
-    href: "/blog/anxiety/",
+    href: "/blog/anxiety",
     title: "דיקור סיני לחרדה ומתח",
     tag: "מתח ולחץ",
   },
   {
-    href: "/dikur-sini/",
+    href: "/dikur-sini",
     title: "דיקור סיני -דף השירות",
     tag: "שירותים",
   },
@@ -165,9 +165,9 @@ export default function FacialParalysisPage() {
           בקליניקה שלי בראשון לציון טיפלתי במספר מטופלים עם פציאליס,
           והתוצאות מעודדות מאוד. ברוב המקרים, מטופלים שהגיעו בשלב מוקדם חוו שיפור
           ניכר כבר אחרי 4-5 טיפולים. אם אתם חדשים בעולם הזה, כדאי להתחיל מהמדריך שלי{" "}
-          <a href="/blog/what-is-acupuncture/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה דיקור סיני</a>
+          <a href="/blog/what-is-acupuncture" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה דיקור סיני</a>
           {" "}- ולפרטים על הטיפול עצמו, ראו את דף{" "}
-          <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 700 }}>הדיקור הסיני בקליניקה</a>.
+          <a href="/dikur-sini" style={{ color: '#6B7A5A', fontWeight: 700 }}>הדיקור הסיני בקליניקה</a>.
         </p>
 
         {/* Quote from review */}

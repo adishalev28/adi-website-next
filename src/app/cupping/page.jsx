@@ -36,9 +36,9 @@ export const metadata = {
 };
 
 const OTHER_SERVICES = [
-  { label: "דיקור סיני", href: "/dikur-sini/" },
-  { label: "שיאצו", href: "/shiatsu/" },
-  { label: "צמחי מרפא סיניים", href: "/herbs/" },
+  { label: "דיקור סיני", href: "/dikur-sini" },
+  { label: "שיאצו", href: "/shiatsu" },
+  { label: "צמחי מרפא סיניים", href: "/herbs" },
 ];
 
 export default function CuppingPage() {

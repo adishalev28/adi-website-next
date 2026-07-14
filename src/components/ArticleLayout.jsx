@@ -24,7 +24,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
             דף הבית
           </a>
           <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <a href="/blog/" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <a href="/blog" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
             מאמרים
           </a>
           <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
