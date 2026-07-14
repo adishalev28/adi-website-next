@@ -57,6 +57,7 @@ export const metadata = {
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://adishalev.co.il/#adi",
   name: "עדי שלו",
   alternateName: "Adi Shalev",
   jobTitle: "מטפל ברפואה סינית",
@@ -88,7 +89,9 @@ const personSchema = {
     },
   },
   sameAs: [
-    "https://www.google.com/maps/place/?q=place_id:YOUR_PLACE_ID",
+    "https://maps.google.com/?cid=2830836878633217880",
+    "https://www.facebook.com/adi.zablodovitz.Shalev",
+    "https://www.linkedin.com/in/adi-shalev-chinese-medicine",
   ],
 };
 

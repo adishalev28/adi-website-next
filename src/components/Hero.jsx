@@ -68,7 +68,7 @@ export default function Hero() {
           color: C.goldLight, margin: "0 0 8px", lineHeight: 1.1,
           textShadow: "0 2px 20px rgba(0,0,0,0.15)",
         }}>
-          <span style={{ display: "block" }}>עדי שלו</span>
+          <span style={{ display: "block" }}>עדי שלו</span>{" "}
           <span style={{
             display: "block",
             fontSize: "clamp(20px, 3.2vw, 28px)",

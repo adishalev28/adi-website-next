@@ -22,7 +22,7 @@ export default function About() {
             קצת עליי
           </div>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: "0 0 16px", lineHeight: 1.2 }}>
-            עדי שלו
+            עדי שלו - מטפל ברפואה סינית
           </h2>
           <div className="about-divider" style={{ width: "40px", height: "3px", background: C.gold, borderRadius: "2px", marginBottom: "24px" }} />
           <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>

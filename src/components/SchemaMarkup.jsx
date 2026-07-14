@@ -99,6 +99,7 @@ export function LocalBusinessSchema() {
     },
     founder: {
       "@type": "Person",
+      "@id": "https://adishalev.co.il/#adi",
       name: "עדי שלו",
       alternateName: "Adi Shalev",
       jobTitle: "מטפל ברפואה סינית",
@@ -253,6 +254,7 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
     image: image || "https://adishalev.co.il/og-image.jpg",
     author: {
       "@type": "Person",
+      "@id": "https://adishalev.co.il/#adi",
       name: "עדי שלו",
       alternateName: "Adi Shalev",
       url: "https://adishalev.co.il",
