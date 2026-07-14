@@ -373,6 +373,13 @@ export default function SciaticaPage() {
           </div>
         ))}
 
+        <p style={{ marginTop: '24px' }}>
+          <strong>קריאה נוספת:</strong> סיאטיקה מגיעה כמעט תמיד יחד עם כאבי גב - במדריך{" "}
+          <a href="/blog/back-pain-guide/" style={{ color: '#6B7A5A', fontWeight: 700 }}>כאבי גב - המדריך המלא</a>
+          {" "}אני מרחיב על הגישה שלי. ולפרטים על הטיפול עצמו - דף{" "}
+          <a href="/dikur-sini/" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
+        </p>
+
       </ArticleLayout>
     </>
   );

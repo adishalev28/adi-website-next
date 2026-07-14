@@ -70,7 +70,7 @@ export default function ShiatsuBlogPage() {
       >
         {/* Answer Block – GEO: תשובה ישירה שה-AI יכול לצטט */}
         <p style={{ background: '#f8f7f4', borderRight: '4px solid #6B7A5A', padding: '16px', borderRadius: '8px', marginBottom: '24px' }}>
-          <strong>בקצרה:</strong> שיאצו הוא עיסוי יפני עתיק שמשמעו "לחץ אצבעות". בניגוד לעיסוי שוודי שמתמקד בשרירים, שיאצו פועל על מרידיאנים - ערוצי אנרגיה ברפואה הסינית - ונותן מענה לכאבי גב, מתח, חרדה, בעיות שינה ועייפות. בקליניקה שלי בראשון לציון אני משלב שיאצו עם ידע רפואי סיני מעמיק לטיפול ממוקד ויעיל.
+          <strong>בקצרה:</strong> שיאצו היא שיטת טיפול במגע שמקורה ביפן, שבה אני מפעיל לחץ מדויק בעוצמה מותאמת אישית - מתון עד עמוק - עם האגודלים וכפות הידיים לאורך ערוצי האנרגיה של הגוף (מרידיאנים), כדי לשחרר שרירים תפוסים, להקל על כאבים ולהרגיע את מערכת העצבים. הטיפול נעשה בלבוש מלא, על מיטת טיפולים נוחה, ומשלב לחיצות קצובות ומתיחות עדינות. בקליניקה שלי בראשון לציון אני משלב שיאצו עם אבחנה מהרפואה הסינית - לכאבי גב וצוואר, מתח, בעיות שינה ועייפות.
         </p>
 
         <p>
@@ -400,8 +400,51 @@ export default function ShiatsuBlogPage() {
         <h2>שיאצו או דיקור סיני - מה לבחור?</h2>
         <p>
           זו שאלה שהרבה מטופלים שואלים. התשובה: תלוי במצב, ולעיתים השילוב הוא
-          הפתרון הטוב ביותר.
+          הפתרון הטוב ביותר. הנה ההשוואה המרוכזת:
         </p>
+        <div style={{ overflowX: 'auto', margin: '20px 0' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.95em' }}>
+            <thead>
+              <tr style={{ background: '#f0f4ee' }}>
+                <th style={{ border: '1px solid #d5ddd0', padding: '10px', textAlign: 'right' }}>מאפיין</th>
+                <th style={{ border: '1px solid #d5ddd0', padding: '10px', textAlign: 'right' }}>שיאצו</th>
+                <th style={{ border: '1px solid #d5ddd0', padding: '10px', textAlign: 'right' }}>דיקור סיני</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>כלי הטיפול והאבחנה</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>מגע דינמי באגודלים וכפות הידיים; אבחנה מהרפואה הסינית</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>מחטים סטריליות; אבחנה מהרפואה הסינית</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>לבוש וסביבה</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>לבוש מלא ונוח (מומלץ כותנה/טריקו), מיטת טיפולים</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>חשיפה מקומית של אזורי הדיקור, מיטת טיפולים</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>תחושה בטיפול</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>מגע עוטף בלחץ מותאם אישית - מתון עד עמוק לפי הצורך - עם מתיחות ושחרור שרירים להרפיה עמוקה</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>המחטים דקיקות; חלק מהנקודות כלל לא מורגשות וחלק עשויות לעקצץ לרגע בהחדרה. לאחר מכן לרוב נינוחות</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>מתאים במיוחד</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>שחרור מתחים, עומס פיזי ונפשי, כאבי שרירים ושלד, תחזוקה שוטפת</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>כאב ממוקד (כתף קפואה, מיגרנות), גיל המעבר, עיכול ובעיות פנימיות</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>משך והתמדה</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>מגע רציף לכל אורך הטיפול; סדרה ותדירות בהתאמה אישית</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>כולל זמן מנוחה עם המחטים; השפעה מצטברת לאורך סדרה</td>
+              </tr>
+              <tr>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}><strong>שילוב</strong></td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>מומלץ כהכנת הגוף לפני דיקור - הזרמת דם והרפיה</td>
+                <td style={{ border: '1px solid #d5ddd0', padding: '10px' }}>משתלב טבעי עם שיאצו שמעצים את אפקט המחטים</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <ul>
           <li>
             <strong>מי שמפחד ממחטים</strong> - שיאצו הוא אופציה מצוינת שנותנת

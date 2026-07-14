@@ -111,6 +111,11 @@ export default function CuppingTherapyPage() {
           <li><strong>סטגנציית דם</strong> -ברפואה סינית, מצבים כרוניים עם זרימה לקויה</li>
           <li><strong>הצטננות בשלב מוקדם</strong> -גירוש קור מהגוף</li>
         </ul>
+        <p>
+          סובלים מכאבי גב באופן קבוע? כתבתי גם{" "}
+          <a href="/blog/back-pain/" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך מלא לדיקור סיני לכאבי גב</a>
+          {" "}- שם אני מסביר איך השילוב של דיקור וכוסות עובד.
+        </p>
 
         <h2 id="marks">מה עם הסימנים?</h2>
         <p>

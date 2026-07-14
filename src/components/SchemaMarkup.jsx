@@ -103,6 +103,23 @@ export function LocalBusinessSchema() {
       alternateName: "Adi Shalev",
       jobTitle: "מטפל ברפואה סינית",
       url: "https://adishalev.co.il",
+      alumniOf: {
+        "@type": "EducationalOrganization",
+        name: "מכללת רידמן לרפואה משלימה",
+      },
+      affiliation: {
+        "@type": "MedicalOrganization",
+        name: "מכבי טבעי",
+        description: "מטפל בדיקור סיני ושיאצו במסגרת מכבי טבעי מעל 6 שנים",
+      },
+      knowsAbout: [
+        "דיקור סיני",
+        "שיאצו",
+        "כוסות רוח",
+        "צמחי מרפא סיניים",
+        "שיטת ד\"ר טאן",
+        "שיטת מאסטר דונג",
+      ],
       sameAs: [
         "https://www.facebook.com/adi.zablodovitz.Shalev",
         "https://maps.google.com/?cid=2830836878633217880",
