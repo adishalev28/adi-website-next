@@ -3,7 +3,7 @@
    topic מקבץ את הביקורות לפי תחום טיפול בעמוד ההמלצות. */
 
 // סה"כ ביקורות בפרופיל Google (כולל דירוגים בלי טקסט) - לעדכן כשהמספר גדל
-export const REVIEW_COUNT = 36;
+export const REVIEW_COUNT = 37;
 
 export const TOPICS = [
   { key: "back", title: "כאבי גב, צוואר וכתפיים" },
