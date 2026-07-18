@@ -12,5 +12,16 @@ export const C = {
 };
 
 export const PHONE = "972528029031";
-export const WA_TEXT = encodeURIComponent("שלום עדי, אשמח לקבוע תור 🙂");
-export const WA_URL = `https://wa.me/${PHONE}?text=${WA_TEXT}`;
+
+/* ─── הודעת פתיחה לוואטסאפ ───
+   ההודעה נוסחה כשאלה ולא כקביעת תור: מטופל מתלבט שנתקל ב"אשמח לקבוע תור"
+   מרגיש מחויב עוד לפני ששאל, וחלק נוטשים בשלב הזה.
+   waUrl(topic) מייצר הודעה לפי הדף - כך הפנייה מרגישה טבעית,
+   וגם רואים מיד מאיזה תוכן הגיע הפונה. */
+const WA_DEFAULT = "שלום עדי, רציתי לשאול לגבי טיפול 🙂";
+
+export const waUrl = (message = WA_DEFAULT) =>
+  `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
+
+export const WA_TEXT = encodeURIComponent(WA_DEFAULT);
+export const WA_URL = waUrl();

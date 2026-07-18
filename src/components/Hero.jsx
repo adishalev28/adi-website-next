@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { C, WA_URL } from "@/lib/constants";
 import WaSvg from "./WaSvg";
-import ResponseTime from "./ResponseTime";
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
@@ -122,8 +121,6 @@ export default function Hero() {
           <WaSvg size={20} />
           ליצירת קשר
         </a>
-
-        <ResponseTime variant="dark" style={{ marginTop: "16px" }} />
 
       </div>
     </section>

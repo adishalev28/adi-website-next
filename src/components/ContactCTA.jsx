@@ -1,8 +1,7 @@
-import { C, WA_URL } from "@/lib/constants";
+import { C, waUrl } from "@/lib/constants";
 import WaSvg from "./WaSvg";
-import ResponseTime from "./ResponseTime";
 
-export default function ContactCTA({ title = "רוצים לקבוע תור?", subtitle = "צרו קשר לתיאום תור בקליניקה לרפואה סינית בראשון לציון" }) {
+export default function ContactCTA({ title = "רוצים לקבוע תור?", subtitle = "צרו קשר לתיאום תור בקליניקה לרפואה סינית בראשון לציון", waMessage }) {
   return (
     <section style={{
       background: C.bark, padding: "80px 24px", textAlign: "center",
@@ -14,7 +13,7 @@ export default function ContactCTA({ title = "רוצים לקבוע תור?", su
         <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.6)", lineHeight: 1.7, margin: "0 0 36px" }}>
           {subtitle}
         </p>
-        <a href={WA_URL} target="_blank" rel="noreferrer" className="cta-wa-btn" style={{
+        <a href={waUrl(waMessage)} target="_blank" rel="noreferrer" className="cta-wa-btn" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
           background: "#25D366", color: "white", padding: "16px 40px",
           borderRadius: "50px", fontSize: "16px", fontWeight: 800,
@@ -24,7 +23,6 @@ export default function ContactCTA({ title = "רוצים לקבוע תור?", su
           <WaSvg size={22} />
           שלחו הודעה ב-WhatsApp
         </a>
-        <ResponseTime variant="dark" />
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 "use client";
 import Section from "./Section";
 import WaSvg from "./WaSvg";
-import ResponseTime from "./ResponseTime";
 import { C, WA_URL } from "@/lib/constants";
 
 export default function Contact() {
@@ -24,7 +23,6 @@ export default function Contact() {
             שלחו הודעה ב-WhatsApp
           </a>
         </div>
-        <ResponseTime variant="dark" />
       </div>
     </Section>
   );

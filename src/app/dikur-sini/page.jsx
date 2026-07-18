@@ -3,7 +3,7 @@ import Section from "@/components/Section";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import MagnifyImage from "@/components/MagnifyImage";
 import WaSvg from "@/components/WaSvg";
-import { C, WA_URL } from "@/lib/constants";
+import { C, waUrl } from "@/lib/constants";
 import { MedicalServiceSchema, BreadcrumbSchema, HowToSchema, FAQPageSchema } from "@/components/SchemaMarkup";
 
 const FAQ_ITEMS = [
@@ -374,7 +374,7 @@ export default function AcupuncturePage() {
         <p style={{ fontSize: "18px", fontWeight: 600, color: C.bark, margin: "0 0 20px" }}>
           רוצים לנסות דיקור סיני בראשון לציון?
         </p>
-        <a href={WA_URL} target="_blank" rel="noreferrer" style={{
+        <a href={waUrl("שלום עדי, רציתי לשאול לגבי דיקור סיני 🙂")} target="_blank" rel="noreferrer" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
           background: "linear-gradient(135deg, #34A853, #2D9248)",
           color: "white", padding: "14px 36px", borderRadius: "50px",
