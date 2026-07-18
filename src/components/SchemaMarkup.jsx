@@ -6,7 +6,7 @@ export function LocalBusinessSchema() {
     name: "עדי שלו - רפואה סינית",
     alternateName: "Adi Shalev Chinese Medicine",
     description:
-      "קליניקה לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. עדי שלו - מטפל מוסמך עם 8+ שנות ניסיון.",
+      "קליניקה לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. עדי שלו - מטפל מוסמך ברפואה סינית משנת 2016.",
     url: "https://adishalev.co.il",
     telephone: "+972-52-802-9031",
     logo: "https://adishalev.co.il/LOGO1.png",
