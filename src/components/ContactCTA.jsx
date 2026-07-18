@@ -1,5 +1,6 @@
 import { C, WA_URL } from "@/lib/constants";
 import WaSvg from "./WaSvg";
+import ResponseTime from "./ResponseTime";
 
 export default function ContactCTA({ title = "רוצים לקבוע תור?", subtitle = "צרו קשר לתיאום תור בקליניקה לרפואה סינית בראשון לציון" }) {
   return (
@@ -23,6 +24,7 @@ export default function ContactCTA({ title = "רוצים לקבוע תור?", su
           <WaSvg size={22} />
           שלחו הודעה ב-WhatsApp
         </a>
+        <ResponseTime variant="dark" />
       </div>
     </section>
   );
