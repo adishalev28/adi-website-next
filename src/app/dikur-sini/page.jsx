@@ -135,17 +135,30 @@ export default function AcupuncturePage() {
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "24px" }}>
             {[
-              "כאבי גב וצוואר", "מיגרנות וכאבי ראש", "סיאטיקה",
-              "כאבי מפרקים וברכיים", "כתף קפואה", "מתח נפשי וחרדה",
-              "בעיות שינה ונדודי שינה", "בעיות עיכול", "עייפות כרונית",
-              "איזון הורמונלי", "תמיכה בפריון", "כאבי מחזור",
-            ].map(c => (
-              <span key={c} style={{
+              { label: "כאבי גב וצוואר", href: "/blog/neck-shoulder-pain" },
+              { label: "מיגרנות וכאבי ראש", href: "/blog/migraines" },
+              { label: "סיאטיקה", href: "/blog/sciatica" },
+              { label: "שיתוק פנים (פציאליס)", href: "/blog/facial-paralysis" },
+              { label: "כתף קפואה", href: "/blog/frozen-shoulder" },
+              { label: "מתח נפשי וחרדה", href: "/blog/anxiety" },
+              { label: "בעיות שינה ונדודי שינה", href: "/blog/sleep" },
+              { label: "בעיות עיכול", href: "/blog/digestive-issues" },
+              { label: "כאבי מפרקים וברכיים", href: null },
+              { label: "עייפות כרונית", href: null },
+              { label: "איזון הורמונלי", href: null },
+              { label: "תמיכה בפריון", href: null },
+              { label: "כאבי מחזור", href: null },
+            ].map(c => {
+              const chipStyle = {
                 background: "white", border: `1.5px solid ${C.sage}30`,
                 color: C.bark, padding: "8px 18px", borderRadius: "50px",
                 fontSize: "14px", fontWeight: 600,
-              }}>{c}</span>
-            ))}
+                textDecoration: "none", display: "inline-block",
+              };
+              return c.href
+                ? <a key={c.label} href={c.href} style={chipStyle}>{c.label}</a>
+                : <span key={c.label} style={chipStyle}>{c.label}</span>;
+            })}
           </div>
           <p style={{ fontSize: "15px", color: C.barkLight, lineHeight: 1.8 }}>
             לא מצאתם את מה שאתם מחפשים? דיקור סיני יכול לעזור גם במצבים רבים נוספים. צרו קשר ונבדוק יחד.

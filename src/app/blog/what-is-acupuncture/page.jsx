@@ -76,7 +76,7 @@ export default function WhatIsAcupuncturePage() {
         <li><strong>בעיות עיכול</strong>  - נפיחות, עצירות, תסמונת המעי הרגיז</li>
         <li><strong>לחץ נפשי</strong>  - חרדה, מתח, בעיות שינה</li>
         <li><strong>הורמונלי</strong>  - מחזור לא סדיר, גיל המעבר, פריון</li>
-        <li><strong>נוירולוגי</strong>  - שיתוק פנים (פציאליס), נימול בידיים</li>
+        <li><strong>נוירולוגי</strong>  - <a href="/blog/facial-paralysis" style={{ color: '#6B7A5A', fontWeight: 700 }}>שיתוק פנים (פציאליס)</a>, נימול בידיים</li>
         <li><strong>אלרגיות</strong>  - אלרגיה עונתית, אסתמה</li>
       </ul>
 
