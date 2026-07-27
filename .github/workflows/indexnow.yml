@@ -1,0 +1,31 @@
+name: IndexNow Ping
+
+# מדווח ל-Bing/IndexNow (מזין ChatGPT/Copilot/DuckDuckGo) על עדכוני תוכן
+# אוטומטית בכל דחיפה ל-main, אחרי ש-Vercel סיים לפרוס.
+
+on:
+  push:
+    branches: [main]
+
+# מבטל ריצות כפולות אם דוחפים כמה פעמים ברצף
+concurrency:
+  group: indexnow
+  cancel-in-progress: true
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Wait for Vercel deploy to go live
+        run: sleep 150
+
+      - name: Ping IndexNow (all sitemap URLs)
+        run: npm run indexnow
