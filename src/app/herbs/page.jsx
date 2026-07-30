@@ -31,6 +31,7 @@ export const metadata = {
     url: "https://adishalev.co.il/herbs",
     locale: "he_IL",
     type: "article",
+    images: [{ url: "/og-herbs.jpg", width: 1200, height: 630, alt: "צמחי מרפא סיניים בקליניקה בראשון לציון" }],
   },
 };
 

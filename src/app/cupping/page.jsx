@@ -32,6 +32,7 @@ export const metadata = {
     url: "https://adishalev.co.il/cupping",
     locale: "he_IL",
     type: "article",
+    images: [{ url: "/og-cupping.jpg", width: 1200, height: 630, alt: "טיפול בכוסות רוח בקליניקה בראשון לציון" }],
   },
 };
 

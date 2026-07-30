@@ -25,6 +25,7 @@ export const metadata = {
     url: "https://adishalev.co.il/blog",
     locale: "he_IL",
     type: "website",
+    images: [{ url: "/og-blog.jpg", width: 1200, height: 630, alt: "מאמרים על רפואה סינית - עדי שלו" }],
   },
 };
 
