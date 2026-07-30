@@ -249,7 +249,7 @@ export default function BlogIndex() {
       <section style={{ maxWidth: "800px", margin: "0 auto", padding: "24px 24px 60px" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {ARTICLES.map(a => (
-            <a key={a.slug} id={a.slug} href={`/blog/${a.slug}/`} className="blog-article-card" style={{
+            <a key={a.slug} id={a.slug} href={`/blog/${a.slug}`} className="blog-article-card" style={{
               background: "white", borderRadius: "20px",
               textDecoration: "none", display: "flex",
               overflow: "hidden",
