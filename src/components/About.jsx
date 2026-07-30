@@ -18,7 +18,7 @@ export default function About() {
           />
         </div>
         <div>
-          <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px", textTransform: "uppercase" }}>
+          <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px", textTransform: "uppercase" }}>
             קצת עליי
           </div>
           <h2 style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: "0 0 16px", lineHeight: 1.2 }}>

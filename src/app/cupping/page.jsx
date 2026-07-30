@@ -101,7 +101,7 @@ export default function CuppingPage() {
       <Section bg={C.cream}>
         <div className="cupping-about" style={{ maxWidth: "960px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 340px", gap: "40px", alignItems: "center" }}>
           <div>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               על הטיפול
             </div>
             <h2 style={{ fontSize: "32px", fontWeight: 800, color: C.bark, margin: "0 0 24px" }}>
@@ -130,7 +130,7 @@ export default function CuppingPage() {
       <Section bg={C.sand}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               שיטות טיפול
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: 0 }}>
@@ -193,7 +193,7 @@ export default function CuppingPage() {
               }}>
                 <span style={{ fontSize: "28px", flexShrink: 0, lineHeight: 1.3 }}>{item.icon}</span>
                 <div>
-                  <h3 style={{ fontSize: "16px", fontWeight: 700, color: C.sage, margin: "0 0 8px" }}>{item.title}</h3>
+                  <h3 style={{ fontSize: "16px", fontWeight: 700, color: C.sageDark, margin: "0 0 8px" }}>{item.title}</h3>
                   <p style={{ fontSize: "14px", color: C.barkLight, lineHeight: 1.8, margin: 0 }}>{item.text}</p>
                 </div>
               </div>
@@ -276,7 +276,7 @@ export default function CuppingPage() {
                 )}
                 <div style={{
                   width: "40px", height: "40px", borderRadius: "50%",
-                  background: C.sage, color: "white", display: "flex",
+                  background: C.sageDark, color: "white", display: "flex",
                   alignItems: "center", justifyContent: "center",
                   fontSize: "18px", fontWeight: 800, flexShrink: 0,
                   position: "relative", zIndex: 1,
@@ -296,7 +296,7 @@ export default function CuppingPage() {
       <Section bg={C.cream}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               מדריך לסימנים
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: "0 0 8px" }}>
@@ -325,7 +325,7 @@ export default function CuppingPage() {
                 }} />
                 <div>
                   <div style={{ fontSize: "14px", fontWeight: 800, color: C.bark, marginBottom: "2px" }}>{mark.label}</div>
-                  <div style={{ fontSize: "12px", fontWeight: 700, color: C.sage, marginBottom: "6px" }}>{mark.meaning}</div>
+                  <div style={{ fontSize: "12px", fontWeight: 700, color: C.sageDark, marginBottom: "6px" }}>{mark.meaning}</div>
                   <p style={{ fontSize: "13px", color: C.barkLight, lineHeight: 1.7, margin: 0 }}>{mark.desc}</p>
                 </div>
               </div>
@@ -339,7 +339,7 @@ export default function CuppingPage() {
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
             <div style={{
-              color: C.gold,
+              color: C.goldDark,
               fontSize: "12px",
               fontWeight: 700,
               letterSpacing: "3px",

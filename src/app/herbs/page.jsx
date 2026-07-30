@@ -100,7 +100,7 @@ export default function HerbsPage() {
       <Section bg={C.cream}>
         <div className="herbs-about" style={{ maxWidth: "960px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 340px", gap: "40px", alignItems: "center" }}>
           <div>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               על הטיפול
             </div>
             <h2 style={{ fontSize: "32px", fontWeight: 800, color: C.bark, margin: "0 0 24px" }}>
@@ -129,7 +129,7 @@ export default function HerbsPage() {
       <Section bg={C.sand}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               מהמרשם הסיני
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: "0 0 8px" }}>
@@ -155,7 +155,7 @@ export default function HerbsPage() {
               }}>
                 <div style={{ fontSize: "32px", marginBottom: "12px" }}>{herb.icon}</div>
                 <h3 style={{ fontSize: "17px", fontWeight: 700, color: C.bark, margin: "0 0 4px" }}>{herb.name}</h3>
-                <div style={{ fontSize: "12px", color: C.sage, fontStyle: "italic", marginBottom: "10px" }}>{herb.latin}</div>
+                <div style={{ fontSize: "12px", color: C.sageDark, fontStyle: "italic", marginBottom: "10px" }}>{herb.latin}</div>
                 <p style={{ fontSize: "13px", color: C.barkLight, lineHeight: 1.7, margin: 0 }}>{herb.desc}</p>
               </div>
             ))}
@@ -185,7 +185,7 @@ export default function HerbsPage() {
               <div style={{ padding: "18px 16px", fontSize: "13px", fontWeight: 600, color: C.barkLight }} />
               <div style={{
                 padding: "18px 16px", textAlign: "center", fontWeight: 800, fontSize: "16px",
-                color: "white", background: C.sage,
+                color: "white", background: C.sageDark,
               }}>צמחי מרפא סיניים</div>
               <div style={{
                 padding: "18px 16px", textAlign: "center", fontWeight: 800, fontSize: "16px",
@@ -303,7 +303,7 @@ export default function HerbsPage() {
                 )}
                 <div style={{
                   width: "40px", height: "40px", borderRadius: "50%",
-                  background: C.sage, color: "white", display: "flex",
+                  background: C.sageDark, color: "white", display: "flex",
                   alignItems: "center", justifyContent: "center",
                   fontSize: "18px", fontWeight: 800, flexShrink: 0,
                   position: "relative", zIndex: 1,

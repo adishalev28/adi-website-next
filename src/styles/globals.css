@@ -344,6 +344,29 @@ body.a11y-large-cursor * {
   outline-offset: 3px;
 }
 
+/* ─── קישור דילוג לתוכן (WCAG 2.4.1 / ת"י 5568) ───
+   מוסתר חזותית עד שמגיעים אליו בטאב, ואז נחשף בראש המסך.
+   לא clip/height:0 אלא הזזה מחוץ למסך - קוראי מסך מקריאים אותו כרגיל. */
+.skip-to-content {
+  position: fixed;
+  top: -100px;
+  right: 16px;
+  z-index: 10000;
+  background: #2C2A26;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 0 0 10px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 0;
+  outline: 3px solid #C4A265;
+  outline-offset: 2px;
+}
+
 /* ─── Hero treatment pills hover ─── */
 .hero-pill {
   transition: all 0.3s;

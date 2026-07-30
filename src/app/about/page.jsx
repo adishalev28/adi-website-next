@@ -50,7 +50,7 @@ export const metadata = {
     url: "https://adishalev.co.il/about",
     locale: "he_IL",
     type: "profile",
-    images: [{ url: "/adi-portrait2.png", width: 1200, height: 630, alt: "עדי שלו - מטפל ברפואה סינית" }],
+    images: [{ url: "/og-adi.jpg", width: 1200, height: 630, alt: "עדי שלו - מטפל ברפואה סינית" }],
   },
 };
 
@@ -64,7 +64,7 @@ const personSchema = {
   description:
     "מטפל מוסמך ברפואה סינית משנת 2016, עם כעשר שנות ניסיון קליני. מתמחה בדיקור סיני בשיטות ד\"ר טאן ומאסטר דונג, שיאצו, כוסות רוח וצמחי מרפא סיניים.",
   url: "https://adishalev.co.il/about",
-  image: "https://adishalev.co.il/adi-portrait2.png",
+  image: "https://adishalev.co.il/og-adi.jpg",
   telephone: "+972-52-802-9031",
   alumniOf: {
     "@type": "EducationalOrganization",
@@ -192,7 +192,7 @@ export default function AboutPage() {
           <div>
             <div
               style={{
-                color: C.sage,
+                color: C.sageDark,
                 fontSize: "12px",
                 fontWeight: 700,
                 letterSpacing: "3px",
@@ -269,7 +269,7 @@ export default function AboutPage() {
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
             <div
               style={{
-                color: C.sage,
+                color: C.sageDark,
                 fontSize: "12px",
                 fontWeight: 700,
                 letterSpacing: "3px",
@@ -371,7 +371,7 @@ export default function AboutPage() {
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
             <div
               style={{
-                color: C.sage,
+                color: C.sageDark,
                 fontSize: "12px",
                 fontWeight: 700,
                 letterSpacing: "3px",
@@ -461,7 +461,7 @@ export default function AboutPage() {
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
             <div
               style={{
-                color: C.sage,
+                color: C.sageDark,
                 fontSize: "12px",
                 fontWeight: 700,
                 letterSpacing: "3px",
@@ -530,7 +530,7 @@ export default function AboutPage() {
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
             <div
               style={{
-                color: C.sage,
+                color: C.sageDark,
                 fontSize: "12px",
                 fontWeight: 700,
                 letterSpacing: "3px",

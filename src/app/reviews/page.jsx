@@ -20,7 +20,7 @@ export const metadata = {
     url: "https://adishalev.co.il/reviews",
     locale: "he_IL",
     type: "website",
-    images: [{ url: "/adi-portrait2.png", width: 1200, height: 630, alt: "עדי שלו - מטפל ברפואה סינית בראשון לציון" }],
+    images: [{ url: "/og-adi.jpg", width: 1200, height: 630, alt: "עדי שלו - מטפל ברפואה סינית בראשון לציון" }],
   },
 };
 
@@ -33,7 +33,7 @@ const reviewsSchema = {
   "@id": "https://adishalev.co.il/#business",
   name: "עדי שלו - רפואה סינית",
   url: "https://adishalev.co.il",
-  image: "https://adishalev.co.il/adi-portrait2.png",
+  image: "https://adishalev.co.il/og-adi.jpg",
   address: {
     "@type": "PostalAddress",
     addressLocality: "ראשון לציון",
@@ -79,7 +79,7 @@ function ReviewBlock({ r }) {
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px", marginBottom: "14px" }}>
         <div>
           <div style={{ fontWeight: 700, color: C.bark, fontSize: "16px" }}>{r.name}</div>
-          <div style={{ color: C.sage, fontSize: "13px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
+          <div style={{ color: C.sageDark, fontSize: "13px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
         </div>
         <Stars />
       </div>

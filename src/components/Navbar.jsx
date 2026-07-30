@@ -114,7 +114,7 @@ export default function Navbar({ basePath = "" }) {
             }}>{l.label}</a>
           ))}
           <a href={WA_URL} target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)} style={{
-            background: C.sage, color: "white", padding: "14px",
+            background: C.sageDark, color: "white", padding: "14px",
             borderRadius: "50px", fontSize: "15px", fontWeight: 700,
             textDecoration: "none", textAlign: "center", marginTop: "12px",
           }}>

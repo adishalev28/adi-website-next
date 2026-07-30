@@ -66,6 +66,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Script>
       </head>
       <body>
+        <a href="#main-content" className="skip-to-content">
+          דילוג לתוכן הראשי
+        </a>
         <LocalBusinessSchema />
         <WebSiteSchema />
         <noscript>
@@ -76,7 +79,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <script
           dangerouslySetInnerHTML={{
             __html: `if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js")}`,

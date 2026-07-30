@@ -72,7 +72,7 @@ export default function ClinicVideo() {
               name: "עדי שלו - רפואה סינית מסורתית",
               logo: {
                 "@type": "ImageObject",
-                url: "https://adishalev.co.il/LOGO.png",
+                url: "https://adishalev.co.il/logo-schema.png",
               },
             },
           }),
@@ -86,7 +86,7 @@ export default function ClinicVideo() {
             marginBottom: "12px",
             fontSize: "14px",
             letterSpacing: "2px",
-            color: C.gold,
+            color: C.goldDark,
             fontWeight: 500,
           }}
         >

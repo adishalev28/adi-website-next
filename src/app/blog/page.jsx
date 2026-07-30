@@ -223,7 +223,7 @@ export default function BlogIndex() {
         }}>
           <summary style={{
             padding: "14px 20px", cursor: "pointer", fontSize: "14px",
-            fontWeight: 700, color: C.sage, listStyle: "none",
+            fontWeight: 700, color: C.sageDark, listStyle: "none",
             display: "flex", alignItems: "center", justifyContent: "space-between",
           }}>
             <span>📋 ניווט מהיר למאמרים ({ARTICLES.length})</span>
@@ -234,7 +234,7 @@ export default function BlogIndex() {
               <a key={a.slug} href={`#${a.slug}`} style={{
                 padding: "5px 12px", borderRadius: "20px", fontSize: "12px",
                 fontWeight: 600, textDecoration: "none",
-                background: `${C.sage}12`, color: C.sage,
+                background: `${C.sage}12`, color: C.sageDark,
                 border: `1px solid ${C.sage}20`,
                 transition: "all 0.2s",
                 whiteSpace: "nowrap",
@@ -268,7 +268,7 @@ export default function BlogIndex() {
               <div style={{ padding: "24px 28px", flex: 1, minWidth: 0 }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
                   <span style={{
-                    background: `${C.sage}15`, color: C.sage,
+                    background: `${C.sage}15`, color: C.sageDark,
                     padding: "4px 14px", borderRadius: "20px",
                     fontSize: "12px", fontWeight: 700,
                   }}>
@@ -291,7 +291,7 @@ export default function BlogIndex() {
                 </p>
                 <span style={{
                   display: "inline-flex", alignItems: "center", gap: "6px",
-                  marginTop: "14px", fontSize: "14px", fontWeight: 700, color: C.sage,
+                  marginTop: "14px", fontSize: "14px", fontWeight: 700, color: C.sageDark,
                 }}>
                   קראו עוד
                   <span style={{ fontSize: "16px" }}>←</span>

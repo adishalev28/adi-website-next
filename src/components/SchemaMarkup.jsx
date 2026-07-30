@@ -9,7 +9,7 @@ export function LocalBusinessSchema() {
       "קליניקה לרפואה סינית בראשון לציון. דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא סיניים. עדי שלו - מטפל מוסמך ברפואה סינית משנת 2016.",
     url: "https://adishalev.co.il",
     telephone: "+972-52-802-9031",
-    logo: "https://adishalev.co.il/LOGO1.png",
+    logo: "https://adishalev.co.il/logo-schema.png",
     image: [
       "https://adishalev.co.il/clinic-room.jpg",
       "https://adishalev.co.il/adi-portrait.jpg",
@@ -269,7 +269,7 @@ export function ArticleSchema({ title, description, url, datePublished, dateModi
       url: "https://adishalev.co.il",
       logo: {
         "@type": "ImageObject",
-        url: "https://adishalev.co.il/LOGO1.png",
+        url: "https://adishalev.co.il/logo-schema.png",
       },
     },
     inLanguage: "he",

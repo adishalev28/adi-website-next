@@ -15,7 +15,7 @@ function FaqItem({ q, a }) {
           {q}
         </span>
         <span style={{
-          fontSize: "20px", color: C.sage, transition: "transform 0.3s",
+          fontSize: "20px", color: C.sageDark, transition: "transform 0.3s",
           transform: open ? "rotate(45deg)" : "none", flexShrink: 0,
         }}>+</span>
       </button>

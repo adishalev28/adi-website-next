@@ -6,6 +6,10 @@ export const C = {
   sageDark:    "#5B6B4A",
   gold:        "#C4A265",
   goldLight:   "#D4B87A",
+  /* goldDark - לזהב שמשמש כטקסט על רקע בהיר בלבד (קרם/חול/לבן).
+     C.gold נותן יחס ניגודיות 1.98 עד 2.41 על הרקעים הבהירים ונכשל בתקן,
+     והגוון הזה עובר 4.5 בשלושתם. על רקע כהה להמשיך עם gold/goldLight. */
+  goldDark:    "#7A602E",
   bark:        "#2C2A26",
   barkLight:   "#7B7570",
   warm:        "#BFA07A",

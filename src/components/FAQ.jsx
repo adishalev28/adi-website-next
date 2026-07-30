@@ -20,7 +20,7 @@ export default function FAQ() {
     <Section id="faq" bg={C.sand}>
       <div style={{ maxWidth: "720px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "52px" }}>
-          <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>יש לכם שאלות?</div>
+          <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>יש לכם שאלות?</div>
           <h2 className="section-title" style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: 0 }}>שאלות נפוצות על רפואה סינית</h2>
         </div>
 

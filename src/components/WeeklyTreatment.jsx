@@ -16,7 +16,7 @@ export default function WeeklyTreatment() {
   return (
     <Section bg={C.cream} style={{ padding: "80px 24px" }}>
       <div style={{ maxWidth: "640px", margin: "0 auto", textAlign: "center" }}>
-        <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>מהקליניקה שלי</div>
+        <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>מהקליניקה שלי</div>
         <h2 className="section-title" style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: "0 0 48px" }}>הצצה לטיפול אחרון</h2>
 
         <div style={{
@@ -44,7 +44,7 @@ export default function WeeklyTreatment() {
           <p style={{ fontSize: "15px", color: C.barkLight, lineHeight: 1.8, margin: "0 0 16px" }}>
             {t.description}
           </p>
-          <p style={{ fontSize: "15px", color: C.sage, lineHeight: 1.8, margin: "0 0 24px", fontWeight: 600 }}>
+          <p style={{ fontSize: "15px", color: C.sageDark, lineHeight: 1.8, margin: "0 0 24px", fontWeight: 600 }}>
             {t.result}
           </p>
 

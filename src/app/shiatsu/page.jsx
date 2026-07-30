@@ -145,7 +145,7 @@ export default function ShiatsuPage() {
       <Section bg={C.cream}>
         <div className="shiatsu-about" style={{ maxWidth: "960px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 340px", gap: "40px", alignItems: "center" }}>
           <div>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               על הטיפול
             </div>
             <h2 style={{ fontSize: "32px", fontWeight: 800, color: C.bark, margin: "0 0 24px" }}>
@@ -162,7 +162,7 @@ export default function ShiatsuPage() {
             </p>
             <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0" }}>
               רוצים להעמיק? כתבתי מדריך מלא שעונה על השאלה{" "}
-              <a href="/blog/shiatsu" style={{ color: C.sage, fontWeight: 700 }}>מה זה שיאצו</a>
+              <a href="/blog/shiatsu" style={{ color: C.sageDark, fontWeight: 700 }}>מה זה שיאצו</a>
               {" "}- כולל מה קורה בטיפול, למי הוא מתאים ומה אומר המחקר.
             </p>
           </div>
@@ -179,7 +179,7 @@ export default function ShiatsuPage() {
       <Section bg={C.sand}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               חוויית הטיפול
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: 0 }}>
@@ -304,7 +304,7 @@ export default function ShiatsuPage() {
               <div style={{ padding: "18px 16px", fontSize: "13px", fontWeight: 600, color: C.barkLight }} />
               <div style={{
                 padding: "18px 16px", textAlign: "center", fontWeight: 800, fontSize: "16px",
-                color: "white", background: C.sage,
+                color: "white", background: C.sageDark,
               }}>שיאצו</div>
               <div style={{
                 padding: "18px 16px", textAlign: "center", fontWeight: 800, fontSize: "16px",
@@ -369,7 +369,7 @@ export default function ShiatsuPage() {
                 )}
                 <div style={{
                   width: "40px", height: "40px", borderRadius: "50%",
-                  background: C.sage, color: "white", display: "flex",
+                  background: C.sageDark, color: "white", display: "flex",
                   alignItems: "center", justifyContent: "center",
                   fontSize: "18px", fontWeight: 800, flexShrink: 0,
                   position: "relative", zIndex: 1,
@@ -389,7 +389,7 @@ export default function ShiatsuPage() {
       <Section bg={C.cream}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "36px" }}>
-            <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
+            <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>
               תחושות מהטיפול
             </div>
             <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: 0 }}>
@@ -426,7 +426,7 @@ export default function ShiatsuPage() {
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
             <div style={{
-              color: C.gold,
+              color: C.goldDark,
               fontSize: "12px",
               fontWeight: 700,
               letterSpacing: "3px",
@@ -675,7 +675,7 @@ export default function ShiatsuPage() {
           textAlign: "center",
         }}>
           <div style={{
-            color: C.sage,
+            color: C.sageDark,
             fontSize: "12px",
             fontWeight: 700,
             letterSpacing: "3px",

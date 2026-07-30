@@ -40,7 +40,7 @@ export default function HomepageCTA() {
 
           <div style={{ padding: "36px 32px" }}>
             <div style={{
-              color: C.gold,
+              color: C.goldDark,
               fontSize: "12px",
               fontWeight: 700,
               letterSpacing: "2px",

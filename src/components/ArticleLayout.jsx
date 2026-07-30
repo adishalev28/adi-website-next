@@ -100,7 +100,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
                   boxShadow: "0 2px 12px rgba(44,42,38,0.04)",
                   transition: "all 0.2s",
                 }}>
-                  <p style={{ fontSize: "13px", color: C.sage, fontWeight: 600, margin: "0 0 6px" }}>
+                  <p style={{ fontSize: "13px", color: C.sageDark, fontWeight: 600, margin: "0 0 6px" }}>
                     {a.tag}
                   </p>
                   <h3 style={{ fontSize: "17px", fontWeight: 700, color: C.bark, margin: 0, lineHeight: 1.4 }}>

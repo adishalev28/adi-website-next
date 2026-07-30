@@ -46,7 +46,7 @@ function ReviewCard({ r }) {
       {/* Name + treatment reason — top for engagement */}
       <div style={{ marginBottom: "12px", paddingBottom: "10px", borderBottom: `1px solid ${C.sand}` }}>
         <div style={{ fontWeight: 700, color: C.bark, fontSize: "15px" }}>{r.name}</div>
-        <div style={{ color: C.sage, fontSize: "12px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
+        <div style={{ color: C.sageDark, fontSize: "12px", marginTop: "2px", fontWeight: 600 }}>{r.sub}</div>
       </div>
       {/* Review text */}
       <div style={{ margin: 0, flex: 1 }}>
@@ -63,7 +63,7 @@ function ReviewCard({ r }) {
         {isLong && (
           <button onClick={() => setCollapsed(c => !c)} className="review-read-more" style={{
             background: "none", border: "none", cursor: "pointer",
-            color: C.sage, fontSize: "13px", fontWeight: 700,
+            color: C.sageDark, fontSize: "13px", fontWeight: 700,
             padding: "6px 0 0", display: "inline-block",
           }}>
             {collapsed ? "קרא עוד..." : "הצג פחות"}
@@ -121,7 +121,7 @@ export default function Reviews() {
     <Section id="reviews" bg={C.cream}>
       <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <div style={{ color: C.sage, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>מה אומרים המטופלים</div>
+          <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>מה אומרים המטופלים</div>
           <h2 className="section-title" style={{ fontSize: "36px", fontWeight: 800, color: C.bark, margin: "0 0 20px" }}>ביקורות Google</h2>
           <a href={GOOGLE_REVIEWS_URL} target="_blank" rel="noreferrer" className="google-badge" style={{
             display: "inline-flex", alignItems: "center", gap: "12px",
@@ -157,7 +157,7 @@ export default function Reviews() {
       <div style={{ textAlign: "center", marginTop: "24px", display: "flex", flexWrap: "wrap", gap: "12px", justifyContent: "center" }}>
         <a href="/reviews" className="google-all-reviews" style={{
           display: "inline-flex", alignItems: "center", gap: "8px",
-          background: C.sage, color: "white", padding: "12px 24px",
+          background: C.sageDark, color: "white", padding: "12px 24px",
           borderRadius: "50px", fontSize: "13px", fontWeight: 700,
           textDecoration: "none", border: `1.5px solid ${C.sage}`,
           transition: "all 0.2s",
