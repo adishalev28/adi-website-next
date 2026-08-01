@@ -271,9 +271,9 @@ export default function DigestiveIssuesPage() {
         <p>
           <strong>קריאה נוספת:</strong> בעיות עיכול הולכות לעיתים קרובות יד ביד עם מתח -
           במדריך{" "}
-          <a href="/blog/anxiety" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה ולחץ</a>
+          <a href="/blog/anxiety" style={{ color: '#586747', fontWeight: 700 }}>דיקור סיני לחרדה ולחץ</a>
           {" "}אני מסביר את הקשר. ובקליניקה אני משלב לעיתים גם{" "}
-          <a href="/herbs" style={{ color: '#6B7A5A', fontWeight: 700 }}>צמחי מרפא סיניים</a>
+          <a href="/herbs" style={{ color: '#586747', fontWeight: 700 }}>צמחי מרפא סיניים</a>
           {" "}לתמיכה במערכת העיכול.
         </p>
       </ArticleLayout>

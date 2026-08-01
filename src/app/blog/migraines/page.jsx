@@ -208,7 +208,7 @@ export default function MigrainesPage() {
             href="https://pubmed.ncbi.nlm.nih.gov/27351677/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+            style={{ color: "#586747", textDecoration: "underline" }}
           >
             (לקריאת סקירת Cochrane ב-PubMed)
           </a>

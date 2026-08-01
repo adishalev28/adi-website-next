@@ -82,16 +82,16 @@ export default function BackPainGuidePage() {
             📑 תוכן עניינים
           </h2>
           <ul style={{ listStyle: 'none', padding: 0, margin: 0, lineHeight: 2 }}>
-            <li><a href="#why" style={{ color: '#6B7A5A', textDecoration: 'none' }}>למה הגב כואב? -הסיבות הנפוצות</a></li>
-            <li><a href="#chinese-medicine" style={{ color: '#6B7A5A', textDecoration: 'none' }}>הגישה של הרפואה הסינית לכאבי גב</a></li>
-            <li><a href="#acupuncture" style={{ color: '#6B7A5A', textDecoration: 'none' }}>דיקור סיני לכאבי גב</a></li>
-            <li><a href="#shiatsu" style={{ color: '#6B7A5A', textDecoration: 'none' }}>שיאצו לכאבי גב</a></li>
-            <li><a href="#cupping" style={{ color: '#6B7A5A', textDecoration: 'none' }}>כוסות רוח לכאבי גב</a></li>
-            <li><a href="#herbs" style={{ color: '#6B7A5A', textDecoration: 'none' }}>צמחי מרפא סיניים לכאבי גב</a></li>
-            <li><a href="#conditions" style={{ color: '#6B7A5A', textDecoration: 'none' }}>מצבים ספציפיים -פריצת דיסק, סיאטיקה, שיגרון</a></li>
-            <li><a href="#how-many" style={{ color: '#6B7A5A', textDecoration: 'none' }}>כמה טיפולים צריך?</a></li>
-            <li><a href="#self-help" style={{ color: '#6B7A5A', textDecoration: 'none' }}>מה אפשר לעשות לבד בבית</a></li>
-            <li><a href="#faq" style={{ color: '#6B7A5A', textDecoration: 'none' }}>שאלות ותשובות</a></li>
+            <li><a href="#why" style={{ color: '#586747', textDecoration: 'none' }}>למה הגב כואב? -הסיבות הנפוצות</a></li>
+            <li><a href="#chinese-medicine" style={{ color: '#586747', textDecoration: 'none' }}>הגישה של הרפואה הסינית לכאבי גב</a></li>
+            <li><a href="#acupuncture" style={{ color: '#586747', textDecoration: 'none' }}>דיקור סיני לכאבי גב</a></li>
+            <li><a href="#shiatsu" style={{ color: '#586747', textDecoration: 'none' }}>שיאצו לכאבי גב</a></li>
+            <li><a href="#cupping" style={{ color: '#586747', textDecoration: 'none' }}>כוסות רוח לכאבי גב</a></li>
+            <li><a href="#herbs" style={{ color: '#586747', textDecoration: 'none' }}>צמחי מרפא סיניים לכאבי גב</a></li>
+            <li><a href="#conditions" style={{ color: '#586747', textDecoration: 'none' }}>מצבים ספציפיים -פריצת דיסק, סיאטיקה, שיגרון</a></li>
+            <li><a href="#how-many" style={{ color: '#586747', textDecoration: 'none' }}>כמה טיפולים צריך?</a></li>
+            <li><a href="#self-help" style={{ color: '#586747', textDecoration: 'none' }}>מה אפשר לעשות לבד בבית</a></li>
+            <li><a href="#faq" style={{ color: '#586747', textDecoration: 'none' }}>שאלות ותשובות</a></li>
           </ul>
         </nav>
 
@@ -152,7 +152,7 @@ export default function BackPainGuidePage() {
           היתרון: שחרור מיידי יותר, ובזמן הטיפול אפשר לבדוק אם הכאב פחת.
         </p>
         <p>
-          <a href="/blog/back-pain" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/blog/back-pain" style={{ color: '#586747', fontWeight: 600 }}>
             ← קראו עוד: דיקור סיני לכאבי גב -המאמר המלא
           </a>
         </p>
@@ -171,7 +171,7 @@ export default function BackPainGuidePage() {
           <li>שילוב עם דיקור לתוצאות טובות יותר</li>
         </ul>
         <p>
-          <a href="/shiatsu" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/shiatsu" style={{ color: '#586747', fontWeight: 600 }}>
             ← קראו עוד: שיאצו -דף השירות
           </a>
         </p>
@@ -189,7 +189,7 @@ export default function BackPainGuidePage() {
           <li>שיפור טווח התנועה</li>
         </ul>
         <p>
-          <a href="/cupping" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/cupping" style={{ color: '#586747', fontWeight: 600 }}>
             ← קראו עוד: כוסות רוח -דף השירות
           </a>
         </p>
@@ -207,7 +207,7 @@ export default function BackPainGuidePage() {
           <li><strong>דאנג גווי (Dang Gui)</strong> -מזין את הדם, משחרר עווית שרירים</li>
         </ul>
         <p>
-          <a href="/herbs" style={{ color: '#6B7A5A', fontWeight: 600 }}>
+          <a href="/herbs" style={{ color: '#586747', fontWeight: 600 }}>
             ← קראו עוד: צמחי מרפא סיניים -דף השירות
           </a>
         </p>
@@ -227,7 +227,7 @@ export default function BackPainGuidePage() {
           סיאטיקה -כאב שמקרין מהגב התחתון דרך הישבן ומטה לרגל -מגיב היטב לדיקור.
           הטיפול בשיטת מאסטר טונג משתמש בנקודות ברגל הנגדית לשחרור מיידי.
           הרחבתי על הנושא במדריך המלא{" "}
-          <a href="/blog/sciatica" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לסיאטיקה</a>.
+          <a href="/blog/sciatica" style={{ color: '#586747', fontWeight: 700 }}>דיקור סיני לסיאטיקה</a>.
         </p>
 
         <h3>שיגרון (ארתריטיס)</h3>
@@ -245,7 +245,7 @@ export default function BackPainGuidePage() {
           margin: '24px 0',
         }}>
           <div style={{ background: '#f0f7ed', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '32px', fontWeight: 800, color: '#6B7A5A' }}>3–5</div>
+            <div style={{ fontSize: '32px', fontWeight: 800, color: '#586747' }}>3–5</div>
             <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>טיפולים</div>
             <div style={{ fontSize: '15px', fontWeight: 600, marginTop: '8px' }}>כאב חריף</div>
             <div style={{ fontSize: '13px', color: '#666' }}>כאב גב פתאומי, שריר תפוס</div>
@@ -326,7 +326,7 @@ export default function BackPainGuidePage() {
             style={{
               display: 'inline-block',
               background: 'white',
-              color: '#6B7A5A',
+              color: '#586747',
               padding: '14px 32px',
               borderRadius: '50px',
               textDecoration: 'none',

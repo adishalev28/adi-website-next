@@ -195,7 +195,7 @@ export default function FrozenShoulderPage() {
             href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7532995/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+            style={{ color: "#586747", textDecoration: "underline" }}
           >
             (לקריאת הסקירה ב-PMC)
           </a>

@@ -159,11 +159,11 @@ export default function FaqCompletePage() {
       <div style={{ marginTop: "32px" }}>
         <p>
           <strong>רוצים להעמיק?</strong> המדריכים המלאים שלי:{" "}
-          <a href="/blog/what-is-acupuncture" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה דיקור סיני</a>
+          <a href="/blog/what-is-acupuncture" style={{ color: '#586747', fontWeight: 700 }}>מה זה דיקור סיני</a>
           {", "}
-          <a href="/blog/shiatsu" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה שיאצו</a>
+          <a href="/blog/shiatsu" style={{ color: '#586747', fontWeight: 700 }}>מה זה שיאצו</a>
           {" "}ו
-          <a href="/blog/cupping-therapy" style={{ color: '#6B7A5A', fontWeight: 700 }}>מדריך כוסות הרוח</a>.
+          <a href="/blog/cupping-therapy" style={{ color: '#586747', fontWeight: 700 }}>מדריך כוסות הרוח</a>.
         </p>
         <p>
           <strong>לא מצאתם תשובה לשאלה שלכם?</strong> צרו קשר ונשמח לענות באופן אישי.

@@ -85,7 +85,7 @@ export default function ShiatsuBlogPage() {
         </p>
         <p>
           רוצים לקבוע טיפול או לבדוק זמינות? כל הפרטים בדף{" "}
-          <a href="/shiatsu" style={{ color: '#6B7A5A', fontWeight: 700 }}>טיפול שיאצו בראשון לציון</a>.
+          <a href="/shiatsu" style={{ color: '#586747', fontWeight: 700 }}>טיפול שיאצו בראשון לציון</a>.
         </p>
 
         <h2>מה זה שיאצו באמת?</h2>
@@ -172,7 +172,7 @@ export default function ShiatsuBlogPage() {
         <h3>הקלה בכאבים כרוניים</h3>
         <p>
           שיאצו יעיל במיוחד לכאבי גב,{" "}
-          <a href="/blog/neck-shoulder-pain" style={{ color: '#6B7A5A', fontWeight: 700 }}>צוואר וכתפיים</a>
+          <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר וכתפיים</a>
           {" "}- מקומות שבהם מתח רגשי ומתח פיזי משתלבים. הטיפול מטפל בשתי השכבות.
         </p>
 

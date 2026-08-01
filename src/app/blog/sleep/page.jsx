@@ -265,7 +265,7 @@ export default function SleepPage() {
           ומתיחות שמשחררים מתחים שריריים ומרגיעים את הגוף. בקליניקה שלי אני
           משלב בין השניים בהתאם לצרכים של כל מטופל. אפשר לקרוא עוד על השיטה
           במדריך{" "}
-          <a href="/blog/shiatsu" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה שיאצו</a>.
+          <a href="/blog/shiatsu" style={{ color: '#586747', fontWeight: 700 }}>מה זה שיאצו</a>.
         </p>
 
         {/* ערים קרובות - Local SEO */}

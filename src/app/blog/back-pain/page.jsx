@@ -123,7 +123,7 @@ export default function BackPainPage() {
             href="https://pubmed.ncbi.nlm.nih.gov/22965186/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+            style={{ color: "#586747", textDecoration: "underline" }}
           >
             (לקריאת המחקר המקורי ב-PubMed)
           </a>

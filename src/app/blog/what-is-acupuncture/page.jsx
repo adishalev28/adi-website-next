@@ -72,11 +72,11 @@ export default function WhatIsAcupuncturePage() {
       <h2>למי דיקור סיני מתאים?</h2>
       <p>דיקור סיני מוכח כיעיל עבור מגוון רחב של מצבים:</p>
       <ul>
-        <li><strong>כאבים</strong>  - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#6B7A5A', fontWeight: 700 }}>צוואר, כתפיים</a>, ברכיים, מיגרנות</li>
+        <li><strong>כאבים</strong>  - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר, כתפיים</a>, ברכיים, מיגרנות</li>
         <li><strong>בעיות עיכול</strong>  - נפיחות, עצירות, תסמונת המעי הרגיז</li>
         <li><strong>לחץ נפשי</strong>  - חרדה, מתח, בעיות שינה</li>
         <li><strong>הורמונלי</strong>  - מחזור לא סדיר, גיל המעבר, פריון</li>
-        <li><strong>נוירולוגי</strong>  - <a href="/blog/facial-paralysis" style={{ color: '#6B7A5A', fontWeight: 700 }}>שיתוק פנים (פציאליס)</a>, נימול בידיים</li>
+        <li><strong>נוירולוגי</strong>  - <a href="/blog/facial-paralysis" style={{ color: '#586747', fontWeight: 700 }}>שיתוק פנים (פציאליס)</a>, נימול בידיים</li>
         <li><strong>אלרגיות</strong>  - אלרגיה עונתית, אסתמה</li>
       </ul>
 
@@ -131,13 +131,13 @@ export default function WhatIsAcupuncturePage() {
         בקליניקה שלי בראשון לציון, הטיפול מותאם אישית לכל מטופל.
         עם כעשר שנות ניסיון ומאות מטופלים, אני מציע טיפול מקצועי
         ואישי בסביבה נעימה ושקטה. פרטים מלאים על הטיפול בדף{" "}
-        <a href="/dikur-sini" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
+        <a href="/dikur-sini" style={{ color: '#586747', fontWeight: 700 }}>דיקור סיני בראשון לציון</a>.
       </p>
       <p>
         רוצים לקרוא עוד? כתבתי מדריכים מפורטים על{" "}
-        <a href="/blog/back-pain" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לכאבי גב</a>
+        <a href="/blog/back-pain" style={{ color: '#586747', fontWeight: 700 }}>דיקור סיני לכאבי גב</a>
         {" "}ועל{" "}
-        <a href="/blog/anxiety" style={{ color: '#6B7A5A', fontWeight: 700 }}>דיקור סיני לחרדה</a>
+        <a href="/blog/anxiety" style={{ color: '#586747', fontWeight: 700 }}>דיקור סיני לחרדה</a>
         {" "}- שתי הסיבות הנפוצות ביותר שמגיעים אליי.
       </p>
       <p>

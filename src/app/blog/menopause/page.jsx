@@ -152,7 +152,7 @@ export default function MenopausePage() {
         <h3>יובש, כאבי מפרקים ותסמינים גופניים נוספים</h3>
         <p>
           גיל המעבר יכול להביא גם יובש בעור ובריריות, כאבי מפרקים,{" "}
-          <a href="/blog/migraines" style={{ color: '#6B7A5A', fontWeight: 700 }}>כאבי ראש הורמונליים</a>
+          <a href="/blog/migraines" style={{ color: '#586747', fontWeight: 700 }}>כאבי ראש הורמונליים</a>
           {" "}ושינויים במשקל. אלה תסמינים שלרוב לא מקבלים מספיק תשומת לב.
         </p>
         <p>
@@ -198,7 +198,7 @@ export default function MenopausePage() {
             href="https://pubmed.ncbi.nlm.nih.gov/30782650/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "#6B7A5A", textDecoration: "underline" }}
+            style={{ color: "#586747", textDecoration: "underline" }}
           >
             (לקריאת המחקר ב-PubMed)
           </a>

@@ -255,7 +255,7 @@ export default function NeckShoulderPainPage() {
           את השרירים, והדיקור עובד בשכבות העמוקות יותר. בקליניקה שלי אני
           משלב בין השניים בהתאם לצורך. מי שרוצה להבין לעומק איך שיטת השיאצו
           עובדת, מוזמן למדריך המלא{" "}
-          <a href="/blog/shiatsu" style={{ color: '#6B7A5A', fontWeight: 700 }}>מה זה שיאצו</a>.
+          <a href="/blog/shiatsu" style={{ color: '#586747', fontWeight: 700 }}>מה זה שיאצו</a>.
         </p>
 
         {/* ערים קרובות - Local SEO */}
