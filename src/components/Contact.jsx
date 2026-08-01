@@ -14,7 +14,9 @@ export default function Contact() {
         </p>
         <div style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "stretch" }}>
           <a href={WA_URL} target="_blank" rel="noreferrer" className="contact-btn contact-wa-btn" style={{
-            background: "#25D366", color: "white", padding: "16px 40px",
+            /* ראה ההערה ב-ContactCTA: לבן על ירוק הוואטסאפ נכשל בתקן (1.98),
+               הירוק נשמר והטקסט הוכהה ל-7.22. */
+            background: "#25D366", color: C.bark, padding: "16px 40px",
             borderRadius: "50px", fontSize: "16px", fontWeight: 800,
             textDecoration: "none", display: "flex", alignItems: "center", gap: "10px",
             boxShadow: "0 4px 24px rgba(37,211,102,0.35)",

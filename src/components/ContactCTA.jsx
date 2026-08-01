@@ -15,7 +15,10 @@ export default function ContactCTA({ title = "רוצים לקבוע תור?", su
         </p>
         <a href={waUrl(waMessage)} target="_blank" rel="noreferrer" className="cta-wa-btn" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
-          background: "#25D366", color: "white", padding: "16px 40px",
+          /* טקסט כהה ולא לבן: לבן על ירוק הוואטסאפ נותן יחס 1.98 ונכשל בתקן.
+             הירוק נשמר במדויק לזיהוי המותג, והטקסט הכהה מגיע ל-7.22.
+             האייקון יורש את הצבע דרך currentColor. */
+          background: "#25D366", color: C.bark, padding: "16px 40px",
           borderRadius: "50px", fontSize: "16px", fontWeight: 800,
           textDecoration: "none",
           boxShadow: "0 4px 24px rgba(37,211,102,0.35)",

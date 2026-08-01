@@ -101,9 +101,9 @@
   transition: all 0.2s;
 }
 .condition-pill:hover {
-  background: #7A8B6A !important;
+  background: #586747 !important;
   color: white !important;
-  border-color: #7A8B6A !important;
+  border-color: #586747 !important;
 }
 
 /* ─── FAQ button hover ─── */
@@ -111,7 +111,7 @@
   transition: background 0.2s;
 }
 .faq-wa-btn:hover {
-  background: #5B6B4A !important;
+  background: #586747 !important;
 }
 
 /* ─── Reviews carousel ─── */
@@ -123,7 +123,7 @@
 
 /* Review read-more button hover */
 .review-read-more:hover {
-  color: #5B6B4A;
+  color: #586747;
 }
 
 /* Scroll hint pulse */
@@ -132,7 +132,7 @@
   50% { opacity: 1; transform: scale(1.03); }
 }
 .scroll-hint-row {
-  color: #7A8B6A;
+  color: #586747;
   animation: hintPulse 2s ease-in-out infinite;
   display: flex;
 }
@@ -228,6 +228,9 @@
 }
 .float-btn-wa {
   background: #25D366;
+  /* דורס את הלבן של .float-btn: לבן על ירוק הוואטסאפ נותן 1.98 ונכשל.
+     הכפתור הכחול נשאר עם טקסט לבן (5.17 - תקין). */
+  color: #2C2A26;
   box-shadow: 0 6px 32px rgba(37,211,102,0.5);
 }
 .float-btn-wa:hover {
@@ -244,7 +247,7 @@
   transition: background 0.2s;
 }
 .cookie-accept-btn:hover {
-  background: #5B6B4A !important;
+  background: #586747 !important;
 }
 
 /* ─── Accessibility Widget ─── */
@@ -324,7 +327,7 @@ body.a11y-large-cursor * {
   z-index: 200;
   width: 54px;
   height: 54px;
-  background: #7A8B6A;
+  background: #586747;
   color: white;
   border: none;
   border-radius: 50%;
@@ -416,9 +419,9 @@ body.a11y-large-cursor * {
 
 /* ─── Service pages ─── */
 .other-service-link:hover {
-  background: #7A8B6A !important;
+  background: #586747 !important;
   color: white !important;
-  border-color: #7A8B6A !important;
+  border-color: #586747 !important;
 }
 @media (max-width: 767px) {
   .acu-about,
@@ -513,7 +516,7 @@ body.a11y-large-cursor * {
 .legal-article h3 {
   font-size: 19px;
   font-weight: 700;
-  color: #5B6B4A;
+  color: #586747;
   margin: 28px 0 12px;
 }
 .blog-article p,
@@ -531,7 +534,7 @@ body.a11y-large-cursor * {
 }
 .blog-article strong,
 .legal-article strong {
-  color: #5B6B4A;
+  color: #586747;
   font-weight: 700;
 }
 .blog-article blockquote {
@@ -541,7 +544,7 @@ body.a11y-large-cursor * {
   margin: 24px 0;
   border-radius: 0 12px 12px 0;
   font-style: italic;
-  color: #7B7570;
+  color: #6B6560;
 }
 
 @keyframes fadeDown {
