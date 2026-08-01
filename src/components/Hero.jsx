@@ -49,6 +49,17 @@ export default function Hero() {
           : "linear-gradient(to bottom, rgba(44,42,38,0.55) 0%, rgba(44,42,38,0.35) 40%, rgba(44,42,38,0.7) 90%, rgba(44,42,38,0.95) 100%)",
       }} />
 
+      {/* שכבת הכהיה מקומית מאחורי הטקסט בלבד.
+          הטקסט הלבן על התצלום הגיע ליחס 2.66 בחציון אזור הכותרת ונכשל בתקן.
+          במקום להכהות את כל התצלום, ההכהיה מרוכזת מאחורי גוש הטקסט ודוהה
+          לשקיפות מלאה לקראת השוליים - כך התצלום נשאר חי מסביב. */}
+      <div style={{
+        position: "absolute", inset: 0, pointerEvents: "none",
+        background: isMobile
+          ? "radial-gradient(ellipse 85% 42% at 50% 38%, rgba(28,26,23,0.68) 0%, rgba(28,26,23,0.5) 50%, rgba(28,26,23,0) 80%)"
+          : "radial-gradient(ellipse 62% 50% at 50% 42%, rgba(28,26,23,0.66) 0%, rgba(28,26,23,0.48) 50%, rgba(28,26,23,0) 80%)",
+      }} />
+
       {/* Content */}
       <div className="hero-content" style={{
         position: "relative", maxWidth: "680px", textAlign: "center",
