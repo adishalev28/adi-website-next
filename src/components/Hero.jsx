@@ -111,7 +111,7 @@ export default function Hero() {
 
         <a id="hero-cta" href={WA_URL} target="_blank" rel="noreferrer" className="hero-cta-btn" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
-          background: "linear-gradient(135deg, #34A853, #2D9248)",
+          background: "linear-gradient(135deg, #27793B, #206233)",
           color: "white", padding: "18px 44px",
           borderRadius: "50px", fontSize: "16px", fontWeight: 700,
           textDecoration: "none",

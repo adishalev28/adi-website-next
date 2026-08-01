@@ -707,7 +707,7 @@ export default function ShiatsuPage() {
             display: "inline-flex",
             alignItems: "center",
             gap: "10px",
-            background: "linear-gradient(135deg, #34A853, #2D9248)",
+            background: "linear-gradient(135deg, #27793B, #206233)",
             color: "white",
             padding: "14px 32px",
             borderRadius: "50px",
@@ -729,7 +729,7 @@ export default function ShiatsuPage() {
         </p>
         <a href={waUrl("שלום עדי, רציתי לשאול לגבי טיפול שיאצו 🙂")} target="_blank" rel="noreferrer" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
-          background: "linear-gradient(135deg, #34A853, #2D9248)",
+          background: "linear-gradient(135deg, #27793B, #206233)",
           color: "white", padding: "14px 36px", borderRadius: "50px",
           fontSize: "15px", fontWeight: 700, textDecoration: "none",
           boxShadow: "0 4px 24px rgba(52,168,83,0.35)",
