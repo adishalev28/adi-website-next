@@ -15,20 +15,20 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
 
       {/* Hero */}
       <header style={{
-        background: `linear-gradient(135deg, ${C.sage} 0%, ${C.sageDark} 100%)`,
+        background: `linear-gradient(135deg, ${C.sageDark} 0%, ${C.sageDeep} 100%)`,
         padding: "120px 24px 60px",
         textAlign: "center",
       }}>
         <nav style={{ marginBottom: "20px" }}>
-          <a href="/" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <a href="/" style={{ color: "rgba(255,255,255,0.9)", textDecoration: "none", fontSize: "13px" }}>
             דף הבית
           </a>
-          <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <a href="/blog" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <span style={{ color: "rgba(255,255,255,0.9)", margin: "0 8px" }}>/</span>
+          <a href="/blog" style={{ color: "rgba(255,255,255,0.9)", textDecoration: "none", fontSize: "13px" }}>
             מאמרים
           </a>
-          <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "13px" }}>{title}</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", margin: "0 8px" }}>/</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", fontSize: "13px" }}>{title}</span>
         </nav>
 
         <h1 style={{
@@ -40,7 +40,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
         </h1>
         {subtitle && (
           <p style={{
-            fontSize: "17px", color: "rgba(255,255,255,0.75)",
+            fontSize: "17px", color: "rgba(255,255,255,0.9)",
             maxWidth: "600px", margin: "0 auto 16px", lineHeight: 1.6,
           }}>
             {subtitle}
@@ -49,7 +49,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
 
         <div style={{
           fontSize: "14px",
-          color: "rgba(255,255,255,0.7)",
+          color: "rgba(255,255,255,0.9)",
           marginBottom: "10px",
         }}>
           מאת{" "}
@@ -57,7 +57,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
             color: "white",
             fontWeight: 700,
             textDecoration: "none",
-            borderBottom: "1px solid rgba(255,255,255,0.5)",
+            borderBottom: "1px solid rgba(255,255,255,0.9)",
             paddingBottom: "1px",
           }}>
             עדי שלו
@@ -65,7 +65,7 @@ export default function ArticleLayout({ title, subtitle, date, readTime, lastUpd
           {" "}- מטפל ברפואה סינית בראשון לציון
         </div>
 
-        <div style={{ display: "flex", gap: "16px", justifyContent: "center", fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+        <div style={{ display: "flex", gap: "16px", justifyContent: "center", fontSize: "13px", color: "rgba(255,255,255,0.9)" }}>
           {date && <span>{date}</span>}
           {readTime && <span>· {readTime} דקות קריאה</span>}
           {lastUpdated && <span>· עודכן: {lastUpdated}</span>}

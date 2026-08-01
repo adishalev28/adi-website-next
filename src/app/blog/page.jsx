@@ -188,16 +188,16 @@ export default function BlogIndex() {
       <Navbar basePath="/" />
 
       <header style={{
-        background: `linear-gradient(135deg, ${C.sage} 0%, ${C.sageDark} 100%)`,
+        background: `linear-gradient(135deg, ${C.sageDark} 0%, ${C.sageDeep} 100%)`,
         padding: "120px 24px 60px",
         textAlign: "center",
       }}>
         <nav style={{ marginBottom: "20px" }}>
-          <a href="/" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <a href="/" style={{ color: "rgba(255,255,255,0.9)", textDecoration: "none", fontSize: "13px" }}>
             דף הבית
           </a>
-          <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "13px" }}>מאמרים</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", margin: "0 8px" }}>/</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", fontSize: "13px" }}>מאמרים</span>
         </nav>
         <h1 style={{
           fontSize: "clamp(32px, 5vw, 46px)", fontWeight: 800,
@@ -206,7 +206,7 @@ export default function BlogIndex() {
           מאמרים ומידע מקצועי
         </h1>
         <p style={{
-          fontSize: "17px", color: "rgba(255,255,255,0.7)",
+          fontSize: "17px", color: "rgba(255,255,255,0.9)",
           maxWidth: "500px", margin: "0 auto",
         }}>
           מידע מקצועי על רפואה סינית, דיקור, שיאצו ובריאות טבעית

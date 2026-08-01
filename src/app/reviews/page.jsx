@@ -110,22 +110,22 @@ export default function ReviewsPage() {
       {/* Hero */}
       <header
         style={{
-          background: `linear-gradient(135deg, ${C.sage} 0%, ${C.sageDark} 100%)`,
+          background: `linear-gradient(135deg, ${C.sageDark} 0%, ${C.sageDeep} 100%)`,
           padding: "120px 24px 60px",
           textAlign: "center",
         }}
       >
         <nav style={{ marginBottom: "20px" }}>
-          <a href="/" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <a href="/" style={{ color: "rgba(255,255,255,0.9)", textDecoration: "none", fontSize: "13px" }}>
             דף הבית
           </a>
-          <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "13px" }}>המלצות מטופלים</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", margin: "0 8px" }}>/</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", fontSize: "13px" }}>המלצות מטופלים</span>
         </nav>
         <h1 style={{ fontSize: "clamp(28px, 5vw, 42px)", fontWeight: 800, color: "white", margin: "0 0 16px", lineHeight: 1.3 }}>
           עדי שלו - המלצות וחוות דעת של מטופלים
         </h1>
-        <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.85)", maxWidth: "640px", margin: "0 auto", lineHeight: 1.8 }}>
+        <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.9)", maxWidth: "640px", margin: "0 auto", lineHeight: 1.8 }}>
           ביקורות אמיתיות ומאומתות מגוגל על טיפולי דיקור סיני, שיאצו וכוסות רוח בקליניקה שלי בראשון לציון
         </p>
       </header>

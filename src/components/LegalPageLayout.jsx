@@ -11,16 +11,16 @@ export default function LegalPageLayout({ title, lastUpdated, children }) {
       <Navbar />
 
       <header style={{
-        background: `linear-gradient(135deg, ${C.sage} 0%, ${C.sageDark} 100%)`,
+        background: `linear-gradient(135deg, ${C.sageDark} 0%, ${C.sageDeep} 100%)`,
         padding: "120px 24px 50px",
         textAlign: "center",
       }}>
         <nav style={{ marginBottom: "20px" }}>
-          <a href="/" style={{ color: "rgba(255,255,255,0.6)", textDecoration: "none", fontSize: "13px" }}>
+          <a href="/" style={{ color: "rgba(255,255,255,0.9)", textDecoration: "none", fontSize: "13px" }}>
             דף הבית
           </a>
-          <span style={{ color: "rgba(255,255,255,0.4)", margin: "0 8px" }}>/</span>
-          <span style={{ color: "rgba(255,255,255,0.8)", fontSize: "13px" }}>{title}</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", margin: "0 8px" }}>/</span>
+          <span style={{ color: "rgba(255,255,255,0.9)", fontSize: "13px" }}>{title}</span>
         </nav>
         <h1 style={{
           fontSize: "clamp(28px, 5vw, 40px)", fontWeight: 800,
@@ -29,7 +29,7 @@ export default function LegalPageLayout({ title, lastUpdated, children }) {
           {title}
         </h1>
         {lastUpdated && (
-          <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)", margin: 0 }}>
+          <p style={{ fontSize: "14px", color: "rgba(255,255,255,0.9)", margin: 0 }}>
             עודכן לאחרונה: {lastUpdated}
           </p>
         )}
