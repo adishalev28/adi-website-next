@@ -17,12 +17,27 @@ export const metadata = {
   keywords:
     "מה זה כוסות רוח, כוסות רוח מתי ולמה, סימני כוסות רוח, צבע סימני כוסות רוח, האם כוסות רוח כואב, כוסות אש, כוסות סיליקון, cupping, איך עובדות כוסות רוח",
   alternates: { canonical: "https://adishalev.co.il/blog/cupping-therapy" },
+  openGraph: {
+    title: "כוסות רוח - מה זה, איך עובד ומה אומרים הסימנים | עדי שלו",
+    description: "כל מה שרציתם לדעת על כוסות רוח: מה זה, איך הטיפול עובד, מה אומרים הסימנים העגולים, האם זה כואב ולמי זה מתאים. מדריך מידע מלא מאת עדי שלו, מטפל ברפואה סינית.",
+    url: "https://adishalev.co.il/blog/cupping-therapy",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-cupping-therapy.jpg", width: 1200, height: 630, alt: "טיפול בכוסות רוח בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "כוסות רוח - מה זה, איך עובד ומה אומרים הסימנים | עדי שלו",
+    description: "כל מה שרציתם לדעת על כוסות רוח: מה זה, איך הטיפול עובד, מה אומרים הסימנים העגולים, האם זה כואב ולמי זה מתאים. מדריך מידע מלא מאת עדי שלו, מטפל ברפואה סינית.",
+    images: ["https://adishalev.co.il/og-blog-cupping-therapy.jpg"],
+  },
 };
 
 const RELATED = [
   {
     href: "/blog/back-pain-guide",
-    title: "כאבי גב -המדריך המלא",
+    title: "כאבי גב - המדריך המלא",
     tag: "כאבי גב",
   },
   {

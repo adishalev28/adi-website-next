@@ -16,6 +16,21 @@ export const metadata = {
   keywords:
     "דיקור סיני גיל המעבר, דיקור לגלי חום, טיפול טבעי לגיל המעבר, גלי חום טיפול, רפואה סינית מנופאוזה, דיקור סיני ראשון לציון, הזעות לילה טיפול",
   alternates: { canonical: "https://adishalev.co.il/blog/menopause" },
+  openGraph: {
+    title: "דיקור סיני לגיל המעבר וגלי חום - טיפול טבעי | עדי שלו",
+    description: "סובלות מגלי חום, הזעות לילה ונדודי שינה בגיל המעבר? דיקור סיני מוכח מחקרית כטיפול יעיל ובלי תופעות לוואי. מדריך מקיף. קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/menopause",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-menopause.jpg", width: 1200, height: 630, alt: "דיקור סיני לגיל המעבר וגלי חום בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לגיל המעבר וגלי חום - טיפול טבעי | עדי שלו",
+    description: "סובלות מגלי חום, הזעות לילה ונדודי שינה בגיל המעבר? דיקור סיני מוכח מחקרית כטיפול יעיל ובלי תופעות לוואי. מדריך מקיף. קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-menopause.jpg"],
+  },
 };
 
 const RELATED = [

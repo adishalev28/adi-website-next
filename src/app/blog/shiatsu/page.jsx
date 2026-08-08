@@ -19,6 +19,21 @@ export const metadata = {
   keywords:
     "מה זה שיאצו, יתרונות שיאצו, עיסוי שיאצו, עיסוי יפני, שיאצו לחץ אצבעות, שיאצו מול עיסוי רגיל, שיאצו לכאבי גב, שיאצו לחרדה, שיאצו לשינה, מחקר שיאצו, האם שיאצו כואב",
   alternates: { canonical: "https://adishalev.co.il/blog/shiatsu" },
+  openGraph: {
+    title: "מה זה שיאצו ואיך הוא עוזר? המדריך המלא 2026 | עדי שלו",
+    description: "סובלים מכאב, מתח או חוסר שקט? שיאצו הוא טיפול לחיצות יפני שמאזן גוף ונפש. איך זה עובד, במה הוא שונה מעיסוי רגיל, ולמי הוא מתאים - בקליניקה שלי בראשון לציון.",
+    url: "https://adishalev.co.il/blog/shiatsu",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-shiatsu.jpg", width: 1200, height: 630, alt: "טיפול שיאצו בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "מה זה שיאצו ואיך הוא עוזר? המדריך המלא 2026 | עדי שלו",
+    description: "סובלים מכאב, מתח או חוסר שקט? שיאצו הוא טיפול לחיצות יפני שמאזן גוף ונפש. איך זה עובד, במה הוא שונה מעיסוי רגיל, ולמי הוא מתאים - בקליניקה שלי בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-shiatsu.jpg"],
+  },
 };
 
 const RELATED = [

@@ -7,6 +7,21 @@ export const metadata = {
   title: "שאלות ותשובות על רפואה סינית | עדי שלו - ראשון לציון",
   description: "20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות מעדי שלו, קליניקה בראשון לציון.",
   alternates: { canonical: "https://adishalev.co.il/blog/faq-complete" },
+  openGraph: {
+    title: "שאלות ותשובות על רפואה סינית | עדי שלו - ראשון לציון",
+    description: "20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות מעדי שלו, קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/faq-complete",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-faq-complete.jpg", width: 1200, height: 630, alt: "שאלות ותשובות על רפואה סינית - קליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "שאלות ותשובות על רפואה סינית | עדי שלו - ראשון לציון",
+    description: "20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות מעדי שלו, קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-faq-complete.jpg"],
+  },
 };
 
 const RELATED = [

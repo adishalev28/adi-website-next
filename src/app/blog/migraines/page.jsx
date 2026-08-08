@@ -16,6 +16,21 @@ export const metadata = {
   keywords:
     "דיקור סיני מיגרנה, דיקור סיני כאבי ראש, טיפול מיגרנות טבעי, דיקור סיני ראשון לציון, מיגרנה טיפול ללא תרופות, כאב ראש כרוני טיפול",
   alternates: { canonical: "https://adishalev.co.il/blog/migraines" },
+  openGraph: {
+    title: "דיקור סיני למיגרנות וכאבי ראש - סוגים, טיפול ותוצאות | עדי שלו",
+    description: "סובלים ממיגרנות או כאבי ראש חוזרים? דיקור סיני מוכח כטיפול יעיל לכל סוגי כאבי הראש. מדריך מקיף עם פירוט סוגי כאב ואפשרויות טיפול. קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/migraines",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-migraines.jpg", width: 1200, height: 630, alt: "דיקור סיני למיגרנות וכאבי ראש בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני למיגרנות וכאבי ראש - סוגים, טיפול ותוצאות | עדי שלו",
+    description: "סובלים ממיגרנות או כאבי ראש חוזרים? דיקור סיני מוכח כטיפול יעיל לכל סוגי כאבי הראש. מדריך מקיף עם פירוט סוגי כאב ואפשרויות טיפול. קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-migraines.jpg"],
+  },
 };
 
 const RELATED = [

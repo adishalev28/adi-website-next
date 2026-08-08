@@ -6,6 +6,21 @@ export const metadata = {
   title: "איך דיקור סיני עובד? המנגנון מאחורי המחטים | עדי שלו",
   description: "איך מחטים דקיקות מצליחות להעלים כאב? הסבר פשוט וברור על מרידיאנים, חסימות אנרגיה ושיטת האיזון של ד\"ר טאן. בלי מונחים מסובכים.",
   alternates: { canonical: "https://adishalev.co.il/blog/how-acupuncture-works" },
+  openGraph: {
+    title: "איך דיקור סיני עובד? המנגנון מאחורי המחטים | עדי שלו",
+    description: "איך מחטים דקיקות מצליחות להעלים כאב? הסבר פשוט וברור על מרידיאנים, חסימות אנרגיה ושיטת האיזון של ד\"ר טאן. בלי מונחים מסובכים.",
+    url: "https://adishalev.co.il/blog/how-acupuncture-works",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-how-acupuncture-works.jpg", width: 1200, height: 630, alt: "המנגנון שמאחורי הדיקור הסיני - קליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "איך דיקור סיני עובד? המנגנון מאחורי המחטים | עדי שלו",
+    description: "איך מחטים דקיקות מצליחות להעלים כאב? הסבר פשוט וברור על מרידיאנים, חסימות אנרגיה ושיטת האיזון של ד\"ר טאן. בלי מונחים מסובכים.",
+    images: ["https://adishalev.co.il/og-blog-how-acupuncture-works.jpg"],
+  },
 };
 
 const RELATED = [

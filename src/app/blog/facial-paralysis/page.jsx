@@ -13,12 +13,27 @@ const FAQ_ITEMS = [
 ];
 
 export const metadata = {
-  title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy) -טיפול ותוצאות | עדי שלו",
+  title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy) - טיפול ותוצאות | עדי שלו",
   description:
     "שיתוק פנים (פציאליס) יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה ומשחזר תפקוד. מדריך מקיף מאת עדי שלו, רפואה סינית בראשון לציון.",
   keywords:
     "פציאליס, שיתוק פנים, Bell's Palsy, דיקור סיני פציאליס, טיפול שיתוק פנים, דיקור סיני ראשון לציון, שיתוק פנים טיפול טבעי, עצב פנים, שיקום פנים",
   alternates: { canonical: "https://adishalev.co.il/blog/facial-paralysis" },
+  openGraph: {
+    title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy) - טיפול ותוצאות | עדי שלו",
+    description: "שיתוק פנים (פציאליס) יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה ומשחזר תפקוד. מדריך מקיף מאת עדי שלו, רפואה סינית בראשון לציון.",
+    url: "https://adishalev.co.il/blog/facial-paralysis",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-facial-paralysis.jpg", width: 1200, height: 630, alt: "דיקור סיני לשיתוק פנים בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לשיתוק פנים (פציאליס / Bell's Palsy) - טיפול ותוצאות | עדי שלו",
+    description: "שיתוק פנים (פציאליס) יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה ומשחזר תפקוד. מדריך מקיף מאת עדי שלו, רפואה סינית בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-facial-paralysis.jpg"],
+  },
 };
 
 const RELATED = [

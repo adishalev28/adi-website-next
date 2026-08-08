@@ -16,6 +16,21 @@ export const metadata = {
   keywords:
     "דיקור סיני כתף קפואה, טיפול כתף קפואה, קפסוליטיס דביקה טיפול, דיקור לכאב כתף, שחזור טווח תנועה כתף, דיקור סיני ראשון לציון, כתף תפוסה טיפול טבעי",
   alternates: { canonical: "https://adishalev.co.il/blog/frozen-shoulder" },
+  openGraph: {
+    title: "דיקור סיני לכתף קפואה - טיפול יעיל בשחזור טווח תנועה | עדי שלו",
+    description: "סובלים מכתף קפואה וקושי להרים את היד? דיקור סיני בשיטת ד\"ר טאן מפחית כאב ומשחזר טווח תנועה בהדרגה. מדריך מקיף כולל שלבים, מספר טיפולים ותרגילים. קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/frozen-shoulder",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-frozen-shoulder.jpg", width: 1200, height: 630, alt: "דיקור סיני לכתף קפואה בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לכתף קפואה - טיפול יעיל בשחזור טווח תנועה | עדי שלו",
+    description: "סובלים מכתף קפואה וקושי להרים את היד? דיקור סיני בשיטת ד\"ר טאן מפחית כאב ומשחזר טווח תנועה בהדרגה. מדריך מקיף כולל שלבים, מספר טיפולים ותרגילים. קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-frozen-shoulder.jpg"],
+  },
 };
 
 const RELATED = [

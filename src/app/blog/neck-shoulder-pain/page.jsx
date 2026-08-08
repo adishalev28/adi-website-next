@@ -17,6 +17,21 @@ export const metadata = {
   keywords:
     "דיקור סיני כאבי צוואר, דיקור סיני כתפיים, צוואר תפוס טיפול, כאבי כתפיים דיקור, דיקור סיני ראשון לציון, כתף קפואה טיפול, צוואר תפוס רפואה סינית",
   alternates: { canonical: "https://adishalev.co.il/blog/neck-shoulder-pain" },
+  openGraph: {
+    title: "דיקור סיני לכאבי צוואר וכתפיים | עדי שלו",
+    description: "סובלים מכאבי צוואר, כתפיים תפוסות או צוואר תפוס? דיקור סיני בשיטת ד\"ר טאן מטפל בשורש הכאב ומחזיר טווח תנועה מלא. קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/neck-shoulder-pain",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-neck-shoulder-pain.jpg", width: 1200, height: 630, alt: "דיקור סיני לכאבי צוואר וכתפיים בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לכאבי צוואר וכתפיים | עדי שלו",
+    description: "סובלים מכאבי צוואר, כתפיים תפוסות או צוואר תפוס? דיקור סיני בשיטת ד\"ר טאן מטפל בשורש הכאב ומחזיר טווח תנועה מלא. קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-neck-shoulder-pain.jpg"],
+  },
 };
 
 const RELATED = [

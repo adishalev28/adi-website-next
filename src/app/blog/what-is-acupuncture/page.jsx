@@ -15,6 +15,21 @@ export const metadata = {
   title: "מה זה דיקור סיני? המדריך למתחילים | עדי שלו ראשון לציון",
   description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות. מדריך מקיף למתחילים מהקליניקה בראשון לציון.",
   alternates: { canonical: "https://adishalev.co.il/blog/what-is-acupuncture" },
+  openGraph: {
+    title: "מה זה דיקור סיני? המדריך למתחילים | עדי שלו ראשון לציון",
+    description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות. מדריך מקיף למתחילים מהקליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/what-is-acupuncture",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-what-is-acupuncture.jpg", width: 1200, height: 630, alt: "מה זה דיקור סיני - קליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "מה זה דיקור סיני? המדריך למתחילים | עדי שלו ראשון לציון",
+    description: "הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות. מדריך מקיף למתחילים מהקליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-what-is-acupuncture.jpg"],
+  },
 };
 
 const RELATED = [

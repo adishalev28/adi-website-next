@@ -9,6 +9,21 @@ export const metadata = {
   keywords:
     "סיאטיקה, דיקור סיני סיאטיקה, כאב גב תחתון, עצב סיאטי, כאב ברגל, פריצת דיסק, פיריפורמיס סינדרום, סיאטיקה בהריון, דיקור סיני ראשון לציון, טיפול סיאטיקה טבעי",
   alternates: { canonical: "https://adishalev.co.il/blog/sciatica" },
+  openGraph: {
+    title: "דיקור סיני לסיאטיקה - טיפול יעיל בכאב הקורן לרגל | עדי שלו",
+    description: "סובלים מסיאטיקה? כאב שיורד מהגב לרגל? דיקור סיני בשיטת מאסטר טונג מטפל בשורש הבעיה - משחרר לחץ על העצב, מפחית דלקת ומחזיר תנועה. מדריך מקיף מאת עדי שלו, ראשון לציון.",
+    url: "https://adishalev.co.il/blog/sciatica",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-sciatica.jpg", width: 1200, height: 630, alt: "דיקור סיני לסיאטיקה בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לסיאטיקה - טיפול יעיל בכאב הקורן לרגל | עדי שלו",
+    description: "סובלים מסיאטיקה? כאב שיורד מהגב לרגל? דיקור סיני בשיטת מאסטר טונג מטפל בשורש הבעיה - משחרר לחץ על העצב, מפחית דלקת ומחזיר תנועה. מדריך מקיף מאת עדי שלו, ראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-sciatica.jpg"],
+  },
 };
 
 const RELATED = [

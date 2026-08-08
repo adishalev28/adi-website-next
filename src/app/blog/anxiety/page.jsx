@@ -17,6 +17,21 @@ export const metadata = {
   keywords:
     "דיקור סיני חרדה, דיקור סיני לחץ נפשי, טיפול טבעי לחרדה, דיקור סיני ראשון לציון, חרדה טיפול ללא תרופות, דיקור סיני סטרס, רפואה סינית חרדה, דיקור סיני מתח",
   alternates: { canonical: "https://adishalev.co.il/blog/anxiety" },
+  openGraph: {
+    title: "דיקור סיני לחרדה ולחץ נפשי - טיפול טבעי שעובד | עדי שלו",
+    description: "סובלים מחרדה, מתח או לחץ נפשי? דיקור סיני מוכח מחקרית כטיפול יעיל להפחתת חרדה ושיפור איכות החיים. מדריך מקיף - קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/anxiety",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-anxiety.jpg", width: 1200, height: 630, alt: "דיקור סיני לחרדה ומתח נפשי בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לחרדה ולחץ נפשי - טיפול טבעי שעובד | עדי שלו",
+    description: "סובלים מחרדה, מתח או לחץ נפשי? דיקור סיני מוכח מחקרית כטיפול יעיל להפחתת חרדה ושיפור איכות החיים. מדריך מקיף - קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-anxiety.jpg"],
+  },
 };
 
 const RELATED = [

@@ -17,6 +17,21 @@ export const metadata = {
   keywords:
     "דיקור סיני שינה, דיקור סיני נדודי שינה, טיפול טבעי לשינה, דיקור סיני ראשון לציון, בעיות שינה טיפול ללא תרופות, רפואה סינית שינה, דיקור סיני אינסומניה",
   alternates: { canonical: "https://adishalev.co.il/blog/sleep" },
+  openGraph: {
+    title: "דיקור סיני לבעיות שינה ונדודי שינה | עדי שלו",
+    description: "סובלים מנדודי שינה או קושי להירדם? דיקור סיני הוכח כטיפול יעיל לשיפור איכות השינה בצורה טבעית וללא תרופות. מדריך מקיף.",
+    url: "https://adishalev.co.il/blog/sleep",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-sleep.jpg", width: 1200, height: 630, alt: "דיקור סיני לנדודי שינה בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לבעיות שינה ונדודי שינה | עדי שלו",
+    description: "סובלים מנדודי שינה או קושי להירדם? דיקור סיני הוכח כטיפול יעיל לשיפור איכות השינה בצורה טבעית וללא תרופות. מדריך מקיף.",
+    images: ["https://adishalev.co.il/og-blog-sleep.jpg"],
+  },
 };
 
 const RELATED = [

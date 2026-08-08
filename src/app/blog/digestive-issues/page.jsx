@@ -17,6 +17,21 @@ export const metadata = {
   keywords:
     "דיקור סיני בעיות עיכול, דיקור סיני מעי רגיז, דיקור סיני נפיחות, דיקור סיני גזים, דיקור סיני ראשון לציון, רפואה סינית עיכול, דיקור סיני רפלוקס, דיקור סיני עצירות",
   alternates: { canonical: "https://adishalev.co.il/blog/digestive-issues" },
+  openGraph: {
+    title: "דיקור סיני לבעיות עיכול | עדי שלו",
+    description: "סובלים מבעיות עיכול, גזים, נפיחות או תסמונת המעי הרגיז? דיקור סיני בשיטת מאסטר דונג מטפל בשורש הבעיה ומחזיר את מערכת העיכול לאיזון. קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog/digestive-issues",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-digestive-issues.jpg", width: 1200, height: 630, alt: "דיקור סיני לבעיות עיכול בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "דיקור סיני לבעיות עיכול | עדי שלו",
+    description: "סובלים מבעיות עיכול, גזים, נפיחות או תסמונת המעי הרגיז? דיקור סיני בשיטת מאסטר דונג מטפל בשורש הבעיה ומחזיר את מערכת העיכול לאיזון. קליניקה בראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-digestive-issues.jpg"],
+  },
 };
 
 const RELATED = [

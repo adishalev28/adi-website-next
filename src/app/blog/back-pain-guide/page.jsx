@@ -11,12 +11,27 @@ const FAQ_ITEMS = [
 ];
 
 export const metadata = {
-  title: "כאבי גב -המדריך המלא לטיפול ברפואה סינית (2026) | עדי שלו",
+  title: "כאבי גב - המדריך המלא לטיפול ברפואה סינית (2026) | עדי שלו",
   description:
     "כל מה שצריך לדעת על טיפול בכאבי גב ברפואה סינית. דיקור, שיאצו, כוסות רוח וצמחי מרפא -מה עובד, למי מתאים, וכמה טיפולים צריך. מדריך מקיף מאת עדי שלו, ראשון לציון.",
   keywords:
     "כאבי גב, טיפול כאבי גב, דיקור סיני כאבי גב, שיאצו כאבי גב, כוסות רוח כאבי גב, פריצת דיסק, סיאטיקה, כאב גב תחתון, רפואה סינית כאבי גב, ראשון לציון",
   alternates: { canonical: "https://adishalev.co.il/blog/back-pain-guide" },
+  openGraph: {
+    title: "כאבי גב - המדריך המלא לטיפול ברפואה סינית (2026) | עדי שלו",
+    description: "כל מה שצריך לדעת על טיפול בכאבי גב ברפואה סינית. דיקור, שיאצו, כוסות רוח וצמחי מרפא -מה עובד, למי מתאים, וכמה טיפולים צריך. מדריך מקיף מאת עדי שלו, ראשון לציון.",
+    url: "https://adishalev.co.il/blog/back-pain-guide",
+    siteName: "עדי שלו - רפואה סינית",
+    locale: "he_IL",
+    type: "article",
+    images: [{ url: "https://adishalev.co.il/og-blog-back-pain-guide.jpg", width: 1200, height: 630, alt: "טיפול בכאבי גב ברפואה סינית בקליניקה בראשון לציון" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "כאבי גב - המדריך המלא לטיפול ברפואה סינית (2026) | עדי שלו",
+    description: "כל מה שצריך לדעת על טיפול בכאבי גב ברפואה סינית. דיקור, שיאצו, כוסות רוח וצמחי מרפא -מה עובד, למי מתאים, וכמה טיפולים צריך. מדריך מקיף מאת עדי שלו, ראשון לציון.",
+    images: ["https://adishalev.co.il/og-blog-back-pain-guide.jpg"],
+  },
 };
 
 const RELATED = [
@@ -41,7 +56,7 @@ export default function BackPainGuidePage() {
   return (
     <>
       <ArticleSchema
-        title="כאבי גב -המדריך המלא לטיפול ברפואה סינית (2026)"
+        title="כאבי גב - המדריך המלא לטיפול ברפואה סינית (2026)"
         description="כל מה שצריך לדעת על טיפול בכאבי גב ברפואה סינית. דיקור, שיאצו, כוסות רוח וצמחי מרפא."
         url="https://adishalev.co.il/blog/back-pain-guide"
         datePublished="2026-03-20"
@@ -52,14 +67,14 @@ export default function BackPainGuidePage() {
           { name: "דף הבית", url: "https://adishalev.co.il" },
           { name: "בלוג", url: "https://adishalev.co.il/blog" },
           {
-            name: "כאבי גב -המדריך המלא",
+            name: "כאבי גב - המדריך המלא",
             url: "https://adishalev.co.il/blog/back-pain-guide",
           },
         ]}
       />
       <FAQPageSchema items={FAQ_ITEMS} />
       <ArticleLayout
-        title="כאבי גב -המדריך המלא"
+        title="כאבי גב - המדריך המלא"
         subtitle="כל שיטות הטיפול ברפואה סינית, מה עובד ולמי, וכמה טיפולים צריך. מדריך מקיף ומעודכן ל-2026."
         date="מרץ 2026"
         readTime="15"
