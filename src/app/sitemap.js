@@ -73,6 +73,12 @@ export default function sitemap() {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/knee-pain`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/frozen-shoulder`,
       lastModified: new Date(),
       changeFrequency: "monthly",
