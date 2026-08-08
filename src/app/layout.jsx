@@ -22,7 +22,6 @@ export const metadata = {
   alternates: { canonical: "https://adishalev.co.il/" },
   manifest: "/manifest.json",
   icons: { icon: "/favicon.ico", apple: "/icon-192.png" },
-  themeColor: "#6B7A5A",
   openGraph: {
     title: "דיקור סיני בראשון לציון - הקלה בכאב ובמתח | עדי שלו",
     description: "סובלים מכאב, מתח או נדודי שינה? דיקור סיני, שיאצו וכוסות רוח בראשון לציון. אבחון מעמיק וטיפול בשורש, מטפל משנת 2016 ו-37 המלצות 5 כוכבים.",
@@ -39,6 +38,12 @@ export const metadata = {
     images: ["/clinic-room.jpg"],
   },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+};
+
+// ב-Next.js המודרני themeColor שייך ל-viewport ולא ל-metadata.
+// כשהוא במקום הלא נכון Next מתעלם ממנו בשקט ומדפיס אזהרה בכל בילד.
+export const viewport = {
+  themeColor: "#6B7A5A",
 };
 
 export default function RootLayout({ children }) {
