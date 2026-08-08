@@ -28,7 +28,7 @@ export default function HomepageCTA() {
             minHeight: "320px",
           }}>
             <Image
-              src="/adi-portrait2.png"
+              src="/adi-portrait2.jpg"
               alt="עדי שלו - מטפל ברפואה סינית בקליניקה בראשון לציון"
               fill
               sizes="(max-width: 720px) 100vw, 260px"

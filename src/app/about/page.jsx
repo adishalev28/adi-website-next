@@ -176,7 +176,7 @@ export default function AboutPage() {
         >
           <div>
             <Image
-              src="/adi-portrait2.png"
+              src="/adi-portrait2.jpg"
               alt="עדי שלו - מטפל ברפואה סינית מוסמך, בוגר מכללת רידמן, בקליניקה בראשון לציון"
               width={520}
               height={400}
