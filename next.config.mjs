@@ -1,3 +1,12 @@
+// מתג ה-CSP: כשהוא true הכותרת חוסמת בפועל, אחרת רק מדווחת לקונסול.
+// 3.8.2026 - הופעל מצב חוסם אחרי אימות מול האתר החי (12 דפים, אפס חריגות).
+// לחזרה מהירה למצב האזנה: להחליף ל-false ולפרוס.
+// לבדיקה מקומית במצב האזנה: CSP_ENFORCE=0 npm run dev
+const CSP_ENFORCE = process.env.CSP_ENFORCE !== "0";
+const CSP_HEADER = CSP_ENFORCE
+  ? "Content-Security-Policy"
+  : "Content-Security-Policy-Report-Only";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Output standalone for Vercel optimization
@@ -67,22 +76,28 @@ const nextConfig = {
           { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
           // חוסם גישה ליכולות שהאתר לא משתמש בהן
           { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), interest-cohort=()" },
-          // CSP במצב האזנה בלבד (Report-Only) - לא חוסם, רק מדווח לקונסול על מקורות שהיו נחסמים.
-          // שלב מעבר לקראת CSP חוסם מלא. לאסוף חריגות כמה ימים, ואז להפוך ל-Content-Security-Policy.
+          // מדיניות תוכן (CSP).
+          // 3.8.2026: נמדדו חריגות אמיתיות בדפדפן ותוקנו -
+          //   * script-src היה חסר את googleads.g.doubleclick.net ו-googleadservices,
+          //     מה שהיה שובר את תג ההמרות של Google Ads.
+          //   * connect-src הכיל רק *.analytics.google.com, שלא תופס את הדומיין עצמו.
+          // המפתח נשלט ב-CSP_HEADER למעלה: קודם Report-Only, ואחרי אימות - חוסם.
           {
-            key: "Content-Security-Policy-Report-Only",
+            key: CSP_HEADER,
             value: [
               "default-src 'self'",
               "base-uri 'self'",
               "object-src 'none'",
               "frame-ancestors 'self'",
-              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com",
+              "form-action 'self'",
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://googleads.g.doubleclick.net https://*.doubleclick.net https://www.googleadservices.com https://*.googleadservices.com https://www.google.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "img-src 'self' data: blob: https:",
               "font-src 'self' data: https://fonts.gstatic.com",
               "media-src 'self'",
-              "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.supabase.co https://*.doubleclick.net https://*.googleadservices.com https://www.google.com https://www.google.co.il",
-              "frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://td.doubleclick.net",
+              "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.supabase.co https://*.doubleclick.net https://*.googleadservices.com https://www.google.com https://www.google.co.il",
+              // googletagmanager נדרש בגלל ה-iframe של GTM בתוך noscript
+              "frame-src 'self' https://www.googletagmanager.com https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com https://td.doubleclick.net https://*.doubleclick.net",
             ].join("; "),
           },
         ],
