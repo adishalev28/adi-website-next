@@ -4,8 +4,26 @@
     {
       "name": "adi-website-next",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
       "port": 3000
+    },
+    {
+      "name": "adi-website-csp-enforce",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "--port",
+        "3010"
+      ],
+      "port": 3010,
+      "env": {
+        "CSP_ENFORCE": "1"
+      }
     }
   ]
 }
