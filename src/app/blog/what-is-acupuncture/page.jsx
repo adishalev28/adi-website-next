@@ -87,7 +87,7 @@ export default function WhatIsAcupuncturePage() {
       <h2>למי דיקור סיני מתאים?</h2>
       <p>דיקור סיני מוכח כיעיל עבור מגוון רחב של מצבים:</p>
       <ul>
-        <li><strong>כאבים</strong>  - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר, כתפיים</a>, ברכיים, מיגרנות</li>
+        <li><strong>כאבים</strong>  - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר, כתפיים</a>, <a href="/blog/knee-pain" style={{ color: '#586747', fontWeight: 700 }}>כאבי ברכיים</a>, מיגרנות</li>
         <li><strong>בעיות עיכול</strong>  - נפיחות, עצירות, תסמונת המעי הרגיז</li>
         <li><strong>לחץ נפשי</strong>  - חרדה, מתח, בעיות שינה</li>
         <li><strong>הורמונלי</strong>  - מחזור לא סדיר, גיל המעבר, פריון</li>

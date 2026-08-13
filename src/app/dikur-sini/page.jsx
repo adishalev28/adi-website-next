@@ -144,7 +144,7 @@ export default function AcupuncturePage() {
               { label: "מתח נפשי וחרדה", href: "/blog/anxiety" },
               { label: "בעיות שינה ונדודי שינה", href: "/blog/sleep" },
               { label: "בעיות עיכול", href: "/blog/digestive-issues" },
-              { label: "כאבי מפרקים וברכיים", href: null },
+              { label: "כאבי מפרקים וברכיים", href: "/blog/knee-pain" },
               { label: "עייפות כרונית", href: null },
               { label: "איזון הורמונלי", href: null },
               { label: "תמיכה בפריון", href: null },
