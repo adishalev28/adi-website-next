@@ -88,7 +88,7 @@ export default function ShiatsuPage() {
           maxWidth: "700px",
         }}>
           <div style={{ fontSize: "14px", color: "rgba(255,255,255,0.8)", letterSpacing: "2px", marginBottom: "12px" }}>
-            ✦ עדי שלו  - רפואה סינית ✦
+            ✦ עדי שלו - רפואה סינית ✦
           </div>
           <h1 style={{
             fontSize: "clamp(36px, 6vw, 52px)", fontWeight: 900,
@@ -97,7 +97,7 @@ export default function ShiatsuPage() {
             שיאצו בראשון לציון
           </h1>
           <p style={{ fontSize: "18px", color: "rgba(255,255,255,0.85)", lineHeight: 1.7 }}>
-            עיסוי שיאצו מקצועי  - שחרור מתח, הקלה בכאבים ושיפור איכות החיים
+            עיסוי שיאצו מקצועי - שחרור מתח, הקלה בכאבים ושיפור איכות החיים
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function ShiatsuPage() {
         </div>
       </section>
 
-      {/* מה זה שיאצו  - עם תמונה */}
+      {/* מה זה שיאצו - עם תמונה */}
       <Section bg={C.cream}>
         <div className="shiatsu-about" style={{ maxWidth: "960px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 340px", gap: "40px", alignItems: "center" }}>
           <div>
@@ -152,10 +152,10 @@ export default function ShiatsuPage() {
               מה זה שיאצו?
             </h2>
             <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
-              שיאצו (Shiatsu) הוא שיטת טיפול יפנית שמשמעותה &quot;לחץ אצבעות&quot;. השיטה מבוססת על עקרונות הרפואה הסינית המסורתית ומשלבת לחיצות ממוקדות, מתיחות ותנועות לאורך מרידיאנים  - ערוצי אנרגיה שעוברים בגוף.
+              שיאצו (Shiatsu) הוא שיטת טיפול יפנית שמשמעותה &quot;לחץ אצבעות&quot;. השיטה מבוססת על עקרונות הרפואה הסינית המסורתית ומשלבת לחיצות ממוקדות, מתיחות ותנועות לאורך מרידיאנים - ערוצי אנרגיה שעוברים בגוף.
             </p>
             <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
-              בניגוד לעיסוי שוודי שמתמקד בשרירים, שיאצו פועל ברמה עמוקה יותר  - הוא מכוון לאזן את זרימת האנרגיה (צ׳י) בגוף, לשחרר חסימות ולעורר את מנגנוני הריפוי הטבעיים. הטיפול מתבצע בלבוש מלא, ללא שמנים, על מיטת טיפולים נוחה.
+              בניגוד לעיסוי שוודי שמתמקד בשרירים, שיאצו פועל ברמה עמוקה יותר - הוא מכוון לאזן את זרימת האנרגיה (צ׳י) בגוף, לשחרר חסימות ולעורר את מנגנוני הריפוי הטבעיים. הטיפול מתבצע בלבוש מלא, ללא שמנים, על מיטת טיפולים נוחה.
             </p>
             <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
               בקליניקה שלי בראשון לציון, טיפול השיאצו מותאם אישית לכל מטופל. בזכות שילוב הידע ברפואה סינית, הטיפול מדויק ומכוון לשורש הבעיה.
@@ -175,7 +175,7 @@ export default function ShiatsuPage() {
         </div>
       </Section>
 
-      {/* חוויית הטיפול  - 3 כרטיסים */}
+      {/* חוויית הטיפול - 3 כרטיסים */}
       <Section bg={C.sand}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "40px" }}>
@@ -191,7 +191,7 @@ export default function ShiatsuPage() {
               {
                 icon: "\u{1F91D}",
                 title: "לפני הטיפול",
-                text: "שיחה קצרה על המצב הנוכחי  - כאבים, מתח, שינה. עדי בודק דופק סיני ומתאים את הטיפול בדיוק למה שהגוף צריך היום.",
+                text: "שיחה קצרה על המצב הנוכחי - כאבים, מתח, שינה. עדי בודק דופק סיני ומתאים את הטיפול בדיוק למה שהגוף צריך היום.",
                 accent: C.sage,
               },
               {
@@ -239,8 +239,8 @@ export default function ShiatsuPage() {
             <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
               {[
                 { icon: "\u{1F52C}", text: "מחקר שפורסם ב-Journal of Holistic Nursing מצא שטיפולי שיאצו הפחיתו כאבי גב תחתון באופן משמעותי לעומת קבוצת ביקורת." },
-                { icon: "\u{1F634}", text: "סקירה שיטתית הראתה ששיאצו משפר את איכות השינה ומפחית חרדה  - במיוחד אצל אנשים הסובלים ממתח כרוני." },
-                { icon: "\u{1F9E0}", text: "מחקרים הוכיחו שלחיצה ממוקדת על נקודות אקופרסורה מגרה שחרור אנדורפינים וסרוטונין  - הורמוני ההרגעה הטבעיים של הגוף." },
+                { icon: "\u{1F634}", text: "סקירה שיטתית הראתה ששיאצו משפר את איכות השינה ומפחית חרדה - במיוחד אצל אנשים הסובלים ממתח כרוני." },
+                { icon: "\u{1F9E0}", text: "מחקרים הוכיחו שלחיצה ממוקדת על נקודות אקופרסורה מגרה שחרור אנדורפינים וסרוטונין - הורמוני ההרגעה הטבעיים של הגוף." },
               ].map((item, i) => (
                 <div key={i} style={{ display: "flex", gap: "14px", alignItems: "flex-start" }}>
                   <span style={{ fontSize: "22px", flexShrink: 0, lineHeight: 1.4 }}>{item.icon}</span>
@@ -276,12 +276,12 @@ export default function ShiatsuPage() {
             ))}
           </div>
           <p style={{ fontSize: "15px", color: C.barkLight, lineHeight: 1.8 }}>
-            שיאצו מתאים גם למי שמעולם לא עשה טיפול ברפואה סינית  - הטיפול נעים, לא פולשני, ומרגיע.
+            שיאצו מתאים גם למי שמעולם לא עשה טיפול ברפואה סינית - הטיפול נעים, לא פולשני, ומרגיע.
           </p>
         </div>
       </Section>
 
-      {/* ההבדל בין שיאצו לדיקור  - טבלת השוואה משודרגת */}
+      {/* ההבדל בין שיאצו לדיקור - טבלת השוואה משודרגת */}
       <Section bg={C.sand}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "32px" }}>
@@ -289,7 +289,7 @@ export default function ShiatsuPage() {
               שיאצו או דיקור סיני?
             </h2>
             <p style={{ fontSize: "15px", color: C.barkLight, margin: 0 }}>
-              שתי השיטות מבוססות על רפואה סינית  - הנה ההבדלים
+              שתי השיטות מבוססות על רפואה סינית - הנה ההבדלים
             </p>
           </div>
           <div style={{
@@ -342,12 +342,12 @@ export default function ShiatsuPage() {
             fontSize: "14px", color: C.barkLight, lineHeight: 1.8,
             marginTop: "20px", textAlign: "center", fontStyle: "italic",
           }}>
-            לעיתים עדי משלב בין שתי השיטות בטיפול אחד  - לפי מה שהגוף צריך
+            לעיתים עדי משלב בין שתי השיטות בטיפול אחד - לפי מה שהגוף צריך
           </p>
         </div>
       </Section>
 
-      {/* איך הטיפול נראה  - טיימליין */}
+      {/* איך הטיפול נראה - טיימליין */}
       <Section bg={C.cream}>
         <div style={{ maxWidth: "720px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "28px", fontWeight: 800, color: C.bark, margin: "0 0 32px" }}>
@@ -403,7 +403,7 @@ export default function ShiatsuPage() {
               { icon: "\u{1F30A}", title: "רגיעה עמוקה", text: "תחושת שקט פנימי, כאילו נפלו עשרה קילו מהכתפיים" },
               { icon: "\u{1F9B5}", title: "גמישות משופרת", text: "טווח תנועה רחב יותר, פחות נוקשות בבוקר" },
               { icon: "\u{1F634}", title: "שינה טובה יותר", text: "הרבה מטופלים ישנים הכי טוב בלילה שאחרי השיאצו" },
-              { icon: "\u{26A1}", title: "אנרגיה מחודשת", text: "לא עייפות  - דווקא תחושת חיוניות ובהירות ראש" },
+              { icon: "\u{26A1}", title: "אנרגיה מחודשת", text: "לא עייפות - דווקא תחושת חיוניות ובהירות ראש" },
             ].map(f => (
               <div key={f.title} style={{
                 background: "white", borderRadius: "16px", padding: "24px",

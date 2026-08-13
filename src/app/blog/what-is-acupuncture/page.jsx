@@ -35,7 +35,7 @@ export const metadata = {
 const RELATED = [
   { href: "/blog/back-pain", title: "דיקור סיני לכאבי גב", tag: "דיקור סיני" },
   { href: "/blog/faq-complete", title: "שאלות ותשובות על רפואה סינית", tag: "שאלות ותשובות" },
-  { href: "/dikur-sini", title: "דיקור סיני  - דף השירות", tag: "שירותים" },
+  { href: "/dikur-sini", title: "דיקור סיני - דף השירות", tag: "שירותים" },
 ];
 
 export default function WhatIsAcupuncturePage() {
@@ -55,7 +55,7 @@ export default function WhatIsAcupuncturePage() {
       <FAQPageSchema items={FAQ_ITEMS} />
       <ArticleLayout
         title="מה זה דיקור סיני?"
-        subtitle="כל מה שצריך לדעת לפני הטיפול הראשון  - איך דיקור עובד, למי מתאים, ומה לצפות."
+        subtitle="כל מה שצריך לדעת לפני הטיפול הראשון - איך דיקור עובד, למי מתאים, ומה לצפות."
         date="מרץ 2026"
         readTime="5"
         lastUpdated="מרץ 2026"
@@ -87,12 +87,12 @@ export default function WhatIsAcupuncturePage() {
       <h2>למי דיקור סיני מתאים?</h2>
       <p>דיקור סיני מוכח כיעיל עבור מגוון רחב של מצבים:</p>
       <ul>
-        <li><strong>כאבים</strong>  - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר, כתפיים</a>, <a href="/blog/knee-pain" style={{ color: '#586747', fontWeight: 700 }}>כאבי ברכיים</a>, מיגרנות</li>
-        <li><strong>בעיות עיכול</strong>  - נפיחות, עצירות, תסמונת המעי הרגיז</li>
-        <li><strong>לחץ נפשי</strong>  - חרדה, מתח, בעיות שינה</li>
-        <li><strong>הורמונלי</strong>  - מחזור לא סדיר, גיל המעבר, פריון</li>
-        <li><strong>נוירולוגי</strong>  - <a href="/blog/facial-paralysis" style={{ color: '#586747', fontWeight: 700 }}>שיתוק פנים (פציאליס)</a>, נימול בידיים</li>
-        <li><strong>אלרגיות</strong>  - אלרגיה עונתית, אסתמה</li>
+        <li><strong>כאבים</strong> - גב, <a href="/blog/neck-shoulder-pain" style={{ color: '#586747', fontWeight: 700 }}>צוואר, כתפיים</a>, <a href="/blog/knee-pain" style={{ color: '#586747', fontWeight: 700 }}>כאבי ברכיים</a>, מיגרנות</li>
+        <li><strong>בעיות עיכול</strong> - נפיחות, עצירות, תסמונת המעי הרגיז</li>
+        <li><strong>לחץ נפשי</strong> - חרדה, מתח, בעיות שינה</li>
+        <li><strong>הורמונלי</strong> - מחזור לא סדיר, גיל המעבר, פריון</li>
+        <li><strong>נוירולוגי</strong> - <a href="/blog/facial-paralysis" style={{ color: '#586747', fontWeight: 700 }}>שיתוק פנים (פציאליס)</a>, נימול בידיים</li>
+        <li><strong>אלרגיות</strong> - אלרגיה עונתית, אסתמה</li>
       </ul>
 
       <blockquote>
@@ -105,7 +105,7 @@ export default function WhatIsAcupuncturePage() {
       <h3>שלב 1  - אבחון ושיחה</h3>
       <p>
         הטיפול מתחיל בשיחה מקיפה על ההיסטוריה הרפואית, אורח החיים, התזונה ודפוסי השינה.
-        המטפל בודק את הדופק והלשון  - כלים אבחוניים חשובים ברפואה סינית.
+        המטפל בודק את הדופק והלשון - כלים אבחוניים חשובים ברפואה סינית.
       </p>
 
       <h3>שלב 2  - הטיפול עצמו</h3>
@@ -126,9 +126,9 @@ export default function WhatIsAcupuncturePage() {
         מספר הטיפולים תלוי בבעיה ובמצב הכללי. בדרך כלל:
       </p>
       <ul>
-        <li><strong>מצבים חריפים</strong> (כאב גב חד, מיגרנה)  - 3-5 טיפולים</li>
-        <li><strong>מצבים כרוניים</strong> (כאבים ארוכי טווח, בעיות עיכול)  - 8-12 טיפולים</li>
-        <li><strong>אחזקה ומניעה</strong>  - טיפול אחד כל 2-4 שבועות</li>
+        <li><strong>מצבים חריפים</strong> (כאב גב חד, מיגרנה) - 3-5 טיפולים</li>
+        <li><strong>מצבים כרוניים</strong> (כאבים ארוכי טווח, בעיות עיכול) - 8-12 טיפולים</li>
+        <li><strong>אחזקה ומניעה</strong> - טיפול אחד כל 2-4 שבועות</li>
       </ul>
       <p>
         רבים מהמטופלים מרגישים שיפור כבר אחרי 2-3 טיפולים.
