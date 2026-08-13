@@ -181,14 +181,19 @@
 }
 
 /* ─── Footer ─── */
+/* padding אנכי מביא את שטח הלחיצה ל-24px ומעלה - דרישת WCAG 2.2 AA */
 .footer-service-link {
   transition: color 0.2s;
+  display: inline-block;
+  padding: 6px 2px;
 }
 .footer-service-link:hover {
   color: rgba(255,255,255,0.8) !important;
 }
 .footer-legal-link {
   transition: color 0.2s;
+  display: inline-block;
+  padding: 6px 2px;
 }
 .footer-legal-link:hover {
   color: rgba(255,255,255,0.7) !important;
@@ -368,6 +373,16 @@ body.a11y-large-cursor * {
   top: 0;
   outline: 3px solid #C4A265;
   outline-offset: 2px;
+}
+
+/* ─── חיווי פוקוס גלובלי למקלדת ───
+   טבעת ברירת המחדל של הדפדפן דקה ונבלעת ברקע הכהה של ראש הדף.
+   טבעת הזהב נראית על רקע כהה, וההילה הכהה שמסביבה מבליטה אותה על רקע בהיר.
+   :where מאפס specificity כדי שכללי הפוקוס הייעודיים שכבר קיימים ימשיכו לגבור. */
+:where(a, button, summary, input, textarea, select, [tabindex]):focus-visible {
+  outline: 3px solid #C4A265;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px rgba(28, 26, 23, 0.5);
 }
 
 /* ─── Hero treatment pills hover ─── */

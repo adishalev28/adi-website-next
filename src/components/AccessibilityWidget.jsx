@@ -109,6 +109,7 @@ export default function AccessibilityWidget() {
         className="a11y-btn-float"
         onClick={(e) => { e.stopPropagation(); setOpen(!open); }}
         aria-label="פתיחת תפריט נגישות"
+        aria-expanded={open}
         title="נגישות"
         style={{
           ...(scrolled

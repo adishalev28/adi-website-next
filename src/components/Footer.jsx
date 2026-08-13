@@ -18,6 +18,7 @@ export default function Footer() {
           { label: "צמחי מרפא", href: "/herbs" },
           { label: "המלצות מטופלים", href: "/reviews" },
           { label: "מאמרים", href: "/blog" },
+          { label: "אודות עדי", href: "/about" },
         ].map(l => (
           <a key={l.href} href={l.href} className="footer-service-link" style={{
             color: "rgba(255,255,255,0.8)", textDecoration: "none", fontSize: "13px",

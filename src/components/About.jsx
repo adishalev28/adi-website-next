@@ -31,8 +31,16 @@ export default function About() {
           <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 16px" }}>
             בקליניקה שלי ב<strong style={{ color: C.bark }}>ראשון לציון</strong> אני מעניק לכל מטופל יחס אישי ומקצועי. בטיפול הראשון אני מבצע אבחון מעמיק - שיחה, בדיקת דופק ולשון - ובונה תוכנית טיפול מותאמת שמשלבת בין השיטות השונות לפי הצורך.
           </p>
-          <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 32px" }}>
+          <p style={{ fontSize: "16px", color: C.barkLight, lineHeight: 1.9, margin: "0 0 20px" }}>
             המטופלים שלי מגיעים עם כאבי גב, מיגרנות, מתח נפשי, בעיות שינה ועוד - ורבים מהם חווים הקלה משמעותית כבר אחרי מספר טיפולים בודדים. המטרה שלי היא לא רק להקל בכאב, אלא לטפל בשורש הבעיה ולשפר את איכות החיים לאורך זמן.
+          </p>
+          <p style={{ margin: "0 0 32px" }}>
+            <a href="/about" style={{
+              color: C.sageDark, fontSize: "16px", fontWeight: 700,
+              textDecoration: "underline", textUnderlineOffset: "4px",
+            }}>
+              קראו עוד על הדרך והשיטות שלי ←
+            </a>
           </p>
           <div className="about-text-tags" style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
             {["דיקור סיני", "שיאצו", "צמחי מרפא", "כוסות רוח"].map(tag => (
