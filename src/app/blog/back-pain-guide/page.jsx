@@ -260,20 +260,20 @@ export default function BackPainGuidePage() {
           margin: '24px 0',
         }}>
           <div style={{ background: '#f0f7ed', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '32px', fontWeight: 800, color: '#586747' }}>3–5</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>טיפולים</div>
+            <div style={{ fontSize: '30px', fontWeight: 800, color: '#586747' }}>מהיר</div>
+            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>סדרה קצרה</div>
             <div style={{ fontSize: '15px', fontWeight: 600, marginTop: '8px' }}>כאב חריף</div>
             <div style={{ fontSize: '13px', color: '#666' }}>כאב גב פתאומי, שריר תפוס</div>
           </div>
           <div style={{ background: '#fef9f0', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '32px', fontWeight: 800, color: '#C4883A' }}>6–10</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>טיפולים</div>
+            <div style={{ fontSize: '30px', fontWeight: 800, color: '#C4883A' }}>הדרגתי</div>
+            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>סדרה ארוכה יותר</div>
             <div style={{ fontSize: '15px', fontWeight: 600, marginTop: '8px' }}>כאב כרוני</div>
             <div style={{ fontSize: '13px', color: '#666' }}>כאב שחוזר חודשים, סיאטיקה</div>
           </div>
           <div style={{ background: '#f5f0f8', borderRadius: '12px', padding: '20px', textAlign: 'center' }}>
-            <div style={{ fontSize: '32px', fontWeight: 800, color: '#7B5EA7' }}>10+</div>
-            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>טיפולים</div>
+            <div style={{ fontSize: '30px', fontWeight: 800, color: '#7B5EA7' }}>ממושך</div>
+            <div style={{ fontSize: '14px', color: '#666', marginTop: '4px' }}>תהליך ארוך</div>
             <div style={{ fontSize: '15px', fontWeight: 600, marginTop: '8px' }}>מצב מורכב</div>
             <div style={{ fontSize: '13px', color: '#666' }}>פריצת דיסק, ארתריטיס</div>
           </div>
