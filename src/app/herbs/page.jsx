@@ -1,5 +1,6 @@
 import ServiceLayout from "@/components/ServiceLayout";
 import Section from "@/components/Section";
+import AnswerBlock from "@/components/AnswerBlock";
 import ServiceFAQ from "@/components/ServiceFAQ";
 import WaSvg from "@/components/WaSvg";
 import { C, waUrl } from "@/lib/constants";
@@ -99,6 +100,12 @@ export default function HerbsPage() {
 
       {/* מה זה צמחי מרפא סיניים - עם תמונה */}
       <Section bg={C.cream}>
+        <AnswerBlock>
+          צמחי מרפא סיניים הם פורמולה שמורכבת אישית לפי האבחנה שלכם, ולא תוסף מדף אחיד.
+          בקליניקה שלי בראשון לציון אני משתמש בהם בעיקר למצבים פנימיים - עיכול, שינה, חרדה
+          ומערכת חיסון - ולרוב כתמיכה בין טיפולי הדיקור, כדי שהשיפור יחזיק גם בימים שבהם
+          לא נפגשים. הפורמולה מתעדכנת לפי איך שהגוף מגיב. תיאום תור בוואטסאפ.
+        </AnswerBlock>
         <div className="herbs-about" style={{ maxWidth: "960px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 340px", gap: "40px", alignItems: "center" }}>
           <div>
             <div style={{ color: C.sageDark, fontSize: "12px", fontWeight: 700, letterSpacing: "3px", marginBottom: "12px" }}>

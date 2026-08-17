@@ -36,6 +36,11 @@ export const metadata = {
 
 const RELATED = [
   {
+    href: "/blog/menopause",
+    title: "דיקור סיני לגיל המעבר וגלי חום",
+    tag: "דיקור סיני",
+  },
+  {
     href: "/blog/anxiety",
     title: "דיקור סיני לחרדה ולחץ נפשי",
     tag: "דיקור סיני",

@@ -157,7 +157,7 @@ const DEFAULT_FAQ_ITEMS = [
   },
   {
     q: "כמה טיפולים צריך?",
-    a: "זה תלוי בבעיה ובמטופל. מצבים חריפים (כמו כאב גב חד) יכולים להשתפר תוך 3–5 טיפולים. מצבים כרוניים בדרך כלל דורשים סדרה ארוכה יותר. בטיפול הראשון נקבע יחד תוכנית מותאמת.",
+    a: "זה תלוי בוותק של הבעיה ובאיך שהגוף מגיב. מצב חריף לרוב משתפר מהר יותר ממצב שנמשך שנים. כבר בטיפול הראשון, אחרי האבחון, אני יודע להעריך את הכיוון ואנחנו קובעים יחד תוכנית מותאמת - ומעדכנים אותה תוך כדי.",
   },
   {
     q: "מה ההבדל בין דיקור לשיאצו?",
@@ -231,6 +231,36 @@ export function BreadcrumbSchema({ items }) {
       position: index + 1,
       name: item.name,
       item: item.url,
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+/* רשימת המאמרים של דף הבלוג. נותנת לגוגל את המבנה של דף האינדקס
+   במקום להשאיר אותו כדף ללא סכמה משלו - הדף היחיד שהיה כזה. */
+export function BlogListSchema({ articles }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "מאמרים על רפואה סינית",
+    description:
+      "מדריכים מקצועיים על דיקור סיני, שיאצו, כוסות רוח וצמחי מרפא, מאת עדי שלו - קליניקה בראשון לציון.",
+    url: "https://adishalev.co.il/blog",
+    inLanguage: "he-IL",
+    author: { "@type": "Person", name: "עדי שלו" },
+    blogPost: articles.map((a) => ({
+      "@type": "BlogPosting",
+      headline: a.title,
+      description: a.description,
+      url: `https://adishalev.co.il/blog/${a.slug}`,
+      image: `https://adishalev.co.il${a.image}`,
+      author: { "@type": "Person", name: "עדי שלו" },
     })),
   };
 

@@ -4,6 +4,7 @@ import FloatingWA from "@/components/FloatingWA";
 import ContactCTA from "@/components/ContactCTA";
 import CookieConsent from "@/components/CookieConsent";
 import AccessibilityWidget from "@/components/AccessibilityWidget";
+import { BlogListSchema, BreadcrumbSchema } from "@/components/SchemaMarkup";
 import { C } from "@/lib/constants";
 
 export const metadata = {
@@ -205,6 +206,11 @@ const ARTICLES = [
 export default function BlogIndex() {
   return (
     <>
+      <BlogListSchema articles={ARTICLES} />
+      <BreadcrumbSchema items={[
+        { name: "דף הבית", url: "https://adishalev.co.il" },
+        { name: "מאמרים", url: "https://adishalev.co.il/blog" },
+      ]} />
       <Navbar basePath="/" />
 
       <header style={{
