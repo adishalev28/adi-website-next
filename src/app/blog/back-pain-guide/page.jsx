@@ -60,7 +60,7 @@ export default function BackPainGuidePage() {
         description="כל מה שצריך לדעת על טיפול בכאבי גב ברפואה סינית. דיקור, שיאצו, כוסות רוח וצמחי מרפא."
         url="https://adishalev.co.il/blog/back-pain-guide"
         datePublished="2026-03-20"
-        dateModified="2026-03-20"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

@@ -60,7 +60,7 @@ export default function CuppingTherapyPage() {
         description="מדריך מידע על כוסות רוח: מה זה, איך הטיפול עובד, מה אומרים הסימנים העגולים, האם זה כואב ולמי זה מתאים."
         url="https://adishalev.co.il/blog/cupping-therapy"
         datePublished="2026-03-28"
-        dateModified="2026-06-10"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

@@ -59,7 +59,7 @@ export default function MigrainesPage() {
         description="סובלים ממיגרנות או כאבי ראש חוזרים? דיקור סיני מוכח כטיפול יעיל לכל סוגי כאבי הראש. מדריך מקיף. קליניקה בראשון לציון."
         url="https://adishalev.co.il/blog/migraines"
         datePublished="2026-03-16"
-        dateModified="2026-04-20"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

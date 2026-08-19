@@ -60,6 +60,7 @@ export default function DigestiveIssuesPage() {
         description="סובלים מבעיות עיכול, גזים, נפיחות או תסמונת המעי הרגיז? דיקור סיני בשיטת מאסטר דונג מטפל בשורש הבעיה ומחזיר את מערכת העיכול לאיזון."
         url="https://adishalev.co.il/blog/digestive-issues"
         datePublished="2026-03-17"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

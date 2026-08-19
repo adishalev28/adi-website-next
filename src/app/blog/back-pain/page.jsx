@@ -62,7 +62,7 @@ export default function BackPainPage() {
         description="סובלים מכאבי גב? דיקור סיני מוכח מחקרית כטיפול יעיל לכאבי גב תחתון, פריצת דיסק, כאבי צוואר ושיגרון. קליניקה בראשון לציון."
         url="https://adishalev.co.il/blog/back-pain"
         datePublished="2026-03-08"
-        dateModified="2026-04-20"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

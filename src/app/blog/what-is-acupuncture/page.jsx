@@ -47,6 +47,7 @@ export default function WhatIsAcupuncturePage() {
         description="הכירו את שיטת הדיקור הסיני - איך זה עובד, למי מתאים, מה אומר המדע ולמה כדאי לנסות."
         url="https://adishalev.co.il/blog/what-is-acupuncture"
         datePublished="2026-03-08"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

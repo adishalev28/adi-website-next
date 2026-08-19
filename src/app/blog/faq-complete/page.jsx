@@ -142,6 +142,7 @@ export default function FaqCompletePage() {
         description="20 השאלות הנפוצות ביותר על דיקור סיני, שיאצו ורפואה משלימה - עם תשובות מקצועיות ומפורטות."
         url="https://adishalev.co.il/blog/faq-complete"
         datePublished="2026-03-08"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

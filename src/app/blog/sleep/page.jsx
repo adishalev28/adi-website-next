@@ -65,6 +65,7 @@ export default function SleepPage() {
         description="סובלים מנדודי שינה או קושי להירדם? דיקור סיני הוכח כטיפול יעיל לשיפור איכות השינה בצורה טבעית וללא תרופות."
         url="https://adishalev.co.il/blog/sleep"
         datePublished="2026-03-17"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

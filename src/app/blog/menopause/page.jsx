@@ -59,7 +59,7 @@ export default function MenopausePage() {
         description="סובלות מגלי חום, הזעות לילה ונדודי שינה בגיל המעבר? דיקור סיני מוכח מחקרית כטיפול יעיל ובלי תופעות לוואי. מדריך מקיף. קליניקה בראשון לציון."
         url="https://adishalev.co.il/blog/menopause"
         datePublished="2026-07-11"
-        dateModified="2026-07-11"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

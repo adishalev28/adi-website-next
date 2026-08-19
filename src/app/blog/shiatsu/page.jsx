@@ -62,7 +62,7 @@ export default function ShiatsuBlogPage() {
         description="מה זה שיאצו באמת? מדריך מקיף 2026 - איך זה עובד, יתרונות מוכחים מחקרית, איך הוא שונה מעיסוי, ומה לצפות מטיפול. קליניקה בראשון לציון."
         url="https://adishalev.co.il/blog/shiatsu"
         datePublished="2026-04-20"
-        dateModified="2026-06-10"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

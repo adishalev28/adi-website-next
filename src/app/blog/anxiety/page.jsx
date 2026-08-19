@@ -65,7 +65,7 @@ export default function AnxietyPage() {
         description="סובלים מחרדה, מתח או לחץ נפשי? דיקור סיני מוכח מחקרית כטיפול יעיל להפחתת חרדה ושיפור איכות החיים. מדריך מקיף."
         url="https://adishalev.co.il/blog/anxiety"
         datePublished="2026-03-16"
-        dateModified="2026-04-20"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

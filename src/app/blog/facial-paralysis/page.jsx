@@ -62,6 +62,7 @@ export default function FacialParalysisPage() {
         description="שיתוק פנים יכול להיות מפחיד. דיקור סיני מוכח כטיפול יעיל שמאיץ החלמה. מדריך מקיף."
         url="https://adishalev.co.il/blog/facial-paralysis"
         datePublished="2026-03-28"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

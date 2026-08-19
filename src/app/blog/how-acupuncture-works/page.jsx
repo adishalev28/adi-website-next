@@ -37,6 +37,7 @@ export default function HowAcupunctureWorksPage() {
         description='הסבר ברור ופשוט על איך מחטים דקיקות מצליחות להעלים כאב פיזי או רגשי - מרידיאנים, חסימות אנרגיה ושיטת ד"ר טאן.'
         url="https://adishalev.co.il/blog/how-acupuncture-works"
         datePublished="2026-05-05"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema items={[
         { name: "דף הבית", url: "https://adishalev.co.il" },

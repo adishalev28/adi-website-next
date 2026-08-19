@@ -87,7 +87,7 @@ export default function SciaticaPage() {
         description="סובלים מסיאטיקה? דיקור סיני בשיטת מאסטר טונג משחרר לחץ על העצב ומפחית דלקת."
         url="https://adishalev.co.il/blog/sciatica"
         datePublished="2026-03-28"
-        dateModified="2026-05-08"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

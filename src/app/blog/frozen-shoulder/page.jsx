@@ -59,7 +59,7 @@ export default function FrozenShoulderPage() {
         description={"סובלים מכתף קפואה וקושי להרים את היד? דיקור סיני בשיטת ד\"ר טאן מפחית כאב ומשחזר טווח תנועה בהדרגה. מדריך מקיף. קליניקה בראשון לציון."}
         url="https://adishalev.co.il/blog/frozen-shoulder"
         datePublished="2026-07-11"
-        dateModified="2026-07-11"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[

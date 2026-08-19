@@ -65,6 +65,7 @@ export default function NeckShoulderPainPage() {
         description={`סובלים מכאבי צוואר, כתפיים תפוסות או צוואר תפוס? דיקור סיני בשיטת ד"ר טאן מטפל בשורש הכאב ומחזיר טווח תנועה מלא.`}
         url="https://adishalev.co.il/blog/neck-shoulder-pain"
         datePublished="2026-03-17"
+        dateModified="2026-08-17"
       />
       <BreadcrumbSchema
         items={[
