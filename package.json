@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "indexnow": "node scripts/indexnow-ping.mjs"
+    "indexnow": "node scripts/indexnow-ping.mjs",
+    "check:content": "node scripts/check-content-rules.mjs",
+    "test": "node scripts/check-content-rules.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.99.0",
