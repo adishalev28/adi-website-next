@@ -711,7 +711,7 @@ export default function ShiatsuPage() {
           }}>
             שלחו לי הודעה בוואטסאפ עם מה שעובר עליכם - 5 דקות שיחה, אספר לכם בכנות אם זה הטיפול הנכון לכם או שעדיף משהו אחר. אין התחייבות, אין &quot;מכירה&quot;, פשוט שיחה מקצועית.
           </p>
-          <a href={waUrl("שלום עדי, מתלבט לגבי שיאצו ורציתי לשאול 🙂")} target="_blank" rel="noreferrer" style={{
+          <a href={waUrl("שלום עדי, מתלבט לגבי שיאצו ורציתי לשאול")} target="_blank" rel="noreferrer" style={{
             display: "inline-flex",
             alignItems: "center",
             gap: "10px",
@@ -735,7 +735,7 @@ export default function ShiatsuPage() {
         <p style={{ fontSize: "18px", fontWeight: 600, color: C.bark, margin: "0 0 20px" }}>
           רוצים לנסות שיאצו בראשון לציון?
         </p>
-        <a href={waUrl("שלום עדי, רציתי לשאול לגבי טיפול שיאצו 🙂")} target="_blank" rel="noreferrer" style={{
+        <a href={waUrl("שלום עדי, רציתי לשאול לגבי טיפול שיאצו")} target="_blank" rel="noreferrer" style={{
           display: "inline-flex", alignItems: "center", gap: "10px",
           background: "linear-gradient(135deg, #27793B, #206233)",
           color: "white", padding: "14px 36px", borderRadius: "50px",

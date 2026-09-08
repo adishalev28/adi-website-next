@@ -31,7 +31,7 @@ export const PHONE = "972528029031";
    מרגיש מחויב עוד לפני ששאל, וחלק נוטשים בשלב הזה.
    waUrl(topic) מייצר הודעה לפי הדף - כך הפנייה מרגישה טבעית,
    וגם רואים מיד מאיזה תוכן הגיע הפונה. */
-const WA_DEFAULT = "שלום עדי, רציתי לשאול לגבי טיפול 🙂";
+const WA_DEFAULT = "שלום עדי, רציתי לשאול לגבי טיפול";
 
 export const waUrl = (message = WA_DEFAULT) =>
   `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
