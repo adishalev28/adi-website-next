@@ -3,7 +3,7 @@ import { PHONE } from "@/lib/constants";
 
 export const metadata = {
   title: "מדיניות פרטיות | עדי שלו - רפואה סינית",
-  description: "מדיניות הפרטיות של אתר עדי שלו - קליניקה לרפואה סינית בראשון לציון.",
+  description: "מדיניות הפרטיות של אתר הקליניקה לרפואה סינית של עדי שלו בראשון לציון: איזה מידע נאסף באתר, איך הוא נשמר, סודיות רפואית וזכויותיכם לפי חוק הגנת הפרטיות.",
   robots: { index: false, follow: true },
   alternates: { canonical: "https://adishalev.co.il/privacy" },
 };

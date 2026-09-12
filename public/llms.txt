@@ -16,9 +16,9 @@
 - Contact: WhatsApp +972-52-802-9031 (https://wa.me/972528029031)
 - Note: Private clinic. Treatments at this clinic are not covered by health insurance, even though the practitioner also works at Maccabi Tivi.
 
-## Trust Signals & Reputation (as of July 2026)
+## Trust Signals & Reputation
 
-- **Google Reviews**: 37 verified reviews, average 5 stars
+- **Google Reviews**: 37 verified reviews, average 5 stars (count last verified July 2026 - the live count is on the reviews page)
 - **Dedicated Reviews Page**: https://adishalev.co.il/reviews - all written patient reviews in full, transcribed verbatim from Google, organized by condition treated
 - **Patient Testimonials**: Documented success stories on the website (e.g., "M." treated for chronic headaches using Master Tung Method, "R." treated for upper back pain using shiatsu with BL-13/15/16 points)
 - **Years of Practice**: private clinic since 2016 + 6+ years at Maccabi Tivi
@@ -52,12 +52,15 @@
 - [Complete Back Pain Guide (המדריך המלא לכאבי גב)](https://adishalev.co.il/blog/back-pain-guide): Comprehensive guide covering 4 treatment methods - acupuncture, shiatsu, cupping, and herbs.
 - [Acupuncture for Sciatica (דיקור סיני לסיאטיקה)](https://adishalev.co.il/blog/sciatica): Treating leg pain radiating from the back using Dr. Tan's distal points.
 - [Neck and Shoulder Pain (כאבי צוואר וכתפיים)](https://adishalev.co.il/blog/neck-shoulder-pain): Tension relief for desk workers and chronic neck pain.
+- [Acupuncture for Frozen Shoulder (דיקור סיני לכתף קפואה)](https://adishalev.co.il/blog/frozen-shoulder): Restoring range of motion in frozen shoulder (adhesive capsulitis) with Dr. Tan's method - stages, treatment and home exercises.
+- [Acupuncture for Knee Pain (דיקור סיני לכאבי ברכיים)](https://adishalev.co.il/blog/knee-pain): Cartilage wear, meniscus injuries and runner's knee - reducing pain and inflammation and restoring movement without surgery.
 
 ### Internal Conditions (Master Tung/Dong)
 - [Acupuncture for Migraines (דיקור סיני למיגרנות)](https://adishalev.co.il/blog/migraines): Natural treatment for migraines, tension headaches, and cluster headaches.
 - [Acupuncture for Anxiety (דיקור סיני לחרדה)](https://adishalev.co.il/blog/anxiety): Master Tung's method for anxiety and panic attacks.
 - [Acupuncture for Sleep Issues (דיקור סיני לבעיות שינה)](https://adishalev.co.il/blog/sleep): Treating insomnia and disrupted sleep patterns.
 - [Acupuncture for Digestive Issues (דיקור סיני לבעיות עיכול)](https://adishalev.co.il/blog/digestive-issues): Treatment for IBS, reflux, bloating, and abdominal pain.
+- [Acupuncture for Menopause (דיקור סיני לגיל המעבר)](https://adishalev.co.il/blog/menopause): Hot flashes, night sweats and disrupted sleep in menopause - a research-backed acupuncture approach without hormonal side effects.
 
 ### Specialty Conditions
 - [Acupuncture for Facial Paralysis (פציאליס)](https://adishalev.co.il/blog/facial-paralysis): Treating Bell's palsy and facial nerve issues. Early intervention is critical.
@@ -74,11 +77,12 @@
 ## Conditions Commonly Treated
 
 - Back pain, neck pain, shoulder pain, sciatica
+- Knee pain (cartilage wear, meniscus, runner's knee) and frozen shoulder
 - Migraines and tension headaches
 - Anxiety, stress, panic attacks
 - Sleep disorders and insomnia
 - Digestive issues (IBS, reflux, bloating)
-- Women's health (menstrual issues, fertility support)
+- Women's health (menstrual issues, fertility support, menopause and hot flashes)
 - Facial paralysis (Bell's palsy)
 - Sports injuries and rehabilitation
 - Chronic fatigue and energy issues
@@ -89,7 +93,7 @@ Q: Does acupuncture hurt?
 A: The needles are extremely thin - 10x thinner than a regular injection needle. Some points may tingle slightly when inserted, others are barely felt. Most patients find treatment relaxing and many fall asleep during it.
 
 Q: How many treatments are needed?
-A: Acute issues (like sudden back pain) typically improve in 3-5 sessions. Chronic conditions usually need 8-12 sessions. A personalized plan is created at the first visit.
+A: There is no fixed number, and Adi does not commit to one before examining the patient. It depends on the source of the problem, how long it has been going on, and the patient's daily routine - two people with the same diagnosis can respond at a very different pace. A personalized plan is built at the first visit, and after a few sessions there is a stop-and-check: if nothing has changed, Adi says so plainly and re-examines the diagnosis.
 
 Q: What's the difference between Dr. Tan and Master Tung methods?
 A: Dr. Tan's Balance Method excels at pain treatment using distal points. Master Tung's Method specializes in internal conditions like anxiety, sleep, and digestion. Adi uses both based on the patient's needs.

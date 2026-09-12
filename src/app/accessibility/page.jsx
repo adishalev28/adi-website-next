@@ -3,7 +3,7 @@ import { PHONE } from "@/lib/constants";
 
 export const metadata = {
   title: "הצהרת נגישות | עדי שלו - רפואה סינית",
-  description: "הצהרת הנגישות של אתר עדי שלו - קליניקה לרפואה סינית בראשון לציון.",
+  description: "הצהרת הנגישות של אתר הקליניקה לרפואה סינית של עדי שלו בראשון לציון: תקן הנגישות שהאתר עומד בו, ההתאמות שבוצעו באתר ובקליניקה, ודרכי פנייה בנושא נגישות.",
   robots: { index: false, follow: true },
   alternates: { canonical: "https://adishalev.co.il/accessibility" },
 };
