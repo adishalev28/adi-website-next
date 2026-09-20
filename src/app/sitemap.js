@@ -168,18 +168,7 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.85,
     },
-    // דפים משפטיים
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/accessibility`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
+    // דפים משפטיים (/privacy, /accessibility) לא נכללים במפת האתר:
+    // הם מסומנים noindex, וכפילות האות מייצרת אזהרה ב-Search Console
   ];
 }
