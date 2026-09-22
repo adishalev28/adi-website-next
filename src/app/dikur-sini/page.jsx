@@ -147,6 +147,7 @@ export default function AcupuncturePage() {
               { label: "כאבי גב וצוואר", href: "/blog/neck-shoulder-pain" },
               { label: "מיגרנות וכאבי ראש", href: "/blog/migraines" },
               { label: "סיאטיקה", href: "/blog/sciatica" },
+              { label: "כאב שמקרין ליד", href: "/blog/arm-radiating-pain" },
               { label: "שיתוק פנים (פציאליס)", href: "/blog/facial-paralysis" },
               { label: "כתף קפואה", href: "/blog/frozen-shoulder" },
               { label: "מתח נפשי וחרדה", href: "/blog/anxiety" },
