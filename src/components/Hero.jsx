@@ -1,10 +1,16 @@
 "use client";
 import { useState, useEffect } from "react";
+import { preload } from "react-dom";
 import Image from "next/image";
 import { C, WA_URL } from "@/lib/constants";
 import WaSvg from "./WaSvg";
 
 export default function Hero() {
+  // טעינה מוקדמת של תמונת הרקע כבר מה-HTML. בלי זה התמונה למובייל
+  // מתגלה רק אחרי ההידרציה - עיכוב של כ-2 שניות ב-LCP (PageSpeed 4.10.2026).
+  preload("/hero-mobile.jpg", { as: "image", media: "(max-width: 767px)", fetchPriority: "high" });
+  preload("/clinic-room.jpg", { as: "image", media: "(min-width: 768px)", fetchPriority: "high" });
+
   const [loaded, setLoaded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
