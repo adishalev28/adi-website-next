@@ -68,6 +68,9 @@ const nextConfig = {
       {
         source: "/:path*",
         headers: [
+          // HTTPS בלבד לשנתיים, כולל תתי-דומיינים (מחליף את ברירת המחדל של Vercel).
+          // בלי preload בכוונה - כניסה לרשימת הדפדפנים כמעט בלתי הפיכה.
+          { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains" },
           // מונע מהדפדפן לנחש סוגי קבצים (הגנה מ-MIME sniffing)
           { key: "X-Content-Type-Options", value: "nosniff" },
           // מונע הטמעת האתר ב-iframe זר (הגנה מ-clickjacking)
