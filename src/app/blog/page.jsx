@@ -38,7 +38,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "אוקטובר 2026",
     readTime: "9",
-    image: "/blog-tension-headache.jpg",
+    image: "/blog-tension-headache-v2.jpg",
     imageAlt: "דיקור סיני לכאב ראש ממתח - טיפול בקליניקה בראשון לציון",
   },
   {

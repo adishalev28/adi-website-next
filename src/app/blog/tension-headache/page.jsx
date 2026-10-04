@@ -6,7 +6,7 @@ const TITLE = "דיקור סיני לכאב ראש ממתח ולחץ ברקות 
 const DESCRIPTION =
   "כאב ראש שלוחץ כמו סרט סביב הראש, ברקות ובעורף? דיקור סיני בשיטת מאסטר דונג משחרר את הצוואר ומוריד את המתח שמזין את הכאב. מדריך מקיף, קליניקה בראשון לציון.";
 const URL = "https://adishalev.co.il/blog/tension-headache";
-const OG_IMAGE = "https://adishalev.co.il/og-blog-tension-headache.jpg";
+const OG_IMAGE = "https://adishalev.co.il/og-blog-tension-headache-v2.jpg";
 
 export const metadata = {
   title: TITLE,
