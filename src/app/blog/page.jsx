@@ -48,7 +48,7 @@ const ARTICLES = [
     tag: "דיקור סיני",
     date: "ספטמבר 2026",
     readTime: "10",
-    image: "/blog-arm-radiating-pain.jpg",
+    image: "/blog-arm-radiating-pain-v2.jpg",
     imageAlt: "דיקור סיני לכאב שמקרין ליד - טיפול בקליניקה בראשון לציון",
   },
   {

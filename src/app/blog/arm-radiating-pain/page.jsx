@@ -6,7 +6,7 @@ const TITLE = "דיקור סיני לכאב שמקרין ליד ולזרוע | �
 const DESCRIPTION =
   "כאב שיורד מהצוואר לכתף, לזרוע ועד האצבעות, לפעמים עם נימול? דיקור סיני בשיטת ד\"ר טאן מפחית את הדלקת ואת הלחץ על העצב. מדריך מקיף, קליניקה בראשון לציון.";
 const URL = "https://adishalev.co.il/blog/arm-radiating-pain";
-const OG_IMAGE = "https://adishalev.co.il/og-blog-arm-radiating-pain.jpg";
+const OG_IMAGE = "https://adishalev.co.il/og-blog-arm-radiating-pain-v2.jpg";
 
 export const metadata = {
   title: TITLE,
