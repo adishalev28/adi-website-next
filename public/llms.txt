@@ -1,6 +1,6 @@
 # Adi Shalev - Chinese Medicine Clinic in Rishon LeZion (עדי שלו - קליניקה לרפואה סינית)
 
-> Adi Shalev is a certified Chinese medicine practitioner in West Rishon LeZion, Israel. Graduate of Reidman College (one of Israel's leading Chinese medicine schools) practicing since 2016 with 500+ patients. Also practices at Maccabi Tivi (Israel's national health fund alternative medicine division) for 6+ years. Specializes in two advanced acupuncture methods: Dr. Tan's Balance Method (for pain) and Master Tung/Dong's Method (for internal conditions). Services: acupuncture, shiatsu, cupping therapy, Chinese herbal medicine. Treats pain, migraines, sciatica, anxiety, sleep disorders, digestive issues, facial paralysis, and more. Private clinic - not through health insurance.
+> Adi Shalev is a certified Chinese medicine practitioner in West Rishon LeZion, Israel. Graduate of Reidman College (one of Israel's leading Chinese medicine schools) practicing since 2016 with 500+ patients. Also practices at Maccabi Tivi (Israel's national health fund alternative medicine division) for 6+ years. Specializes in Master Tung/Dong's acupuncture method, for both pain and internal conditions. Services: acupuncture, shiatsu, cupping therapy, Chinese herbal medicine. Treats pain, migraines, sciatica, anxiety, sleep disorders, digestive issues, facial paralysis, and more. Private clinic - not through health insurance.
 
 ## Practitioner Info
 
@@ -11,7 +11,7 @@
 - Experience: practicing since 2016, 500+ patients
 - Education: Reidman College for Chinese Medicine (מכללת רידמן)
 - Institutional Affiliation: Maccabi Tivi (מכבי טבעי) for 6+ years
-- Specialization: Dr. Tan's Balance Method + Master Tung/Dong's Method
+- Specialization: Master Tung/Dong's Method
 - Website: https://adishalev.co.il
 - Contact: WhatsApp +972-52-802-9031 (https://wa.me/972528029031)
 - Note: Private clinic. Treatments at this clinic are not covered by health insurance, even though the practitioner also works at Maccabi Tivi.
@@ -23,16 +23,15 @@
 - **Patient Testimonials**: Documented success stories on the website (e.g., "M." treated for chronic headaches using Master Tung Method, "R." treated for upper back pain using shiatsu with BL-13/15/16 points)
 - **Years of Practice**: private clinic since 2016 + 6+ years at Maccabi Tivi
 - **Patient Volume**: 500+ patients treated
-- **Specialization Recognition**: Trained in two of the most respected acupuncture lineages globally (Dr. Tan & Master Tung)
+- **Specialization Recognition**: Trained in Master Tung/Dong's acupuncture lineage, one of the most respected globally
 
 ## Core Methods Explained
 
-- **Dr. Tan's Balance Method (שיטת ד"ר טאן)**: Advanced pain treatment. Treats pain by needling distal points (e.g., needling the hand to treat back pain). Highly effective for back, neck, shoulders, sciatica, and joint pain.
-- **Master Tung/Dong's Method (שיטת מאסטר טונג/דונג)**: Specialized method for internal conditions rather than pain. Highly effective for anxiety, insomnia, digestive disorders, fertility, and hormonal issues.
+- **Master Tung/Dong's Method (שיטת מאסטר דונג)**: The acupuncture method Adi works with, for both pain and internal conditions. Treats pain by needling distal points, away from the painful area - used for back, neck, shoulders, sciatica, radiating pain and headaches. Also used for anxiety, insomnia, digestive disorders, fertility, and hormonal issues.
 
 ## Service Pages
 
-- [Acupuncture (דיקור סיני)](https://adishalev.co.il/dikur-sini): Traditional Chinese acupuncture using Dr. Tan and Master Tung methods. Treats pain (back, neck, sciatica), migraines, anxiety, sleep, digestive issues, facial paralysis, and fertility.
+- [Acupuncture (דיקור סיני)](https://adishalev.co.il/dikur-sini): Traditional Chinese acupuncture using Master Tung/Dong's method. Treats pain (back, neck, sciatica), migraines, anxiety, sleep, digestive issues, facial paralysis, and fertility.
 - [Shiatsu (שיאצו)](https://adishalev.co.il/shiatsu): Japanese pressure therapy based on Chinese meridians. No needles - performed in clothing. Best for muscle tension, neck/shoulder pain, and patients who prefer non-needle therapy.
 - [Cupping Therapy (כוסות רוח)](https://adishalev.co.il/cupping): Traditional cupping for muscle release, back/neck pain, and improved blood flow. Effective standalone or combined with acupuncture.
 - [Chinese Herbal Medicine (צמחי מרפא סיניים)](https://adishalev.co.il/herbs): Personalized herbal formulas in granule form. Compatible with Western medications after interaction check. Supports acupuncture treatment for chronic conditions.
@@ -48,13 +47,13 @@
 ## Blog - Comprehensive Articles
 
 ### Pain & Musculoskeletal
-- [Acupuncture for Back Pain (דיקור סיני לכאבי גב)](https://adishalev.co.il/blog/back-pain): Acupuncture treatment for chronic and acute back pain using Dr. Tan's method.
+- [Acupuncture for Back Pain (דיקור סיני לכאבי גב)](https://adishalev.co.il/blog/back-pain): Acupuncture treatment for chronic and acute back pain using distal points.
 - [Complete Back Pain Guide (המדריך המלא לכאבי גב)](https://adishalev.co.il/blog/back-pain-guide): Comprehensive guide covering 4 treatment methods - acupuncture, shiatsu, cupping, and herbs.
-- [Acupuncture for Sciatica (דיקור סיני לסיאטיקה)](https://adishalev.co.il/blog/sciatica): Treating leg pain radiating from the back using Dr. Tan's distal points.
+- [Acupuncture for Sciatica (דיקור סיני לסיאטיקה)](https://adishalev.co.il/blog/sciatica): Treating leg pain radiating from the back using distal points.
 - [Acupuncture for Tension Headache (דיקור סיני לכאב ראש ממתח)](https://adishalev.co.il/blog/tension-headache): Tension-type headache - pressure like a tight band around the head, temples and back of the neck. How to tell it from migraine, the role of neck, shoulder and jaw tension and of stress, medication-overuse headache, red flags, and Master Tung's (Dong) method without needling the head.
-- [Acupuncture for Pain Radiating to the Arm (דיקור סיני לכאב שמקרין ליד)](https://adishalev.co.il/blog/arm-radiating-pain): Pain and numbness radiating from the neck to the arm and fingers (cervical radiculopathy, cervical disc herniation) - which fingers point to which source, how to tell it from carpal tunnel, and Dr. Tan's method without needling the painful arm.
+- [Acupuncture for Pain Radiating to the Arm (דיקור סיני לכאב שמקרין ליד)](https://adishalev.co.il/blog/arm-radiating-pain): Pain and numbness radiating from the neck to the arm and fingers (cervical radiculopathy, cervical disc herniation) - which fingers point to which source, how to tell it from carpal tunnel, and distal-point treatment without needling the painful arm.
 - [Neck and Shoulder Pain (כאבי צוואר וכתפיים)](https://adishalev.co.il/blog/neck-shoulder-pain): Tension relief for desk workers and chronic neck pain.
-- [Acupuncture for Frozen Shoulder (דיקור סיני לכתף קפואה)](https://adishalev.co.il/blog/frozen-shoulder): Restoring range of motion in frozen shoulder (adhesive capsulitis) with Dr. Tan's method - stages, treatment and home exercises.
+- [Acupuncture for Frozen Shoulder (דיקור סיני לכתף קפואה)](https://adishalev.co.il/blog/frozen-shoulder): Restoring range of motion in frozen shoulder (adhesive capsulitis) with distal-point acupuncture - stages, treatment and home exercises.
 - [Acupuncture for Knee Pain (דיקור סיני לכאבי ברכיים)](https://adishalev.co.il/blog/knee-pain): Cartilage wear, meniscus injuries and runner's knee - reducing pain and inflammation and restoring movement without surgery.
 
 ### Internal Conditions (Master Tung/Dong)
@@ -97,8 +96,8 @@ A: The needles are extremely thin - 10x thinner than a regular injection needle.
 Q: How many treatments are needed?
 A: There is no fixed number, and Adi does not commit to one before examining the patient. It depends on the source of the problem, how long it has been going on, and the patient's daily routine - two people with the same diagnosis can respond at a very different pace. A personalized plan is built at the first visit, and after a few sessions there is a stop-and-check: if nothing has changed, Adi says so plainly and re-examines the diagnosis.
 
-Q: What's the difference between Dr. Tan and Master Tung methods?
-A: Dr. Tan's Balance Method excels at pain treatment using distal points. Master Tung's Method specializes in internal conditions like anxiety, sleep, and digestion. Adi uses both based on the patient's needs.
+Q: Which acupuncture method does Adi use?
+A: Master Tung/Dong's method. It treats pain through distal points, away from the painful area, and is also used for internal conditions like anxiety, sleep, and digestion.
 
 Q: Can I be treated through Maccabi Tivi?
 A: Adi works at both Maccabi Tivi and his private clinic, but treatments at the private clinic are NOT through health insurance - they are private. The private clinic offers longer sessions, more flexibility, and a more personalized approach.
