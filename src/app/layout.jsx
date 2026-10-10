@@ -1,6 +1,15 @@
 import "@/styles/globals.css";
 import Script from "next/script";
+import { Heebo } from "next/font/google";
 import { LocalBusinessSchema, WebSiteSchema } from "@/components/SchemaMarkup";
+
+// הגופן מאוחסן באתר עצמו ונטען מראש. בעבר נטען ב-@import מגוגל וחסם
+// את הרינדור כמעט שנייה במובייל (Lighthouse 10.10.2026).
+const heebo = Heebo({
+  subsets: ["hebrew", "latin"],
+  display: "swap",
+  variable: "--font-heebo",
+});
 
 export const metadata = {
   metadataBase: new URL("https://adishalev.co.il"),
@@ -16,7 +25,6 @@ export const metadata = {
     "כוסות רוח",
     "צמחי מרפא סיניים",
     "שיטת דונג",
-    "שיטת ד״ר טאן",
     "עדי שלו",
   ],
   alternates: { canonical: "https://adishalev.co.il/" },
@@ -48,7 +56,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="he" dir="rtl">
+    <html lang="he" dir="rtl" className={heebo.variable}>
       <head>
         <Script id="gtm" strategy="beforeInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

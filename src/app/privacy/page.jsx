@@ -46,7 +46,6 @@ export default function PrivacyPage() {
         האתר עושה שימוש בשירותים חיצוניים הבאים:
       </p>
       <ul>
-        <li><strong>Google Fonts</strong> - לטעינת גופן Heebo. גוגל עשויה לאסוף מידע טכני בסיסי כמו כתובת IP</li>
         <li><strong>Tailwind CDN</strong> - ספריית עיצוב. לא אוסף מידע אישי</li>
         <li><strong>Vercel</strong> - שירות אחסון ואירוח האתר</li>
       </ul>

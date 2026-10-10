@@ -1,7 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
 import { preload } from "react-dom";
-import Image from "next/image";
 import { C, WA_URL } from "@/lib/constants";
 import WaSvg from "./WaSvg";
 
@@ -11,68 +9,24 @@ export default function Hero() {
   preload("/hero-mobile.jpg", { as: "image", media: "(max-width: 767px)", fetchPriority: "high" });
   preload("/clinic-room.jpg", { as: "image", media: "(min-width: 768px)", fetchPriority: "high" });
 
-  const [loaded, setLoaded] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
-
-  useEffect(() => {
-    const heroSrc = isMobile ? "/hero-mobile.jpg" : "/clinic-room.jpg";
-    const img = new window.Image();
-    img.src = heroSrc;
-    img.onload = () => setLoaded(true);
-    const t = setTimeout(() => setLoaded(true), 2000);
-    return () => clearTimeout(t);
-  }, [isMobile]);
-
-  const heroSrc = isMobile ? "/hero-mobile.jpg" : "/clinic-room.jpg";
-
+  // הרקע, השכבות והריפוד נבחרים לפי גודל מסך ב-globals.css (.hero-*),
+  // כדי שהדף ייראה כבר מה-HTML של השרת.
   return (
     <section className="hero-section" style={{
       minHeight: "100vh", position: "relative", overflow: "hidden",
       display: "flex", alignItems: "center", justifyContent: "center",
     }}>
-      {/* Background image */}
-      <div className="hero-bg" style={{
-        position: "absolute", inset: 0,
-        backgroundImage: `url(${heroSrc})`,
-        backgroundSize: "cover", backgroundPosition: isMobile ? "center 8%" : "center 40%",
-        filter: "brightness(0.85)",
-        transition: "opacity 1.2s ease",
-        opacity: loaded ? 1 : 0,
-      }} />
+      <div className="hero-bg" />
 
-      {/* Warm overlay gradient */}
-      <div style={{
-        position: "absolute", inset: 0,
-        background: isMobile
-          ? "linear-gradient(to bottom, rgba(44,42,38,0.5) 0%, rgba(44,42,38,0.3) 50%, rgba(44,42,38,0.7) 92%, rgba(44,42,38,0.95) 100%)"
-          : "linear-gradient(to bottom, rgba(44,42,38,0.55) 0%, rgba(44,42,38,0.35) 40%, rgba(44,42,38,0.7) 90%, rgba(44,42,38,0.95) 100%)",
-      }} />
+      <div className="hero-overlay" />
 
       {/* שכבת הכהיה מקומית מאחורי הטקסט בלבד.
           הטקסט הלבן על התצלום הגיע ליחס 2.66 בחציון אזור הכותרת ונכשל בתקן.
           במקום להכהות את כל התצלום, ההכהיה מרוכזת מאחורי גוש הטקסט ודוהה
           לשקיפות מלאה לקראת השוליים - כך התצלום נשאר חי מסביב. */}
-      <div style={{
-        position: "absolute", inset: 0, pointerEvents: "none",
-        background: isMobile
-          ? "radial-gradient(ellipse 85% 42% at 50% 38%, rgba(28,26,23,0.68) 0%, rgba(28,26,23,0.5) 50%, rgba(28,26,23,0) 80%)"
-          : "radial-gradient(ellipse 62% 50% at 50% 42%, rgba(28,26,23,0.66) 0%, rgba(28,26,23,0.48) 50%, rgba(28,26,23,0) 80%)",
-      }} />
+      <div className="hero-text-shade" />
 
-      {/* Content */}
-      <div className="hero-content" style={{
-        position: "relative", maxWidth: "680px", textAlign: "center",
-        padding: isMobile ? "210px 24px 40px" : "180px 24px 60px",
-        opacity: loaded ? 1 : 0, transform: loaded ? "translateY(0)" : "translateY(20px)",
-        transition: "opacity 0.8s ease 0.3s, transform 0.8s ease 0.3s",
-      }}>
+      <div className="hero-content">
         <div style={{
           display: "inline-block", marginBottom: "16px",
           fontSize: "clamp(13px, 2.5vw, 18px)", color: "rgba(255,255,255,0.9)", fontWeight: 500,

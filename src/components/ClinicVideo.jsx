@@ -134,7 +134,10 @@ export default function ClinicVideo() {
             poster={poster}
             controls={hasInteracted}
             playsInline
-            preload="metadata"
+            // none ולא metadata: במדידה של 10.10.2026 הדפדפן הוריד את כל
+            // 10 המגה של הסרטון האנכי בטעינת הדף, למרות ה-metadata.
+            // הפוסטר מוצג בכל מקרה, והסרטון נטען רק בלחיצה על הפעלה.
+            preload="none"
             onPause={handlePause}
             onEnded={handleEnded}
             style={{

@@ -9,7 +9,7 @@ function FaqItem({ q, a }) {
       <button onClick={() => setOpen(o => !o)} style={{
         width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center",
         padding: "16px 0", border: "none", background: "none", cursor: "pointer",
-        textAlign: "right", fontFamily: "'Heebo', sans-serif",
+        textAlign: "right", fontFamily: "inherit",
       }}>
         <span style={{ fontSize: "15px", fontWeight: 600, color: C.bark, lineHeight: 1.5, paddingLeft: "12px" }}>
           {q}
